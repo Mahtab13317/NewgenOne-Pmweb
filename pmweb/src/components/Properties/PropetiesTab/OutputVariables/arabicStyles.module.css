@@ -1,0 +1,56 @@
+.outputCheckbox span {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  height: 1rem;
+  width: 1rem;
+  margin: 0;
+}
+
+.outputVariablesHeading {
+  text-align: right;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.outputHeadDiv {
+  text-align: right;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #070707;
+}
+
+.outputBodyDiv {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.outputCheckbox svg,
+.outputAllCheckbox svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.outputCheckbox,
+.outputAllCheckbox {
+  justify-content: start !important;
+  margin: 0 !important;
+  padding: 0 0.5vw !important;
+}
+
+.outputCheckbox span,
+.outputAllCheckbox span {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  height: 1rem;
+  width: 1rem;
+  margin: 0;
+}

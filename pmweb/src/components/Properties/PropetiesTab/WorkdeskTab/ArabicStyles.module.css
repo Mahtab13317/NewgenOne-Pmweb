@@ -1,0 +1,49 @@
+/* Changes made to solve Bug 137281 */
+.view {
+  margin-right: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.viewBox {
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.update {
+  margin-right: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.checkboxHeader {
+  margin-right: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.checkboxDownload {
+  margin-right: 1rem;
+  width: 8rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.docTypes {
+  margin-right: 1rem;
+  width: 10rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.searchbox {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.menuItemStyles {
+  text-align: end !important;
+  justify-content: flex-end !important;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.labelTittle{
+  font: normal normal normal 12px/16px Open Sans;
+  margin-top: 1rem;
+  margin-inline-start: 1rem;
+}

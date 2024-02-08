@@ -1,0 +1,405 @@
+.mainDiv {
+  width: 97%;
+  height: 60vh;
+}
+
+.headerDiv {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.tableNameDiv {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.TableHeader {
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.tableName {
+  padding-left: 10px;
+  font: normal normal 500 12px/16px Open Sans;
+  margin-left: 1rem;
+  height: 1.5rem;
+  margin-top: 0.25rem;
+}
+.mainCheckbox {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 0px 9px 16px !important;
+}
+
+.aliasNameHeader {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 8px 0px 7px 13px;
+}
+
+.typeHeader {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 8px 0px 7px 165px;
+}
+
+.lengthHeader {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 8px 0px 7px 100px;
+}
+
+.defaultValueHeader {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 8px 0px 7px 50px;
+}
+
+.inputsDiv {
+  height: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputsSubDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.aliasNameInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 8px 0px 7px 46px;
+  width: 220px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.variableTypeInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 120px;
+  margin: 8px 0px 7px 10px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.lengthInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 80px;
+  margin: 8px 0px 7px 7px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.defaultValueInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 120px;
+  margin: 8px 0px 7px 7px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.buttonDiv {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.createVariableButton {
+  text-align: left;
+  letter-spacing: 0px;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 0.125rem solid #0072c6;
+  opacity: 1;
+  font: normal normal 600 0.75rem/1.063rem Open Sans !important;
+  color: #ffffff;
+  border-radius: 0.125rem;
+  opacity: 1;
+  padding: 0.313rem 0.5rem 1.375rem 0.5rem;
+  float: right;
+  cursor: pointer;
+  height: 1.75rem;
+  /* margin-left: auto; */
+  margin: 0.5rem 0rem 0.5625rem 0rem;
+  white-space: nowrap;
+}
+
+.modifyVariableButton {
+  text-align: left;
+  letter-spacing: 0px;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 0.125rem solid #0072c6;
+  opacity: 1;
+  font: normal normal 600 0.75rem/1.063rem Open Sans !important;
+  color: #ffffff;
+  border-radius: 0.125rem;
+  opacity: 1;
+  padding: 0.313rem 0.5rem 1.375rem 0.5rem;
+  float: right;
+  cursor: pointer;
+  height: 1rem;
+  /* margin-left: auto; */
+  margin: 0.5rem 0rem 0.5625rem 0rem;
+  white-space: nowrap;
+}
+
+.changeTable {
+  text-align: center;
+  letter-spacing: 0px;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 0.125rem solid #0072c6;
+  opacity: 1;
+  font: normal normal 600 0.75rem/1.063rem Open Sans !important;
+  color: #ffffff;
+  border-radius: 0.125rem;
+  opacity: 1;
+  height: 1.5rem;
+  width: 10rem;
+  margin-top: 0.25rem;
+  margin-left: 1rem;
+}
+
+.emptyStateMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyStateImage {
+  width: 8.25rem;
+  height: 4.813rem;
+  margin-top: 4.938rem;
+}
+
+.emptyStateHeading {
+  margin-top: 1.063rem;
+  text-align: left;
+  font: normal normal bold 1rem/1.375rem Open Sans !important;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.emptyStateText {
+  margin-top: 0.375rem !important;
+  text-align: left;
+  font: normal normal normal 0.75rem/1.25rem Open Sans !important;
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+  opacity: 1;
+}
+
+.dataDiv {
+  height: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dataCheckbox {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 16px 0px 15px 16px !important;
+}
+
+.aliasNameInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 7px 0px 8px 13px;
+  width: 220px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.variableTypeInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 120px;
+  margin: 7px 0px 8px 10px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.lengthInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 80px;
+  margin: 7px 0px 8px 7px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.deleteIcon {
+  float: right;
+  color: grey;
+  margin: 0.809rem 1.188rem 0.875rem 0rem;
+  cursor: pointer;
+  /* margin-left: auto; */
+}
+
+.inputsSubDiv .MuiMenu-list {
+  margin-left: 10px !important;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoIcon {
+  margin: 15px 0px 14px 17px;
+  color: #606060;
+  opacity: 1;
+}
+
+.infoText {
+  width: 122px;
+  text-align: left;
+  font: normal normal normal 10px/14px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 9px 0px 8px 11px;
+}
+
+.viewAndEdit {
+  cursor: pointer;
+  margin-left: 2px;
+  text-align: left;
+  font: normal normal normal 10px/14px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+}
+
+.closeInputStrip {
+  cursor: pointer;
+  margin: 12px 10px 8px 8px;
+  color: #707070;
+  opacity: 1;
+}
+
+.inputWidth {
+  width: 4rem;
+  margin-left: 3%;
+  padding-left: 5px;
+}
+
+.labelIntervals {
+  text-align: left;
+  font: normal normal normal 14px/18px Open Sans;
+  letter-spacing: 0px;
+  margin-left: 1px;
+}
+.group {
+  width: 9rem;
+  display: flex;
+  flex-direction: row;
+}
+.intervalFooter {
+  position: absolute;
+  bottom: 5%;
+  right: 4%;
+}
+
+.add {
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: #0072c6;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  height: 28px;
+  border-radius: 2px;
+  width: 70px;
+}
+
+.cancel {
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  height: 28px;
+  border-radius: 2px;
+  width: 60px;
+}

@@ -1,0 +1,36 @@
+.processSubHeader{
+  border-right:1px solid #DADADA;
+  border-left: 1px solid #DADADA;
+}
+
+.processSubHeaderBarStyle{
+  height: 100%;
+    background-color: #F8F8F8 !important;
+}
+
+.processSubOneHeaderStyle{
+  color: #000000 !important;
+  font-size: 12px !important;
+  margin-right: 0 !important;
+  border-radius: 1px !important;
+  padding: 0px 5px !important;
+  min-height: 35px !important;
+}
+
+.processSubHeader .MuiTabs-root{
+  min-height: 35px;
+}
+
+/* .Selected{
+  background-color: rgb(228, 130, 2);
+  padding: 1vh;
+  border: 1px solid rgb(228, 130, 2);
+  cursor: pointer;
+}
+
+.NotSelected{
+  background-color: rgb(243, 243, 243);
+  padding: 1vh;
+  border: 1px solid rgb(228, 130, 2);
+  cursor: pointer;
+} */

@@ -1,0 +1,186 @@
+.leftDiv {
+  display: flex;
+  align-items: center;
+}
+
+.rightDiv {
+  flex: 1 1;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.sub-header {
+  display: flex;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 0.25rem 1vw;
+  margin-top: 1px;
+  margin-bottom: 1rem;
+}
+
+.buttonImgDropdown {
+  border: none;
+  background: none;
+  margin-right: 5px;
+}
+
+.buttonImg {
+  background: none;
+  border: none;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.buttonImgDisabled {
+  background: none;
+  border: none;
+  margin-right: 12px;
+  cursor: default;
+}
+
+.redoDiv {
+  margin-top: 6px;
+  height: fit-content;
+}
+
+.copyDiv {
+  margin: 4px 0;
+  padding: 2px 3px 0 15px;
+  border-left: 1px solid #dadada;
+  height: fit-content;
+}
+
+.selectDiv {
+  padding: 2px 0 0 12px;
+  border-left: 1px solid #dadada;
+  margin: 4px 0px;
+  height: fit-content;
+}
+
+.viewDiv {
+  padding: 2px 5px 0 12px;
+  border-left: 1px solid #dadada;
+  margin: 4px 0px;
+  height: fit-content;
+}
+
+.subprocessDropdown {
+  display: block;
+  outline: none;
+  background: inherit;
+  font-size: 12px;
+  padding: 0 7px 0 0px;
+  margin-right: 6px;
+}
+
+.subProcessBtn {
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing_v) var(--spacing_h) !important;
+  background: white;
+}
+
+.subProcessCount {
+  height: 3rem;
+  width: 3rem;
+  background: #c3c3c359;
+  color: #767676;
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  font-size: 10px;
+  padding: 0.25rem 0.5rem;
+}
+
+.subProcessActivityName {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 0.5rem;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+.subProcessActivityNameDisable {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.47;
+  margin-left: 0.5rem;
+}
+
+.subProcessActivityNameArabic {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-right: 0.5rem;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+.subProcessActivityNameDisableArabic {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.47;
+  margin-right: 0.5rem;
+}
+
+.openAllModalActivity {
+  text-align: left;
+  font: normal normal 600 11px/15px Open Sans;
+  letter-spacing: 0px;
+  color: var(--link_color);
+  cursor: pointer; /*code added on 28 Feb 2023 for BugId 124050*/
+  margin-right: 1rem;
+}
+.modalActivityTitle {
+  text-align: left;
+  font: normal normal 600 11px/15px Open Sans;
+  letter-spacing: 0px;
+  color: #848484;
+  opacity: 1;
+  margin: 0;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.subProcessDiv {
+  margin-top: 5px;
+}
+.modalDivOnClick {
+  overflow: auto;
+  height: 10.5rem;
+}
+.modalDivOnClick::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.modalDivOnClick::-webkit-scrollbar-thumb {
+  background: #dadada 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+  border: 0;
+}
+.noProcessAdded {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 5px;
+  width: 100%;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}

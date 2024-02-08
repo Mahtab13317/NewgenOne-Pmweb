@@ -1,0 +1,248 @@
+/*Bug 117802 :[14-02-2023] Updated the CSS */
+.gridContainer {
+  display: grid;
+  grid-column-gap: 2vw;
+  grid-template-columns:
+    minmax(auto, 160px) minmax(auto, 280px) minmax(auto, 280px)
+    minmax(auto, 160px) 130px;
+  padding: 0.5rem 1vw;
+  align-items: center;
+}
+
+.arabicGridGap {
+  grid-column-gap: 0px;
+}
+
+.arabicHeaderGap {
+  grid-column-gap: 8vw;
+}
+
+.newItemDiv {
+  background-color: #e8f3fa !important;
+}
+.gridItemDiv {
+  height: 40px;
+}
+
+.rowDiv {
+  display: grid;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0.25rem 0px;
+}
+
+.tableHeadingBar {
+  display: grid;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-top: 2rem;
+}
+.gridColumn {
+  text-align: left;
+}
+.gridItem {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  height: var(--line_height);
+}
+
+.newItemDiv .gridItem {
+  background: #fff;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  grid-column-gap: 1vw;
+  column-gap: 1vw;
+}
+
+.mainDiv {
+  margin-inline: 1vw;
+}
+
+.mainHeading {
+  text-align: start;
+  font: normal normal 600 var(--title_text_font_size) / 22px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableHeaders {
+  justify-content: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  word-wrap: normal;
+  height: var(--line_height);
+  display: flex;
+  align-items: center;
+}
+.headerDiv {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /**/
+  margin-top: 39.5px;
+}
+
+.triggerType {
+  /* margin-left: 17px; */
+  width: minmax(160px, auto);
+}
+.propertyHttpPath {
+  /* margin-left: 113px; */
+  width: minmax(280px, auto);
+}
+.exeHttpPath {
+  /*margin-left: 195px;*/
+  width: minmax(280px, auto);
+}
+.tableName {
+  /* margin-left: 188px;
+  margin-right: 142px; */
+  width: minmax(160px, auto);
+}
+.inputbaseLtr {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 8px 0px 7px 20px;
+  width: 150px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.inputbaseLtr1 {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.subheader {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  margin-top: 6px;
+}
+
+.aliasNameHeader {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 8px 0px 7px 13px;
+}
+
+.registerNewButton {
+  letter-spacing: 0px;
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.cancelButton {
+  letter-spacing: 0px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  color: #606060;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.triggerTypeDataDiv {
+  width: 100%;
+}
+
+.stopTriggerIcon {
+  height: 1.75rem;
+  cursor: pointer;
+  margin-inline-end: 1vw;
+}
+
+.triggerTypeInput {
+  align-self: center;
+  height: 28px;
+  width: 160px;
+  margin-left: 10px !important;
+}
+
+.tableNameInput {
+  height: 28px;
+  width: 160px;
+}
+
+.pathInput {
+  height: 28px;
+  width: 280px;
+}
+
+.emptyStateMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--base_text_font_size);
+}
+
+.emptyStateImage {
+  width: 8.25rem;
+  height: 7rem;
+  margin-top: 7%;
+}
+
+.emptyStateHeading {
+  margin-top: 1rem;
+  text-align: start;
+  font-weight: 600;
+  letter-spacing: 0rem;
+  color: #000000;
+  font-family: var(--font_family);
+  font-size: var(--subtitle_text_font_size);
+}
+
+.emptyStateText {
+  margin-top: 0.25rem;
+  text-align: start;
+  letter-spacing: 0rem;
+  color: #3a3a3a;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+}

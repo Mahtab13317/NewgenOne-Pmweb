@@ -1,0 +1,336 @@
+.mainDiv {
+  overflow-x: hidden;
+  display: flex;
+  width: 100%;
+  height: 61vh;
+}
+
+.expandedView {
+  flex-direction: row;
+  overflow-y: hidden;
+  background-color: #f8f8f8;
+}
+
+.collapsedView {
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.associatedTemplateDiv {
+  max-height: 25vh;
+  overflow-y: auto;
+}
+
+.associatedTemplateDiv::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.associatedTemplateDiv::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.mainDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+
+.mainDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.mainDiv:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.mainDiv:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+
+.cabinetDiv {
+  background-color: white;
+  flex: 0.4;
+  padding: 0.5rem 0.75vw;
+  margin: 0.25rem 0.25vw;
+}
+
+/*css edited on 19 May 2022 for BugId 107764*/
+.expandedView .cabinetBodyDiv {
+  height: 53vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 0.725rem;
+}
+
+.collapsedView .cabinetDiv,
+.collapsedView .templateList {
+  margin: 0;
+}
+
+.templateList {
+  background-color: white;
+  flex: 0.5;
+  padding: 0.5rem 0.75vw;
+  margin: 0.5rem 0 0.5rem 0.25vw;
+}
+
+.templateDetails {
+  background-color: white;
+  border-left: 0.125rem solid #eaeaea;
+  flex: 0.9;
+  padding: 0.5rem 0.75vw;
+  margin: 0.5rem 0.25vw 0.5rem 0;
+}
+
+.nextDivHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.subDivHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 1;
+}
+
+.divHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 0.75rem;
+  flex: 1;
+}
+
+.selectedDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.divSubHeading {
+  font: normal normal normal 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.templatePropLabel {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0.25rem 0;
+  display: block;
+}
+
+.propsLabel {
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0.5rem 0;
+  display: block;
+}
+
+.propsValue {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.templatePropInput {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0.125rem 0 0.5rem;
+  display: block;
+  padding: 0.125rem 0.5rem;
+  width: 100%;
+  height: var(--line_height);
+}
+
+input[type="number"].templatePropInput::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.templatePropInput:disabled {
+  background-color: #f8f8f8;
+}
+
+.templatePropSelect {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0.125rem 0 0.5rem;
+  display: block;
+  width: 100%;
+  height: var(--line_height);
+}
+
+.templateDropdownData {
+  padding: 0.125rem 0.5rem !important;
+  width: 100%;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.starIcon {
+  color: rgb(181,42,42);
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}
+
+.getCabinetBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--button_color);
+  padding: 0 1vw !important;
+  margin: 0.5rem 0 0 auto !important;
+  display: flex;
+  cursor: pointer;
+}
+
+.disabledBtn {
+  background: rgba(0, 0, 0, 0.12);
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  padding: 0 1vw !important;
+  margin: 0.5rem 0 0 auto !important;
+  display: flex;
+  cursor: default;
+}
+
+.disconnectBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0 1vw !important;
+  margin: 0.5rem 0 0 auto !important;
+  display: flex;
+  cursor: pointer;
+}
+
+.associatedTempDiv {
+  background: #0072c600 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e480;
+  padding: 0.5rem 1vw;
+  margin-bottom: 0.25rem;
+  display: flex;
+  grid-gap: 1.5vw;
+  gap: 1.5vw;
+  cursor: pointer;
+  height: 3rem;
+  align-items: center;
+  width: 100%;
+}
+
+.associatedTempDiv:hover {
+  background: #0072c60f 0% 0% no-repeat padding-box;
+}
+
+.selectedTempDiv {
+  background: #0072c60f 0% 0% no-repeat padding-box;
+  padding: 0.5rem 1vw;
+  margin-bottom: 0.25rem;
+  display: flex;
+  cursor: pointer;
+  height: 3rem;
+  align-items: center;
+}
+
+.selectedTempDiv .tempIconsDiv,
+.associatedTempDiv:hover .tempIconsDiv {
+  opacity: 1;
+}
+
+.tempName {
+  flex: 4;
+  max-width: 14vw;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tempIconsDiv {
+  flex: 1;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.selectedIconsDiv {
+  display: flex;
+  opacity: 1;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+}
+
+.downloadIcon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: #606060 !important;
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+
+.expandViewIcon {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  color: #606060 !important;
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+
+.noSelectedTemplateScreen {
+  width: 100%;
+  margin: 15% 0;
+  text-align: center;
+}
+
+.noTemplateSelectedString {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0.5rem 0;
+}

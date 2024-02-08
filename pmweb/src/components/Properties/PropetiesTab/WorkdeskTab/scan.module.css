@@ -1,0 +1,148 @@
+.checklist {
+  font: normal normal 500 12px/17px Open Sans;
+}
+
+.docTypes {
+  margin-left: 1.5rem;
+  width: 13rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.checkBox {
+  margin-left: 2rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.allowAddition {
+  margin-left: 1rem;
+  width: 8rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.scanAddition {
+  margin-left: 3rem;
+  width: 10rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.scanTextarea {
+  width: 70%;
+  height: 15rem;
+  background-color: #f6f5f5;
+  border: 1px solid black;
+}
+.scanAction {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font: normal normal normal 10px/15px Open Sans;
+  padding: 0 0.25rem;
+  align-items: center;
+  width: 6rem;
+  height: 1.5rem;
+}
+.ScanFooter {
+  position: absolute;
+  bottom: 20px;
+}
+.okBtn {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  padding: 0.25rem 1rem;
+  margin-left: 45vw;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.CancelBtn {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #606060;
+  background: #c4c4c4 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0.25rem 1rem;
+
+  cursor: pointer;
+}
+
+.scanInput {
+  width: 16rem;
+}
+
+/*-------------------------------------*/
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.modalBody {
+  padding: 0.5rem 1vw;
+}
+
+.modalHeading {
+  font: normal normal 600 var(--title_text_font_size) / 21px var(--font_family);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0 1vw !important;
+  cursor: pointer;
+  margin: 0 0.5vw 0 0 !important;
+}
+
+.okButton {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: white;
+  padding: 0 1vw !important;
+  cursor: pointer;
+  margin: 0 0.5vw 0 0 !important;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+  border-top: 1px solid #c4c4c4;
+}
+
+.variableList{
+  overflow-y: auto;
+  height: 20rem;
+}
+

@@ -1,0 +1,312 @@
+/*code edited on 6 Sep 2022 for BugId 114227*/
+.viewingArea {
+  display: flex;
+  height: inherit;
+}
+
+.contentViewingArea {
+  height: inherit;
+  flex: 3;
+}
+
+.abstractView {
+  /* code commented on 6 July 2023 for issue - save and discard button hide issue 
+  in case of tablet(landscape mode)*/
+  /* height: calc(100vh - 16rem); */
+  display: flex;
+  flex-direction: row;
+  width: 93.4vw;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.abstractDrawerWidth{
+  display: flex;
+  flex-direction: row;
+  width: 64vw;
+  max-height: 100%;
+  overflow: auto;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .abstractView {
+    width: 91.4vw;
+  }
+  .abstractDrawerWidth{
+    width: 62vw;
+  }
+  .abstractViewExpanded {
+    width: 78.1vw;
+  }
+  .bpmnView {
+    width: 91.6vw;
+  }
+  .bpmnDrawerWidth {
+    width: 62vw;
+  }
+  .bpmnViewExpanded {
+    width: 78.1vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .abstractView {
+    width: 88.4vw;
+  }
+  .abstractDrawerWidth{
+    width: 59vw;
+  }
+  .abstractViewExpanded {
+    width: 75.1vw;
+  }
+  .bpmnView {
+    width: 88.6vw;
+  }
+  .bpmnDrawerWidth {
+    width: 59vw;
+  }
+  .bpmnViewExpanded {
+    width: 75.1vw;
+  }
+}
+
+/*code edited on 29 Sep 2022 for BugId 116349*/
+.abstractView::-webkit-scrollbar,
+.abstractViewExpanded::-webkit-scrollbar,
+.abstractDrawerWidth::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+/*code edited on 29 Sep 2022 for BugId 116349*/
+.abstractView::-webkit-scrollbar-thumb,
+.abstractViewExpanded::-webkit-scrollbar-thumb,
+.abstractDrawerWidth::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem;
+}
+
+.abstractViewExpanded {
+  /* code commented on 6 July 2023 for issue - save and discard button hide 
+  issue in case of tablet(landscape mode)*/
+  /* height: calc(100vh - 16rem); */
+  display: flex;
+  flex-direction: row;
+  width: 80.1vw;
+  max-height: 73vh;
+  overflow-y: auto;
+}
+
+.bpmnView {
+  width: 93.6vw;
+  margin-top: -10px;
+  height: calc(100vh - 14.5rem);
+  overflow-x: auto;
+  overflow-y: auto;
+  direction: ltr;
+}
+
+.bpmnDrawerWidth {
+  width: 64vw;
+  margin-top: -10px;
+  height: calc(100vh - 14.5rem);
+  overflow-x: auto;
+  overflow-y: auto;
+  direction: ltr;
+}
+
+.bpmnViewExpanded {
+  height: calc(100vh - 14.5rem);
+  display: flex;
+  margin-top: -10px;
+  width: 80.1vw;
+  overflow-y: auto;
+  overflow-x: auto;
+  direction: ltr;
+}
+
+/*code edited on 29 Sep 2022 for BugId 116349*/
+.bpmnView::-webkit-scrollbar,
+.bpmnViewExpanded::-webkit-scrollbar,
+.bpmnDrawerWidth::-webkit-scrollbar {
+  background-color: #eceff1;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/*code edited on 29 Sep 2022 for BugId 116349*/
+.bpmnView::-webkit-scrollbar-thumb,
+.bpmnViewExpanded::-webkit-scrollbar-thumb,
+.bpmnDrawerWidth::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem;
+}
+.bpmnView:hover::-webkit-scrollbar,
+.bpmnViewExpanded:hover::-webkit-scrollbar,
+.bpmnDrawerWidth:hover::-webkit-scrollbar {
+  overflow-y: visible;
+}
+
+.hiddenView {
+  display: none;
+}
+
+.addBtn {
+  width: 3rem;
+  height: 36px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #efefef;
+  color: black;
+  padding-left: 1.5rem;
+  border-top: 1px solid #a8a8a8;
+  border-bottom: 1px solid #a8a8a8;
+  margin-left: 1.5rem;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.addBtn:after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.addBtn:before {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.beforeDiv {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: -1px;
+  width: 0;
+  z-index: -1;
+  border-left: 15px solid #a8a8a8;
+  border-top: 19px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.afterDiv {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-left: 14px solid #a8a8a8;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.addicon {
+  margin: 0;
+  outline: 0;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 1px;
+}
+
+.addBtnArabic {
+  width: 2.5rem;
+  height: 36px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #efefef;
+  color: black;
+  padding-right: 1.5rem;
+  border-top: 1px solid #a8a8a8;
+  border-bottom: 1px solid #a8a8a8;
+  margin-right: 1.5rem;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.addBtnArabic:after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.addBtnArabic:before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.beforeDivArabic {
+  content: "";
+  position: absolute;
+  left: -15px;
+  bottom: -1px;
+  width: 0;
+  z-index: -1;
+  border-right: 15px solid #a8a8a8;
+  border-top: 19px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.afterDivArabic {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-right: 14px solid #a8a8a8;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.bpmnTouchToast{
+  margin-top: 2.25rem;
+}
+.bpmnTouchAlert{
+  padding: 0 1vw !important;
+}

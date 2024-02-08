@@ -1,0 +1,109 @@
+.variableName {
+  text-align: right;
+
+  color: #000000;
+  opacity: 1;
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+  letter-spacing: 0rem;
+  color: #000000;
+  margin: 1rem 1vw;
+  width: 13vw;
+}
+
+.variableType {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 0.25rem 5.375rem 0.438rem 0rem;
+}
+
+.dataType {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 1rem 1vw;
+  width: 7vw;
+}
+
+.defaultValue {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 0.5rem 4.875rem 0.438rem 0rem;
+}
+
+.variableLength {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 1rem 1vw;
+  width: 6vw;
+}
+
+.variableNameData {
+  /*margin: 0.875rem 1.813rem 0.875rem 0rem;*/
+  margin: 1rem 1vw;
+
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  /* width: 7.8125rem;*/
+  width: 13vw;
+}
+
+.variableTypeData {
+  width: 6.438rem;
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 0.875rem 5.5rem 0.875rem 0rem;
+}
+
+.dataTypeValue {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 1rem 1vw;
+  width: 7vw;
+}
+
+.defaultValueData {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  min-width: 10vw;
+  margin: 1rem 1vw;
+}
+
+.variableLengthData {
+  text-align: right;
+  font-size: var(--base_text_font_size);
+  /*letter-spacing: 0rem;*/
+  color: #000000;
+  opacity: 1;
+  width: 6vw;
+  margin: 1rem 1vw;
+}

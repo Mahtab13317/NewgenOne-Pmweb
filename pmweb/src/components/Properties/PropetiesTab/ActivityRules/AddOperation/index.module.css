@@ -1,0 +1,521 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.noFieldDeleteIcon {
+  color: grey;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.deleteIcon {
+  color: grey;
+  margin-top: 2rem;
+  cursor: pointer;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+.dropdownMargin {
+  margin-top: 0.5rem;
+}
+
+.operationsLabel {
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+/* code added on 26-09-23 for bugId: 138135 */
+@media screen and (max-width: 750px) {
+  .operationsLabel {
+    /* font: normal normal normal var(--base_text_font_size) / 1.0625rem
+      var(--font_family) !important; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    font-size: 10px;
+  }
+}
+/*Till here for bugId: 138135 */
+
+.operationsLabelMid {
+  margin-right: 0.25vw;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family);
+  display: flex;
+  align-items: center;
+}
+
+.typeDropdown {
+  width: 10vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.fieldDropdown {
+  /* width: 110px;  */
+  width: 12vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.valueDropdown {
+  /* width: 130px; */
+  /* width: 12vw;  code modified on 27-09-2023 for bugId: 138136*/
+  width: 15vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.operatorDropdown {
+  /* width: 60px; */
+  width: 8vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px / 1.0625rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0.5rem 0.5vw;
+  width: 100%;
+}
+
+/* .menuItemStylesDisabled {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.5rem 0.5vw;
+  width: 100%;
+  opacity: 0.4;
+} */
+
+.equals {
+  margin-bottom: 0.5%;
+  margin-right: 1%;
+  margin-top: 2.5vh;
+}
+
+.setAndExecuteEquals {
+  margin-bottom: 1%;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+
+.button {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px !important;
+  border: 1px solid var(--button_color);
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  text-transform: none !important;
+  position: relative;
+  padding: 0.25rem 0.5rem !important;
+  margin: 0 !important;
+  cursor: pointer;
+  /* margin-top: 1.25rem !important; */
+}
+
+/* Changes made to solve Bug 132672	 */
+.buttonMap {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px !important;
+  border: 1px solid var(--button_color);
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  text-transform: none !important;
+  position: relative;
+  padding: 0.25rem 0.5rem !important;
+  cursor: pointer;
+  margin-top: 1.25rem !important;
+}
+
+.triggerHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font: normal normal 600 16px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0px 0px 15px 12px;
+}
+
+.operandDropdown {
+  width: 11.78vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.calendarTypeDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  /* code uncommented on 11-10-23 for bug 139390 */
+  align-items: end;
+  /* till here for bug 139390 */
+  min-height: 3rem;
+}
+
+.assignedToVariableDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.triggerDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.dataModelTab {
+  min-height: 1.625rem !important;
+  padding: 0.125rem 0.25rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.125rem 0 !important;
+}
+
+.radioButton {
+  display: flex;
+  flex-direction: row;
+  font: normal normal normal 14px/19px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.radioOption {
+  text-align: left;
+  font: normal normal normal 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: var(--radio_color);
+}
+
+.routeToType {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  transform: translateY(-9px);
+}
+
+.inputVariableDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.escalateToVariableDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.escalateToFieldsDropdown {
+  width: 8.5vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.newWidth {
+  width: 95% !important;
+}
+
+@media screen and (max-width: 999px) {
+  .escalateToFieldsDropdown {
+    width: 19.5vw;
+  }
+}
+
+.repeatAfterCheckbox {
+  border-radius: 2px;
+  position: relative;
+}
+
+.repeatAfterCheckbox svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.textInputField {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0.125rem;
+  margin: 0 0.25vw;
+  width: 10vw;
+  height: var(--line_height);
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+}
+
+.textInputField input {
+  border: 1px solid #c4c4c4 !important;
+  height: var(--line_height) !important;
+}
+
+.textInputField input[disabled] {
+  height: var(--line_height);
+}
+
+.afterEscalationText {
+  margin-top: 1.75rem;
+  margin-inline-start: 0.5vw;
+  font: normal normal normal 12px/17px Open Sans;
+  display: flex;
+  align-items: center;
+}
+
+.flexColumnMargin {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.percentageIcon {
+  margin-top: 33px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.flexStartColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* width: 10vw; */
+}
+
+.marginLeftOperationLabel {
+  margin-left: 5px;
+}
+
+/* mahtab code */
+.mainContainer {
+  max-height: 420px;
+  overflow-y: auto;
+  /* font-family: 'Open Sans, Regular'; */
+  margin-left: 10px;
+  /* font-size: 12px; */
+  min-width: 500px;
+}
+.emailModal {
+  margin-top: 3rem;
+}
+.modalHeader {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 1rem 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modalLabel {
+  font: normal normal 600 var(--title_text_font_size) / 19px var(--font_family) !important;
+  color: #000000;
+}
+.modalFooter {
+  border-top: 1px solid #c4c4c4;
+  background: #f5f5f5;
+}
+.modalFooterInner {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.25rem 0 0.25rem var(--spacing_h);
+}
+
+.modalFooterInnerRTL {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.25rem 0 0.25rem var(--spacing_h);
+}
+
+.modalBody {
+  padding: 0.5rem 1vw;
+  height: 60vh;
+  overflow-y: scroll;
+}
+.definitionLine {
+  margin: 1rem 0;
+  height: 1px !important;
+}
+
+.modalControl {
+  margin-top: 15px;
+}
+
+.modalText {
+  width: 100%;
+}
+.cancelMap {
+  margin-right: 10px;
+  border-radius: 1px;
+}
+.btnMapModal {
+  color: #fff;
+  background: #0072c6;
+  border-radius: 1px;
+}
+.btnMapModal:hover {
+  color: #fff;
+  background: #0072c6;
+  border-radius: 1px;
+}
+
+.fieldRow {
+  display: flex;
+  margin: 0 0 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fldLabel {
+  font: normal normal 500 var(--base_text_font_size) / 17px var(--font_family);
+  margin-top: 2px;
+}
+
+.txtField {
+  width: 24rem;
+  height: 2.5rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+.escalateToEmailDropdown {
+  width: 100%;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.txtAreaField {
+  width: 100%;
+  min-height: 10vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.addBtn {
+  margin: 0px !important;
+}
+.error {
+  /* Color changed to rgb(181,42,42) due to contrast issue in WAVE tool. */
+  color: rgb(181, 42, 42);
+  margin-inline-start: 0.25vw;
+}
+
+.iconButton {
+  padding: 0px !important;
+  margin: 0px !important;
+  height: fit-content !important;
+}

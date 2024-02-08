@@ -1,0 +1,395 @@
+/* Changes made to solve Bug with ID 113919 (Height of the Registered todo list in Workdesk)  */
+.todoTextarea {
+  width: 97%;
+  /* height: 14rem; */
+  max-height: 14rem;
+  /* overflow-y: scroll; */
+  background-color: white;
+  border: 1px solid #cecece;
+}
+
+.todoDocTextarea {
+  width: 90%;
+  min-height: 11rem;
+  max-height: 17rem;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #cecece;
+}
+
+.docTextarea {
+  padding: 0.5rem 1vw;
+}
+
+.mainCheckbox span {
+  text-align: start;
+  font: normal normal normal 11px/15px var(--font_family);
+  letter-spacing: 0px;
+}
+
+.mainCheckbox span:first-child {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.25rem 0 0;
+}
+
+.mainCheckbox svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.checklist {
+  font: normal normal normal 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0;
+}
+
+.checkboxLabel {
+  font: normal normal normal 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+}
+
+.label {
+  font: normal normal 500 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  font-weight: 500;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.AssiciatedlabelText {
+  font: normal normal 500 12px/17px var(--font_family);
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+.todoItem {
+  font: normal normal 600 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  color: #606060;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.todoItemDetails {
+  font: normal normal 600 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.descriptionTextarea {
+  width: 97%;
+  height: 5rem;
+  margin: 0;
+  padding: 0.25rem 0.25vw;
+  background-color: #f6f5f5;
+}
+.description {
+  font: normal normal normal 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+  color: #606060;
+  margin-bottom: 0.125rem;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  /* padding: 1rem 1.5vw; */
+  background-color: white;
+}
+
+.documentRow {
+  padding: 0 1vw;
+  background-color: white;
+}
+
+.radiobtn svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.radiobtn span {
+  text-align: start;
+  font: normal normal normal 12px/17px var(--font_family);
+  letter-spacing: 0px;
+}
+
+.radiobtn span:first-child {
+  height: 1.5rem;
+  padding: 0.5rem 0 !important;
+  padding-inline-end: 0.25vw !important;
+  margin: 0.5rem 0;
+}
+.radiobtn {
+  margin-inline-end: 1rem !important;
+  margin-inline-start: 0rem !important;
+  display: flex;
+  flex-direction: row;
+}
+.radiobtn label {
+  margin-inline-start: 0 !important;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.selectedTodo {
+  background: rgba(0, 114, 198, 0.06);
+  padding: 0.5rem 0.5vw !important;
+  font: normal normal 500 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.tempList {
+  background: rgba(0, 114, 198, 0.06);
+}
+
+.deleteBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font: normal normal 600 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0 1vw;
+  text-align: center;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-inline-start: 0 !important;
+  margin-inline-end: var(--spacing_h) !important;
+}
+
+.addBtn {
+  background-color: white !important;
+  color: var(--button_color) !important;
+  /* font-weight: 600 !important; */
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  padding: 0 1vw !important;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-inline-start: 0 !important;
+  margin-inline-end: var(--spacing_h) !important;
+}
+
+.allowAddBtn {
+  background-color: white !important;
+  color: var(--button_color) !important;
+  /* font-weight: 600 !important; */
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  padding: 0 1vw !important;
+  height: 1.5rem;
+  margin: 0 !important;
+  cursor: pointer;
+  margin-inline-start: 0 !important;
+  margin-inline-end: var(--spacing_h) !important;
+}
+
+.disabledBtn {
+  background: rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0 1vw !important;
+  height: 1.5rem;
+  cursor: default;
+  margin-inline-start: 0 !important;
+  margin-inline-end: var(--spacing_h) !important;
+}
+
+.definebtn {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 1px !important;
+  font: normal normal normal 10px/15px var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: #606060 !important;
+  text-transform: none !important;
+  padding: 0.25rem;
+  cursor: pointer;
+  margin-inline-start: 0 !important;
+  margin-inline-end: var(--spacing_h) !important;
+}
+
+.todoSelect {
+  border: 1px solid #cecece;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 1px;
+  font: normal normal normal 12px/17px var(--font_family);
+}
+
+.menuItemStyles {
+  font: normal normal normal 12px/17px var(--font_family);
+  width: 100%;
+  height: var(--line_height);
+}
+
+.todoListItem {
+  padding: 0.5rem 0.5vw !important;
+  font: normal normal 500 12px/17px var(--font_family);
+  cursor: pointer;
+  border: 1px solid #f8f8f8;
+}
+
+.todoListItem:hover {
+  background-color: transparent;
+}
+
+.todoListItem:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.deassociateDiv {
+  display: flex;
+  justify-content: end;
+  width: 99%;
+  margin-top: 0.5rem;
+}
+
+.starIcon {
+  color: rgba(181, 42, 42);
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}
+
+.docTableHeader {
+  padding: 0 1vw;
+  border-bottom: 1px solid #cecece;
+  height: var(--line_height);
+}
+
+.docTableHeader .view,
+.docTableHeader .checkboxHeader,
+.docTableHeader .checkboxDownload,
+.docTableHeader .docTypes,
+.docTableHeader .allowAddition,
+.docTableHeader .checkboxScan {
+  font: normal normal 600 13px/18px var(--font_family);
+}
+
+.view {
+  flex: 1;
+  font: normal normal 500 12px/17px var(--font_family);
+}
+.checkboxHeader {
+  flex: 1;
+  font: normal normal 500 12px/17px var(--font_family);
+}
+.checkboxScan {
+  flex: 0.1;
+  font: normal normal 500 12px/17px var(--font_family);
+}
+.allowAddition {
+  flex: 1.5;
+  font: normal normal 500 12px/17px var(--font_family);
+}
+.checkboxDownload {
+  flex: 1.25;
+  font: normal normal 500 12px/17px var(--font_family);
+}
+.docTypes {
+  flex: 2.5;
+  font: normal normal 500 12px/17px var(--font_family);
+  font-size: var(--base_text_font_size);
+  font-weight: 500;
+  /* code modified on 07-10-2023 added tooltip for overlap issue for bugId:138099  */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* till here for bugId:138099 */
+}
+
+.inputField {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0.25rem 0.25vw;
+  background-color: #f6f5f5;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0.5rem 0;
+  display: block;
+  width: 60%;
+  height: var(--line_height);
+}
+
+.scanInputField {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0.25rem 0.25vw;
+  background-color: #f6f5f5;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  margin: 0;
+  display: block;
+  width: 60%;
+  height: var(--line_height);
+}
+
+#scrollable-auto-tabpanel-1 .MuiSvgIcon-root {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  display: inline-block;
+
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.emptyStateDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyStateImg {
+  width: 9rem;
+  height: 9rem;
+  margin-top: 4rem;
+}
+
+.emptyStateText {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  color: #000000;
+  margin: 0 3vw;
+  text-align: center;
+}
+
+.scanTable {
+  width: 57rem;
+  min-height: 11rem;
+  max-height: 17rem;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #cecece;
+}

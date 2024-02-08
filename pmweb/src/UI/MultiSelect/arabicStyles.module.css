@@ -1,0 +1,12 @@
+.multiSelect_listItem {
+  min-height: 26px;
+  padding: 0 0.5vw !important;
+  justify-content: flex-end !important;
+  text-align: right !important;
+}
+
+.multiSelect_listItem label {
+  direction: rtl;
+  margin-left: 0;
+  margin-right: 0;
+}

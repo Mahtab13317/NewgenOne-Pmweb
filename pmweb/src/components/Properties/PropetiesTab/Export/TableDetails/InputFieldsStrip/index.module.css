@@ -1,0 +1,158 @@
+.inputFieldsMainDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputBase {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 10px 0px 5px 5px;
+  /* width: 190px; */
+  width: 100%;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.typeInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  /* width: 126px; */
+  width: 100%;
+  margin: 10px 0px 5px 0px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.lengthData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 12px 0px 5px 0px;
+  /* width: 50px; */
+  width: 100%;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.constraintsRadioDiv {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 50px; */
+  width: 100%;
+  height: 40px;
+  margin-top: 6px;
+}
+
+.constraintsText {
+  margin: 10px 0px 5px 0px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.buttonsDiv {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.moreOptionsInput {
+  margin: 1.25rem 4.875rem 1.125rem 0rem;
+  cursor: pointer;
+  height: 1.35rem !important;
+  width: 1.35rem !important;
+}
+
+.addButton {
+  cursor: pointer;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 0.125rem !important;
+  border: 0.125rem solid var(--button_color) !important;
+  width: 3.125rem !important;
+  /* height: 1.75rem !important; */
+  margin: 0.8125rem 1.25rem 0.3125rem 0rem !important;
+  opacity: 1;
+}
+
+.addButtonText {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family);
+  letter-spacing: 0rem;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* .closeInputStrip {
+  cursor: pointer;
+  margin: 14px 10px 8px 8px;
+  color: #707070;
+  opacity: 1;
+  height: 1.75rem !important;
+  width: 1.75rem !important;
+} */
+
+.cancelBtn {
+  background-color: #ffffff;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  cursor: pointer;
+  height: 28px;
+  width: 60px;
+  margin-top: 24px;
+  border: 1px solid #c4c4c4;
+  padding: 2px;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 0.8125rem 0.625rem 0.3125rem 1.875rem !important;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.precisionText {
+  margin: 16px 0px 5px 10px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.precisionInput {
+  margin: 12px 0px 5px 6px;
+  width: 40px;
+}
+
+.disabledTextColor {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.inlineErrorStyle {
+  margin-left: 1.5rem;
+  width: 13vw;
+}

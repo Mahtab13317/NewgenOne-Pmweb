@@ -1,0 +1,91 @@
+.cardTemp {
+  display: inline-block;
+  width: 40vw;
+  height: 30rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e4 !important;
+  border-radius: 5px !important;
+  margin-top: 0.5rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px 0px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .cardTemp{
+    width: 38vw;
+  }
+}
+
+.disabledCard {
+  display: inline-block;
+  width: 40vw;
+  height: 30rem;
+  background: rgba(239, 239, 239, 0.7) 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e4 !important;
+  border-radius: 5px !important;
+  margin-top: 0.5rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.tempCardContent {
+  padding: 0 !important;
+}
+
+.cardHeading {
+  text-align: right;
+  font: normal normal 600 16px/21px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1rem;
+}
+
+.cardDesc {  
+  margin: 0rem 0 0.75rem;
+  text-align: right;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0 1vw;
+  width: 100%;
+  min-height: 6.4vh;
+}
+
+.reusableCardFooter {
+  width: 100%;
+  height: 3.5rem;
+  background: #e1e0e0 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 5px 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.templatePredefinedIcon {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-right: 0.25rem;
+  margin-top: 1px;
+  color: #0072c6 !important;
+  /* color: #70707095 !important; */
+}
+
+.templateUsageCount {
+  text-align: right;
+  font: italic normal normal 11px/15px Open Sans;
+  letter-spacing: 0px;
+  color: #727272;
+  margin-left: 1vw;
+}

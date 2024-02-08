@@ -1,0 +1,27 @@
+.external_method_accordion:before {
+  background-color: #F8F8F8 !important;
+  height: 0 !important;
+}
+
+.external_method_accordion .MuiAccordionSummary-root{
+  padding: 0 !important;
+}
+
+.external_method_accordion .MuiAccordionSummary-expandIcon{
+  padding: 0.5rem 0 !important;
+  margin-right: -0.25rem !important;
+}
+
+.external_method_accordion .MuiAccordionDetails-root{
+  padding: 0 !important;
+}
+
+.selectInput .MuiSelect-select{
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.selectFieldNew .MuiSelect-select{
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}

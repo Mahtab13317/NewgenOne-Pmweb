@@ -1,0 +1,61 @@
+.selectWithInput {
+  margin-bottom: 1rem;
+}
+
+.selectWithInputOptions {
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.selectWithInputTextField input {
+  height: 1.5rem;
+}
+
+.AddToConst {
+  overflow-y: hidden;
+}
+
+.AddToConst p:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.multiSelectConstInput {
+  position: absolute;
+  top: 1px;
+  width: 80%;
+  left: 12%;
+  /* code edited on 1 April 2023 for BugId 124350 */
+  z-index: 99;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  border: none;
+}
+
+.multiSelectConstInput:disabled {
+  background: none !important;
+}
+
+.constantIcon {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.25rem;
+  align-items: center;
+  display: flex;
+  width: 10%;
+  /* code edited on 1 April 2023 for BugId 124350 */
+  z-index: 99;
+  justify-content: center;
+  background: #e5e5e5;
+  height: 2rem;
+}
+
+.input {
+  cursor: pointer;
+}
+
+input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}

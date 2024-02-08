@@ -1,0 +1,93 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.modalHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1vw;
+  align-items: center;
+}
+
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+/*code edited for Bug  124820- to remove unnecessary scroll  */
+.modalBodyDiv {
+  padding: 1.5rem 1vw;
+  height: 54vh;
+  overflow-y: auto;
+}
+.modalBodyDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.modalBodyDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem;
+}
+
+.padding {
+  padding: 0px 3% 0px;
+}
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.item {
+  margin-top: 1rem;
+}
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.mainDiv {
+  width: 100%;
+}
+.markerColor {
+  /* color: red; */
+  color: rgb(181,42,42); /* Added on 7/9/2023 for BUGID: 135911 */
+}
+
+.modalHeading {
+  text-align: left;
+  font: normal 600 normal var(--subtitle_text_font_size) / 19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.modalDivider {
+  color: #e4e4e4;
+  width: 100%;
+  padding: 0% !important;
+}
+
+.closeIcon {
+  cursor: pointer;
+  /*Bug 119647 Solution: Added the height and width*/
+  height: 1.5rem;
+  width: 1.5rem;
+}
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.labelTittle {
+  font: normal normal normal 12px/16px Open Sans;
+  margin-bottom: 0.25rem;
+  /*Bug 119647 Solution: Added the font-weight and opacity*/
+  font-weight: 400;
+  opacity: 1;
+}
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.footerDiv {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.footer {
+  justify-content: flex-end;
+}
+
+/*code edited for Bug 124514 - register feature window is not appearing fully on the screen to register feature*/
+.input {
+  width: 100%;
+  border: 1px solid #cecece;
+  /*Bug 119647 Solution: Changed the height from 1.5rem to 1.75rem*/
+  /*[10-02-2023] Updated the height to 2.33rem since we are using "12px=1rem"*/
+  height: var(--line_height);
+}

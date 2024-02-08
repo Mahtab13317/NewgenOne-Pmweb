@@ -1,0 +1,43 @@
+.headingsDiv {
+  margin-top: 16px;
+  margin-right: 27px;
+}
+
+.heading {
+  text-align: right;
+  font: normal normal 400 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.aliasNameHeading {
+  text-align: right;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font: normal normal 600 16px/24px Open Sans;
+  margin-bottom: 10px;
+}
+
+.previousButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  padding: 4px;
+  height: 28px;
+  margin: 11px 24px 11px 0px;
+  opacity: 1;
+}
+
+.nextButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  padding: 4px;
+  height: 28px;
+  margin: 11px 12px 11px 0px;
+  opacity: 1;
+}

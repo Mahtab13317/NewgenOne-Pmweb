@@ -1,0 +1,95 @@
+.cardDiv {
+  width: 100%;
+  cursor: default;
+  position: relative;
+}
+
+.card {
+  width: 94%;
+  margin: 0% 3% 3%;
+  overflow: visible !important;
+}
+
+.cardContent {
+  padding: 0.5rem 0 !important;
+  border-radius: 4px;
+  position: relative;
+}
+
+.circle-icon {
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 58px;
+}
+
+.activityInput {
+  border: none;
+  width: 97%;
+  margin-inline-start: 0.25vw;
+  padding-inline-start: 0.25vw!important;
+  background-color: inherit;
+  height: 2rem;
+  font-size: var(--base_text_font_size) !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.activityInput:focus{
+  background-color: white;
+}
+
+.moreVertDiv {
+  margin-left: auto !important;
+  margin-right: 0.5rem !important;
+  margin-top: 0.125rem !important;
+}
+
+.moreVertIcon {
+  color: #606060 !important;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.dragIcon {
+  color: #606060 !important;
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+}
+
+.logoSize {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.activityTypeList {
+  margin-left: auto !important;
+  margin-top: 0.5rem !important;
+}
+
+.activityTypeListArabic {
+  margin-right: auto !important;
+  margin-top: 0.5rem !important;
+}
+
+.newActivityAddDiv {
+  position: absolute;
+  width: 90%;
+  height: 1rem;
+  text-align: center;
+}
+
+.newActivityAddIcon {
+  color: #606060 !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+}
+
+.checkedOutIcon {
+  position: absolute;
+  top: -12%;
+  left: -5%;
+  width: 1.5rem;
+  height: 1.5rem;
+}

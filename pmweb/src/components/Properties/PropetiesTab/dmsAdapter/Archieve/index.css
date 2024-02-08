@@ -1,0 +1,289 @@
+/* Made changes to solve bug ID - 111180, 112972 , 111162 and 111182 */
+
+.dropDownSelectLabelDMS {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.dropDownSelectLabel_expanded {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+/* code added on 05-10-2023 for bugID:38110 */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .dropDownSelectLabelDMS {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 7px;
+  }
+}
+/* till here for bugId: 38110 */
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .DMSModal {
+    opacity: 1;
+    overflow: scroll;
+    top: 15%;
+    padding: 1%;
+    left: -50px;
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+
+.dropDownSelect {
+  height: 28px;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-top: 5px;
+}
+.dropDownSelectDataClass {
+  width: 245px;
+  height: 28px;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-top: 5px;
+}
+.dropDownSelectDataClass_expandeddms {
+  width: 290px;
+  height: 28px;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.dropDownSelect_expandeddms {
+  width: 205px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.userNameInput {
+  width: 184px;
+  height: 28px;
+  border: 1px solid #c4c4c4;
+  padding: 5px;
+}
+
+.userNameInputExp {
+  width: 184px;
+  margin-left: 5px;
+  height: 28px;
+  border: 1px solid #c4c4c4;
+  padding: 5px;
+}
+
+.passwordInput {
+  width: 184px;
+  height: 28px;
+
+  border: 1px solid #c4c4c4;
+  padding: 5px;
+}
+.passwordInputExp {
+  width: 184px;
+  margin-left: 5px;
+  height: 28px;
+  margin-right: 10px;
+  border: 1px solid #c4c4c4;
+  padding: 5px;
+}
+
+.folderNameTextArea {
+  width: 208px;
+  height: 55px;
+  border: 1px solid #c4c4c4;
+  margin-left: 110px;
+  padding: 5px;
+}
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+.table th {
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.table td {
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.table tr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.filterTriggerButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0 0.25rem;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#trigger_laInsert_BtnExp {
+  margin-top: 17px !important;
+}
+
+.propertiesAddButton {
+  padding: 0.25rem 1vw;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #0072c6;
+  cursor: pointer;
+}
+
+.propertiesAddButton:disabled {
+  cursor: default;
+  background-color: rgba(84, 84, 84, 0.04);
+  color: rgba(84, 84, 84, 0.6);
+  border: 1px solid rgba(84, 84, 84, 0.5);
+}
+
+.argStringBodyInput {
+  height: 7rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+}
+.argStringBodyInput:focus-visible {
+  outline: 2px solid var(--button_color) !important;
+  border-radius: 2px;
+}
+
+.propertiesAddButton_connect {
+  padding: 0.25rem 1vw;
+  text-transform: capitalize;
+  margin-bottom: 1.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #0072c6;
+  cursor: pointer;
+}
+
+.archieveScreen {
+  /* 
+  //Modified on 12/10/2023, bug_id:138980
+  overflow-y: auto;
+  height: 65vh;
+   //till here for bug_id:138980
+   */
+  padding: 1.3rem;
+}
+
+#archieve_cabinet {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+}
+#archieve_includeVar {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+  margin-bottom: -4px;
+}
+#archieve_content {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+}
+
+#archieve_userName {
+  font-size: var(--base_text_font_size);
+
+  color: #606060;
+}
+
+#archieve_password {
+  font-size: var(--base_text_font_size);
+
+  color: #606060;
+}
+
+#archieve_folderName {
+  font-size: var(--base_text_font_size);
+  margin-left: 5px;
+  color: #606060;
+}
+
+#archieve_dataClass {
+  font-size: var(--base_text_font_size);
+  margin-top: 8px;
+  margin-bottom: -4px;
+  color: #606060;
+}
+
+#archieve_workItemAudit {
+  font-size: var(--base_text_font_size);
+  color: #000000;
+}
+
+#archieve_docTypes {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+#ok_AddVariableModal_DMSAdapter {
+  height: 25px;
+  width: 50px !important;
+  min-width: none;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+#close_AddVariableModal_DMSAdapter {
+  height: 26px;
+  width: 65px;
+  text-transform: none;
+}
+#archieve_subTitles {
+  font-size: var(--subtitle_text_font_size);
+  margin-bottom: 8px;
+  color: #000000;
+  font-weight: 600;
+}
+
+/* Changes made to make DMS Archieve screen responsive */
+@media screen and (min-width: 1050px) {
+  .expandedArchieveFlex {
+    display: flex;
+  }
+}

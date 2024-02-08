@@ -1,0 +1,184 @@
+.modalHeading {
+  font: normal normal 600 16px/21px Open Sans;
+  text-align: right;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.dataTableHeadCellContent {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.dataCheckbox svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.dataCheckbox {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.dataCheckbox span {
+  text-align: right;
+  font: normal normal normal 11px/15px Open Sans;
+  letter-spacing: 0px;
+}
+
+.dataCheckbox span:first-child {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0 0 0.25rem;
+}
+
+.inputField {
+  width: 95%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  text-align: right;
+  height: 2rem;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.normalSpan {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 0.5rem;
+}
+
+.disabledInputField {
+  width: 95%;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  text-align: right;
+  height: 2rem;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selectField {
+  width: 95%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  border-radius: 2px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.disabledSelectField {
+  width: 95%;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  border-radius: 2px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.dropdownData {
+  padding: 0.25rem 0.5rem !important;
+  width: 100%;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.starIcon {
+  color: red;
+  margin-right: 0.25vw;
+  font-size: 0.75rem;
+}
+
+.webSLabel {
+  color: #606060;
+  font: normal normal normal 12px/17px Open Sans;
+  display: block;
+  text-align: right;
+  letter-spacing: 0px;
+  margin-bottom: 0.25rem;
+}
+
+.webSSelect {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0rem 0 1rem;
+  display: block;
+  padding: 0.125rem !important;
+  width: 95%;
+  height: 1.5rem;
+}
+
+.webSDropdownData {
+  padding: 0.125rem 0.5rem !important;
+  width: 95%;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  margin-left: 0.5vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.closeButton {
+  text-align: center;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  background: white 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+  padding: 0.125rem 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+  border-top: 1px solid #c4c4c4;
+  background-color: #f5f5f5;
+}

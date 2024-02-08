@@ -1,0 +1,178 @@
+.headingsDiv {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-bottom: 1px solid #c4c4c4;
+  height: 10%;
+}
+
+.subDiv {
+  margin: 15px 0px 15px 16px;
+}
+
+.heading {
+  text-align: left;
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 2px;
+  margin: 16px 0px 15px 16px !important;
+}
+
+.closeModal {
+  cursor: pointer;
+  margin: 18px 10px 8px auto;
+  color: #707070;
+  opacity: 1;
+  height: 1.75rem !important;
+  width: 1.75rem !important;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalSubHeading {
+  /* margin: 15px 0px 10px 16px; */
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.text {
+  margin: 0.625rem 0rem 0rem 0rem !important;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+  color: #000000;
+}
+
+.mappedField {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.typeInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 200px;
+  margin: 5px 0px 5px 0px;
+  height: 28px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.length {
+  margin-left: 20px !important;
+}
+
+.inputBase {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 3px 0px 5px 21px;
+  width: 50px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  height: 30px !important;
+  color: #000000;
+}
+
+.quotesText {
+  margin: 10px 0px 10px 0px !important;
+  width: 60px;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.exportAllDocText {
+  margin: 10px 0px 10px 0px !important;
+  width: 121px;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.buttonsDiv {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 15%; */
+  justify-content: flex-end !important;
+}
+
+.okButton {
+  cursor: pointer;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 2px solid var(--button_color) !important;
+  width: 59px;
+  height: 28px;
+  /* margin: 15px 5px 11px 0px !important; */
+  opacity: 1;
+}
+
+.okButtonText {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.cancelButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px !important;
+  width: 59px;
+  height: 28px;
+  /* margin: 15px 13px 11px auto !important; */
+  opacity: 1;
+}
+
+.cancelButtonText {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+
+.asterisk {
+  color: red;
+  margin-left: 2px;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,93 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  flex-wrap: wrap;
+}
+
+.checkBoxShowAlways {
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  margin-top: 10px;
+}
+.commonInterface {
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  margin-left: 10px;
+}
+
+.tableDataRow {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+
+  flex-wrap: wrap;
+}
+.commonInterfaceTableRow {
+  font: normal normal normal 12px/17px Open Sans;
+
+  margin-left: 1rem;
+}
+.addButton {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid #0072c5 !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #0072c6;
+  text-transform: none !important;
+  margin-right: 0.5rem !important;
+  padding: 0.25rem 0.75rem !important;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.leftPannel {
+  height: 100%;
+  width: 25%;
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+.rightPannel {
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 1.1875rem;
+  width: 71%;
+}
+
+.definationList {
+  height: 40px;
+  vertical-align: middle;
+}
+.checklist {
+  font: normal normal 500 12px/17px Open Sans;
+}
+.checkBoxCommon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.labelTittle {
+  font: normal normal normal 12px/16px Open Sans;
+  margin-top: 1rem;
+}
+.dropdown {
+  width: 150px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

@@ -1,0 +1,278 @@
+.DocTypes {
+  display: flex;
+}
+
+.DocTypes .MuiSvgIcon-root {
+  font-size: 1.25rem !important;
+}
+
+.DocTypes #searchBoxId {
+  width: 100% !important;
+}
+
+/*code changes on 3 August 2022 for BugId 112560*/
+.DocTypes .oneBox,
+.DocTypes .oneDocBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.DocTypes
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  text-transform: none !important;
+}
+
+.addDocs {
+  background-color: white;
+  /* width: 36vw; */
+  width: 30%;
+  position: absolute;
+  top: 29.5%;
+  /* left: 32%; */
+  left: 36%;
+  padding: 0;
+  height: auto;
+}
+.addDocsHeading {
+  /* font-size: 1rem; */
+  margin-bottom: 0.625rem;
+  font: normal normal 600 16px/22px Open Sans;
+}
+.addDocs .buttons_add .MuiButtonBase-root.MuiButton-root.MuiButton-outlined {
+  width: 3.8125rem !important;
+  height: 1.75rem !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 2px !important;
+  opacity: 1 !important;
+  font-size: 0.625rem;
+  text-transform: none !important;
+  margin-right: 0.4375rem;
+}
+
+.addDocs
+  .buttons_add
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  width: 5.9375rem;
+  height: 1.75rem;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  font-size: 0.625rem;
+  margin-right: 0.4375rem;
+  text-transform: none !important;
+  border-radius: 0px !important;
+}
+
+.nameInput {
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 0.625rem;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding-left: 5px;
+  opacity: 1;
+}
+
+.nameInputlabel {
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+
+.activities {
+  /* width: 12.5rem;*/
+  border-inline-end: 1px solid rgb(218, 208, 194);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+/*code changes on 3 August 2022 for BugId 112560*/
+.oneActivityColumn {
+  text-align: center;
+}
+
+.checkBoxesThree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.screenHeading {
+  margin-right: 1.875rem;
+  /* font-size: 1rem; */
+  font: normal normal 600 var(--title_text_font_size) / 22px var(--font_family);
+}
+
+.actvitySearchDiv {
+  flex: 0.4;
+}
+
+.docSearchBar {
+  margin-right: 0.625rem;
+}
+
+/*code changes on 3 August 2022 for BugId 112560*/
+.activityNameDiv {
+  display: flex;
+  justify-content: start;
+  width: 45%;
+}
+.checkBoxesStyling {
+  margin-top: -0.625rem;
+  margin-left: 0.625rem;
+}
+
+.docName {
+  font-size: var(--base_text_font_size);
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  word-break: break-all;
+}
+
+/*code changes on 3 August 2022 for BugId 112560*/
+.oneDocDiv {
+  height: 98%;
+  /* width: 22.2rem; */
+  width: 20%;
+  background-color: white;
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.docSearchDiv {
+  display: flex;
+  padding: 0.3125rem 0.3125rem 0rem 0.625rem;
+}
+
+.activityName {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.activitySideDiv {
+  height: 98%;
+  width: 80%;
+  background-color: white;
+  border-inline-start: 1px solid rgb(218, 208, 194);
+  margin-top: 0.625rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .oneDocDiv {
+    width: 23%;
+  }
+  .activitySideDiv {
+    width: 77%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .oneDocDiv {
+    width: 28%;
+  }
+  .activitySideDiv {
+    width: 72%;
+  }
+  .actvitySearchDiv {
+    flex: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .oneDocDiv {
+    width: 33%;
+  }
+  .activitySideDiv {
+    width: 67%;
+  }
+  .actvitySearchDiv {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .oneDocDiv {
+    width: 35%;
+  }
+  .activitySideDiv {
+    width: 65%;
+  }
+}
+
+.activitySideHeading {
+  margin-right: 1.875rem;
+  /* font-size: 1rem; */
+  font: normal normal 600 16px/22px Open Sans;
+}
+
+.createDocBtn {
+  background-color: var(--button_color);
+  border: 1px solid var(--button_color);
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  color: white;
+  margin: 0 !important;
+  cursor: pointer;
+}
+
+.allRightsText {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  text-align: left;
+  opacity: 1;
+  color: #000000;
+}
+
+.DocTypes .oneDocBox {
+  display: flex;
+  flex-direction: column;
+  min-height: 92%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.actvitySearchDiv #searchBoxId {
+  width: 100% !important;
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 620px) and (max-width: 768px) {
+  .actvitySearchDiv #searchBoxId {
+    width: 60% !important;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .actvitySearchDiv #searchBoxId {
+    width: 65% !important;
+  }
+}
+
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
+  .actvitySearchDiv #searchBoxId {
+    width: 80% !important;
+  }
+}
+
+/* Changes to resolve the bug Id 138106 */
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 620px) and (max-width: 830px) {
+  .addDocs {
+    background-color: white;
+    width: 42% !important;
+    position: absolute;
+    top: 29.5%;
+    /* left: 32%; */
+    /* modified for bug_id:138078 , 138100*/
+    left: 30%;
+    padding: 0;
+    height: auto;
+  }
+}

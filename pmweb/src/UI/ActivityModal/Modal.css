@@ -1,0 +1,113 @@
+.sortBy {
+  list-style-type: none;
+  padding: 0.25rem 0;
+}
+
+.sortBy div {
+  /* margin: 0 1px; */
+}
+
+.sortBy div:focus-visible {
+  outline: 0;
+  border: 2px solid var(--button_color) !important;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Changes made to solve Bug 131869 */
+.sortByWithoutPadding {
+  padding: 0px !important;
+}
+/* till here */
+
+.sortByPara {
+  padding: 0px 20px;
+  font-size: 11px;
+  color: #606060;
+  margin-bottom: 0.25rem;
+}
+.sortByPara_arabic {
+  margin-bottom: 0.25rem;
+  padding: 0px 20px;
+  font-size: 11px;
+  color: #606060;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sortByDiv {
+  display: flex;
+  padding: 0px 3px;
+  height: 1.75rem;
+}
+.sortByDiv_arabic {
+  justify-content: flex-start;
+  display: flex;
+  padding: 0px 19px;
+  height: 1.75rem;
+}
+.tickIcon {
+  width: 15px !important;
+  height: 15px !important;
+  color: var(--checkbox_color);
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.emptyCheck {
+  width: 15px !important;
+  height: 15px !important;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.tickIcon_arabic {
+  position: absolute;
+  right: 2px;
+  width: 15px !important;
+  height: 15px !important;
+  color: var(--checkbox_color);
+  margin-top: 8px;
+}
+.oneSortOption_arabic {
+  margin-right: 2px;
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.oneSortOption {
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.oneSortOptionActivity {
+  width: 100%;
+  outline: 0;
+}
+
+/*Bug 121540*/
+.internalDiv {
+  height: inherit;
+}
+
+.modalArabic {
+  margin-top: -5px;
+  margin-left: 10px;
+  position: absolute;
+  width: 165px !important;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+}
+
+.modalArabic ul {
+  padding-top: 0px !important;
+  margin-bottom: 3px;
+}
+
+.modalArabic ul {
+  padding-top: 0px !important;
+  margin-bottom: 3px;
+}

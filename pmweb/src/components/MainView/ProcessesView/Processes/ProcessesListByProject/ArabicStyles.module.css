@@ -1,0 +1,55 @@
+.nameAndDesc {
+  text-align: right;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 1%;
+}
+
+.projectPropertiesValue {
+  text-align: start;
+  font: normal normal normal 12px/15px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 12rem;
+  padding-inline-start: 10px;
+}
+.cancel {
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  height: 28px;
+  border-radius: 2px;
+  margin-right: auto;
+}
+
+.createProperties {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  font: normal normal 600 12px/17px Open Sans;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 0px 15px;
+  border: none;
+  height: 28px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 1%;
+  margin-left: 3%;
+}
+.footerProjectProperties {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  margin: 0 1vw;
+  padding: 0.5rem 1vw;
+  justify-content: end;
+}

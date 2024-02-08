@@ -1,0 +1,20 @@
+.mainDiv {
+  height: 48vh;
+  overflow: hidden;
+  margin-right: 0.625rem;
+}
+
+.mainDiv::-webkit-scrollbar {
+  width: 0.3125rem;
+  height: 0.4375rem;
+  background-color: white;
+}
+
+.mainDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.mainDiv:hover {
+  overflow: auto;
+}

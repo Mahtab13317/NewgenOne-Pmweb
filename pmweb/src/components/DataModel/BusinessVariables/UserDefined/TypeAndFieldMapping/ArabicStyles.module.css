@@ -1,0 +1,22 @@
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.calenderIcon {
+  float: right;
+  color: grey;
+  margin: 0.809rem 0rem 0.875rem 1.188rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+.intervalIcon {
+  float: right;
+  color: grey;
+  margin: 0.809rem 0rem 0.875rem 1.188rem;
+  cursor: pointer;
+  margin-left: auto;
+}

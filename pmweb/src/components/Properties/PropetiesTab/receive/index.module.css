@@ -1,0 +1,64 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 0.5rem !important;
+}
+
+.invocationTypeDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.labelStyles {
+  cursor: pointer;
+  text-align: start;
+  font: normal normal 500 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.replyActivityDiv {
+  margin-top: 1rem;
+}
+
+.asterisk {
+  color: red;
+  margin-inline-start: 0.25vw;
+}
+
+.subHeading {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 0.7;
+}
+
+.dropdownInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  flex: 1;
+  margin-inline-end: 0.5vw;
+  height: var(--line_height);
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.5rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

@@ -1,0 +1,182 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pinnedDiv {
+  width: 98.5%;
+  margin-left: var(--spacing_h);
+}
+
+.pinnedTitle {
+  text-align: left;
+  font: normal normal 600 var(--title_text_font_size) / var(--line_height)
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.viewAll {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--link_color);
+  margin-inline-start: 1vw;
+  cursor: pointer;
+}
+
+.recentTableRowCss {
+  margin: 0;
+  color: #606060;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.recentTableName {
+  margin: 0;
+  width: 15.5vw;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: var(--base_text_font_size);
+}
+
+.recentTableProcessType {
+  margin: 0;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+}
+
+.recentTableProcessDate {
+  margin: 0;
+  /* font-weight: 600; */
+}
+
+.recentTable {
+  background: white;
+  margin: 0 30px 0 10px;
+}
+
+.recentTableProjectName {
+  margin: 0 0 0 10px;
+  color: #606060;
+}
+
+.recentTableVersion {
+  margin: 0;
+}
+
+.recentTableProcessTypeColor {
+  margin: 5px 5px 0 0;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.ProcessTypeColor {
+  margin: 5px 5px 0 0;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.middleDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 0.6rem;
+}
+
+/* Handle */
+.middleDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.6rem;
+}
+
+.middleDiv:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.375rem;
+  height: 0.6rem;
+}
+.middleDiv:hover::-webkit-scrollbar-thumb {
+  background: #c4c4c4 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.middleDiv {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  padding-top: 1rem;
+  /* height: 100vh;*/
+  max-height: 95vh;
+  width: 71.8vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 0px) and (max-width: 1079px) {
+  .middleDiv {
+    width: 61.5vw;
+  }
+}
+
+.middleDivActivities {
+  background-color: white;
+  width: 23vw;
+}
+@media screen and (min-width: 1920px) {
+  .middleDivActivities {
+    width: 25vw;
+  }
+}
+
+@media screen and (min-width: 1536px) and (max-width: 1919px) {
+  .middleDivActivities {
+    width: 23.9vw;
+  }
+}
+@media screen and (min-width: 1080px) and (max-width: 1535px) {
+  .middleDivActivities {
+    width: 23.1vw;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1079px) {
+  .middleDivActivities {
+    width: 29.4vw;
+  }
+}
+@media screen and (max-width: 699px) {
+  .middleDivActivities {
+    width: 28.7vw;
+  }
+}
+#mf_activitystream_lpweb {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.RecentTableDiv {
+  width: 96%;
+  margin-left: var(--spacing_h);
+}
+
+.middleDivContainer {
+  height: 100%;
+  /* width: 94.8vw !important; */
+  background-color: #f8f8f8;
+}
+
+.PinnedTableDiv {
+  width: 97.5%;
+}
+
+.Mui-selected .pinnedDropIcon {
+  color: white !important;
+}
+
+.icon-button:focus-visible {
+  outline: 1px solid var(--brand_color1);
+}

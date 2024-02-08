@@ -1,0 +1,42 @@
+.error {
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  text-align: right;
+  color: red;
+  margin-bottom: 0.25rem;
+}
+
+.orStringWithFiles {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #979595;
+  margin: 0.25rem;
+  margin-right: 13.5vw;
+}
+
+.subDivFile {
+  width: 16vw;
+  text-align: right;
+  overflow-wrap: break-word;
+}
+
+.subDivSize {
+  width: 5vw;
+  text-align: left;
+  direction: ltr;
+}
+
+.attachIcon {
+  color: #606060 !important;
+  width: 1.25rem !important;
+  height: 1rem !important;
+  margin-left: 0.25vw;
+}
+
+.deleteIcon {
+  color: #606060 !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-right: 0.75vw;
+  cursor: pointer;
+}

@@ -1,0 +1,496 @@
+.header_processes {
+  display: flex;
+  padding: 0px 1vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.leftHeader {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.rightHeader {
+  flex: 1;
+  text-align: right;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.processName {
+  text-align: left;
+  letter-spacing: 0px;
+  margin-left: 0.5vw;
+  color: #000000;
+  font-weight: bold;
+  font-size: var(--title_text_font_size);
+  margin-right: 0.5vw;
+}
+
+.versionName {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0 0.5vw;
+  cursor: pointer;
+}
+.versionCard {
+  height: 20rem;
+  width: 22rem;
+  position: absolute;
+  left: 8%;
+  top: 5%;
+  z-index: 11;
+}
+.versionCardArabic {
+  height: 20rem;
+  width: 22rem;
+  position: absolute;
+  right: 8%;
+  top: 5%;
+  z-index: 11;
+}
+.versionCardVal {
+  margin-bottom: 1rem;
+  font: normal normal normal 12px/17px Open Sans;
+}
+.versionHistory {
+  color: #1072c6;
+  font: normal normal normal 14px/18px Open Sans;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.versionCardLabel {
+  font: normal normal normal 14px/18px Open Sans;
+}
+.processType {
+  display: flex;
+  padding: 0 0.5vw;
+  border-left: 1px solid #606060;
+  align-items: center;
+}
+
+.processTypeArabic {
+  display: flex;
+  padding: 0 0.5vw;
+  border-right: 1px solid #606060;
+  align-items: center;
+}
+
+.processTypeName {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 0 0.25vw;
+}
+
+.processTypeNameArabic {
+  text-align: right;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 0 0.25vw;
+}
+
+.processTypeLogo {
+  margin: 6px 5px 0 0;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.selectedWrapper {
+  margin: 0px 3px 0 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 3px solid rgb(244, 164, 60);
+}
+
+.selectedNumWrapper {
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 50%;
+  width: 26px;
+  margin: 2px;
+  height: 26px;
+}
+
+.wrapper {
+  margin: 0px 3px 0 0;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  padding: 3px 0;
+  border: none;
+}
+
+.selectedCollabTypeLogo {
+  margin: 1.5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.collabTypeLogo {
+  margin: 1.5px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.collabName {
+  text-align: center;
+  font: normal normal normal 9px/13px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  right: 20%;
+  top: 15%;
+}
+
+.collabNumber {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #1072c6;
+  opacity: 1;
+  position: absolute;
+  right: 15%;
+  top: -1px;
+}
+
+.closeButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  display: inline-flex;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.closeButtonIcon {
+  color: #606060;
+  margin-top: 2px;
+  width: 20px !important;
+  height: 18px !important;
+}
+
+.closeText {
+  margin-top: 3px;
+  margin-left: 2px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+
+.deployIcon {
+  margin-top: 1rem;
+}
+
+.deployButton {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5vw 0 0.5vw !important;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.deployText {
+  margin-left: 2px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.deployTextArabic {
+  margin-right: 2px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.moreButton {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5px 15px 0 20px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.moreBtnDropdown {
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  z-index: 99999; /*to prevent overriding by properties button*/ /*to prevent overriding by properties button*/ /*Added on 06/09/2023, bug_id:136208	*/
+  right: 10%;
+  width: 12vw;
+  top: 100%;
+  text-align: left;
+  padding: 0 0 0.5rem 0rem;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000d9;
+  cursor: pointer;
+}
+
+.moreBtnDropdownArabic {
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  z-index: 99999; /*to prevent overriding by properties button*/ /*Added on 06/09/2023, bug_id:136208	*/
+  left: 10%;
+  width: 12vw;
+  top: 100%;
+  text-align: right;
+  padding: 0 0 0.5rem 0;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000d9;
+  cursor: pointer;
+}
+
+.moreBtnDropdown ul,
+.moreBtnDropdownArabic ul {
+  padding: 0px !important;
+}
+
+.moreBtnDropdown ul li:hover,
+.moreBtnDropdownArabic ul li:hover {
+  background: rgb(246, 246, 246);
+}
+
+.moreBtnDropdown ul li,
+.moreBtnDropdownArabic ul li {
+  padding: 0.25rem 0.5vw;
+  align-items: center;
+  display: flex;
+  list-style: none !important;
+  font-size: 12px !important;
+  cursor: pointer !important;
+}
+
+.moreText {
+  margin-left: 0.25vw;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.moreTextArabic {
+  margin-right: 0.25vw;
+  text-align: right;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.collabDiv {
+  display: inline-flex;
+  padding: 0px 15px 0 20px;
+  margin-right: 5px;
+}
+
+.deleteProcess {
+  background-color: white;
+  height: 185px;
+  width: 422px;
+}
+
+.deleteNotification {
+  font-size: 12px;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 7px;
+}
+
+.moreModalHead {
+  font-size: 12px;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 7px;
+}
+
+.moreModalButtons {
+  background-color: #f5f5f5;
+  text-align: right;
+  padding: 10px;
+  margin-top: 14px;
+}
+
+.buttonOne {
+  width: 50px !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  margin-right: 10px !important;
+  background-color: white !important;
+}
+
+.buttonThree {
+  border: 1px solid #338ed1 !important;
+  color: #338ed1 !important;
+  background-color: white !important;
+  width: 110px !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  margin-right: 6px !important;
+}
+
+.buttonTwo {
+  width: auto !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  background-color: #035397 !important;
+}
+
+.processActionModal {
+  padding: 0 !important;
+  width: 28vw !important;
+  left: 35% !important;
+  top: 25% !important;
+}
+
+.processVersion {
+  display: block;
+  margin-left: 50px;
+}
+
+.deleteProcessVersion {
+  width: auto !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  background-color: #035397 !important;
+}
+
+.deleteAllVersionNote {
+  width: 402px !important;
+  height: 45px !important;
+  border: 1px solid #d53d3d !important;
+  background: #d53d3d3d 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  font-size: 12px !important;
+  text-align: center !important;
+  margin-left: 10px !important;
+}
+
+.processVersionToDelete {
+  font-size: 12px !important;
+  margin: 5px 0px !important;
+  padding: 10px !important;
+}
+
+.cancelButton {
+  width: 50px !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  margin-right: 10px !important;
+  background-color: white !important;
+}
+
+.deleteAllVersions {
+  border: 1px solid #338ed1 !important;
+  color: #338ed1 !important;
+  background-color: white !important;
+  width: 130px !important;
+  height: 27px !important;
+  font-size: 11px !important;
+  text-transform: none !important;
+  margin-right: 6px !important;
+}
+
+.deleteFromServerModal {
+  background-color: white;
+  height: 280px;
+  width: 422px;
+}
+
+.processVersionServer {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.commentHeadServer {
+  font-size: 12px;
+  padding: 15px 7px 7px 7px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.deleteButtonsDiv {
+  background-color: #f5f5f5 !important;
+  text-align: right !important;
+  padding: 10px !important;
+  margin-top: 14px !important;
+}
+
+.MuiDrawer-paperAnchorBottom {
+  left: 85px !important;
+}
+
+.versionCss {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Changes made to make Process Report Screen Responsive */
+@media screen and (min-width: 1150px) {
+  .processHeaderReport {
+    width: 518px;
+    height: 396px;
+    left: 30%;
+    top: 20%;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+  .processHeaderReport {
+    width: 518px;
+    height: 396px;
+    left: 25%;
+    top: 20%;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .processHeaderReport {
+    width: 518px;
+    height: 396px;
+    left: 15%;
+    top: 20%;
+    padding: 0;
+  }
+}

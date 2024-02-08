@@ -1,0 +1,238 @@
+.tableAliasName {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 11px 28px 20px 0px;
+}
+
+.tableAliasNameInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 8px 20px 0px;
+  width: 229px;
+  padding: 6px;
+  height: 28px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.tableName {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 11px 18px 20px 0px;
+}
+
+.tableNameInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 8px 20px 0px;
+  width: 229px;
+  padding: 6px;
+  height: 28px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.existingTableButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 4px;
+  height: 28px;
+  opacity: 1;
+  margin: 9px 20px 20px 0px;
+}
+
+.headersDiv {
+  display: flex;
+  flex-direction: row;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 32px;
+  width: 1196px;
+  margin-right: 10px;
+}
+
+.aliasName {
+  margin: 5px 39px 7px 0px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.type {
+  margin: 5px 165px 7px 0px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataField {
+  margin: 5px 156px 7px 0px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.role {
+  margin: 5px 126px 7px 0px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.addVariable {
+  cursor: pointer;
+  padding: 4px;
+  height: 25px;
+  margin-top: 4px;
+  margin-left: 8px;
+  margin-right: auto;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 2px solid #0072c6 !important;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.mandatoryFields {
+  height: 92px;
+  width: 1196px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.aliasNameDataInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 39px 7px 0px;
+  padding: 6px;
+  width: 191px;
+  height: 28px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.typeDataInput {
+  margin: 12px 41px 7px 0px;
+  width: 126px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataFieldInput {
+  margin: 12px 52px 7px 0px;
+  width: 159px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 0px 2px;
+}
+
+.tagsDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 9px 30px 5px 0px;
+}
+
+.tagDiv {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.autoIncrementId {
+  background: #ececec 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  margin-left: 5px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  height: 28px;
+}
+
+.variableDropdown {
+  margin: 9px 34px 7px 0px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 126px;
+  height: 28px;
+  text-align: right;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataFieldInputField {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 59px 7px 0px;
+  width: 159px;
+  padding: 6px;
+  height: 28px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.deleteIcon {
+  float: left;
+  color: grey;
+  margin: 0.809rem 34.125rem 0.875rem 1.188rem;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.removePrimaryKeyIcon {
+  cursor: pointer;
+  margin: 2px 0px 2px 2px;
+}

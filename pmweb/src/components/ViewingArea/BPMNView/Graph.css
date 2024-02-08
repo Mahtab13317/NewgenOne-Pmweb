@@ -1,0 +1,176 @@
+.Graph {
+  /*height and width are set according to canvas width of graph in bpmn*/
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  grid-template-areas: "grid";
+}
+
+.Grid {
+  position: relative;
+  height: inherit;
+  direction: ltr;
+  outline: 0;
+}
+
+.Grid svg {
+  position: absolute;
+  z-index: 1;
+  overflow: scroll;
+}
+
+/*added on 17/10/23 for BugId 138903*/
+.bpmnView {
+  width: 93.6vw;
+  height: calc(100vh - 14.5rem);
+}
+
+.bpmnDrawerWidth {
+  width: 64vw;
+  height: calc(100vh - 14.5rem);
+}
+
+.bpmnViewExpanded {
+  height: calc(100vh - 14.5rem);
+  width: 80.1vw;
+}
+
+.bpmnView::-webkit-scrollbar,
+.bpmnViewExpanded::-webkit-scrollbar,
+.bpmnDrawerWidth::-webkit-scrollbar {
+  background-color: #eceff1;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.bpmnView::-webkit-scrollbar-thumb,
+.bpmnViewExpanded::-webkit-scrollbar-thumb,
+.bpmnDrawerWidth::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem;
+}
+.bpmnView:hover::-webkit-scrollbar,
+.bpmnViewExpanded:hover::-webkit-scrollbar,
+.bpmnDrawerWidth:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+/*till here BugId 138903*/
+
+.propertiesButton_bpmn {
+  z-index: 10;
+  height: 30px;
+  width: 7vw;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  position: absolute;
+  top: 9rem;
+  right: -3.25rem;
+  transform: rotate(90deg);
+}
+
+.propertiesButton_abstract {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.25vw;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  position: absolute;
+  top: 9rem;
+  right: -2.75rem;
+  transform: rotate(90deg);
+}
+
+.propertiesButtonArabic_abstract {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  grid-gap: 0.25vw;
+  gap: 0.25vw;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  position: absolute;
+  top: 9rem;
+  left: -1.75rem;
+  transform: rotate(270deg);
+}
+
+.stopIcon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 1.25rem;
+  aspect-ratio: 1;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.mxPopupMenu {
+  position: absolute;
+  z-index: 200;
+}
+
+.mxPopupMenu table {
+  border: 1px solid #dadada;
+  box-shadow: 0px 3px 6px #dadada;
+  border-radius: 2px;
+  background: white;
+  flex-wrap: wrap;
+  cursor: pointer;
+  justify-content: center;
+  padding: 0.25rem 0.5vw;
+  width: 10vw;
+  font-size: 12px;
+  color: #000000;
+}
+
+.disabledPropertiesBtn {
+  color: gray;
+  opacity: 0.8;
+}
+
+#graph
+  input:not([type="button"]):not([type="submit"]):not(
+    [readonly="readonly"]
+  ):not([type="checkbox"]):focus {
+  border: 1px solid #d7d7d7 !important;
+  box-shadow: none !important;
+}
+
+#commentDiv:after {
+  position: absolute;
+  bottom: -3px;
+  left: 75%;
+  margin-left: -10px;
+  content: "";
+  display: block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}
+
+div.mxTooltip {
+  box-shadow: 3px 3px 12px #c0c0c0;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-family: Arial;
+  font-size: 8pt;
+  position: absolute;
+  cursor: default;
+  padding: 4px;
+  color: black;
+}
+
+.mxCellEditor {
+  line-height: 1 !important;
+  height: 25px !important;
+}

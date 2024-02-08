@@ -1,0 +1,135 @@
+.listHeading {
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: black;
+    text-align: right;
+  }
+  
+  .webS_radioDiv {
+    display: flex;
+    flex-direction: row !important;
+    margin-bottom: 0.5rem;
+    align-items: center !important;
+  }
+  
+  .webS_radioButton {
+    margin-left: 1vw !important;
+    margin-right: 0rem !important;
+  }
+  
+  .webS_radioButton span {
+    text-align: right;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+  }
+  
+  .webS_radioButton span:first-child {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0 0 0.25vw;
+  }
+  
+  .webS_radioButton svg {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .webSHeadLabel {
+    color: #606060;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font: normal normal 600 12px/17px Open Sans;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+  }
+  
+  .webSLabel {
+    color: #606060;
+    font: normal normal normal 12px/17px Open Sans;
+    display: block;
+    text-align: right;
+    letter-spacing: 0px;
+    margin-bottom: 0.25rem;
+  }
+  
+  .webSSelect {
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: right;
+    font: normal normal normal 12px/17px Open Sans !important;
+    letter-spacing: 0px;
+    color: #000;
+    margin: 0rem 0 1rem;
+    display: block;
+    padding: 0.125rem !important;
+    width: 25vw;
+    height: 1.5rem;
+  }
+  
+  .webSDropdownData {
+    padding: 0.125rem 0.5rem !important;
+    width: 25vw;
+    text-align: right;
+    font: normal normal normal 12px/17px Open Sans !important;
+    letter-spacing: 0px;
+    color: #000;
+  }
+  
+  .PA_tableHeader {
+    display: flex;
+    padding: 0.5rem 2vw;
+    text-align: right;
+    font: normal normal 600 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 100%;
+    gap: 1vw;
+    align-items: center;
+  }
+  
+  .PA_tableRow {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    padding: 0.5rem 2vw;
+    text-align: right;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 100%;
+    border: 0.25px solid #c4c4c4;
+  }
+  
+  .starIcon {
+    color: red;
+    margin-right: 0.25vw;
+    font-size: 0.75rem;
+  }
+  
+  .subMainOneTabStyle {
+    font: normal normal normal 14px/19px Open Sans !important;
+    letter-spacing: 0px !important;
+    margin: 0 !important;
+    margin-left: 1.5vw !important;
+    margin-bottom: 0.75rem !important;
+    text-transform: capitalize !important;
+    min-height: 1.5rem !important;
+  }
+  
+  .mr1 {
+    margin-left: 1.25vw;
+  }
+  
+  .footer {
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #f8f8f8;
+    width: 100%;
+    display: flex;
+    gap: 1vw;
+    justify-content: start;
+    padding: 0.75rem 1vw;
+  }
+  

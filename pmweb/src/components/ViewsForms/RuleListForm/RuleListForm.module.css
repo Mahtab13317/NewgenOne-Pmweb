@@ -1,0 +1,200 @@
+.mainDiv {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  /* commented on 30/05/2023 for BugId 127019*/
+  /* margin-left: 0.625rem; */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1vw;
+  font-size: var(--title_text_font_size);
+  font-weight: 600;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  padding: 0.5rem 0.5vw;
+  margin: 0;
+  min-height: 2rem;
+}
+.dropdown {
+    /* modified on 17-01-2024 for bug_id: 142344 */
+  /* width: 11vw; */
+  width: 15vw;
+  /* till here for bug_id: 142344 */
+  /* height: 1.9rem; */ /*Bug 122787 [22-02-2023] Removed the height*/
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-inline-end: 1vw;
+}
+.errorDropdown {
+  width: 11vw;
+  /* height: 1.9rem; */ /*Bug 122787 [22-02-2023] Removed the height*/
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-inline-end: 1vw;
+  border-color: red;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-inline: 1vw;
+}
+.rulesListDiv {
+   /* added on 28-9-2023 for bug_id: 138220 */
+  width: 20%;
+  /* height: 100%; */
+  /* changes on 18-10-2023 to resolve the bug Id 139779 */
+  height: 86%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.rulesListDiv::-webkit-scrollbar {
+  width: 0.375rem !important;
+  height: 0.6rem !important;
+}
+.rulesListDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+.rulesDescDiv {
+  /* added on 28-9-2023 for bug_id: 138220 */
+  width: 80%; 
+  height: 100%;
+  overflow-y: hidden;
+  display: flex;
+  /* align-items: center;
+    justify-content: space-between; */
+  flex-direction: column;
+}
+.select {
+  width: 20%;
+  height: 2.5rem !important; /*Bug 122787 [22-02-2023] Increased the height (1.9rem to 2.5rem) to match the dropdown*/
+  margin-inline-end: 6px;
+}
+.errorSelect {
+  width: 20%;
+  height: 2.5rem !important; /*Bug 122787 [22-02-2023] Increased the height(1.9rem to 2.5rem) to match the dropdown*/
+  margin-inline-end: 6px;
+  border-color: red !important;
+}
+.labelForm {
+  /* color: #727272; */
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.noRuleDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.deleteIcon {
+  color: grey;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.formDiv {
+  /*width: 50%;*/
+  /* Changes made to solve Bug 126273 */
+  overflow-y: auto;
+  height: 150px;
+}
+.formDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+.formDiv::-webkit-scrollbar {
+  width: 0.375rem !important;
+  height: 0.6rem !important;
+}
+.errMsg {
+  font-size: var(--base_text_font_size);
+  color: red;
+  margin-inline: 0.9rem;
+}
+
+.ruleConditionDiv {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  /* Changes made to solve Bug 126273 */
+  overflow: auto;
+}
+.ruleConditionDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+.ruleConditionDiv::-webkit-scrollbar {
+  width: 0.375rem !important;
+  height: 0.6rem !important;
+}
+
+.starIcon {
+  color: rgb(181, 42, 42);
+  margin-inline-start: 0.25vw;
+  font-size: 1rem;
+}
+
+.emptyStateMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.emptyStateImage {
+  width: 9rem;
+  height: 9rem;
+}
+
+.emptyStateHeading {
+  margin-top: 0.5rem;
+  text-align: center;
+  letter-spacing: 0rem;
+  color: #000000;
+  font-weight: 600;
+  font-size: var(--title_text_font_size);
+}
+
+.emptyStateText {
+  margin-top: 0.375rem !important;
+  text-align: center;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+}

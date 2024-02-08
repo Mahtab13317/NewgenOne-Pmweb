@@ -1,0 +1,63 @@
+.variableName {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 18%;
+}
+
+.dataType {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  width: 25%;
+}
+
+.variableLength {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  width: 15%;
+}
+
+.iconDiv {
+  width: 3%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.variableNameData {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 18%;
+}
+
+.dataTypeValue {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  width: 25%;
+}
+
+.variableLengthData {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  width: 15%;
+}
+
+.paramCount {
+  text-align: right;
+  font: italic normal normal 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #727272;
+  margin-left: 1vw;
+  cursor: pointer;
+}

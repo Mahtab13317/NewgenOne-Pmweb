@@ -1,0 +1,25 @@
+#receive_Radio_replyImmediate,
+#receive_Radio_replyAfterCompletion {
+  height: 32px;
+}
+
+#replyType_activitiesList {
+  width: 100%;
+  margin-block: 0.2rem !important;
+}
+
+#reply_activityName {
+  margin-inline: 0.4rem;
+  font: 0.8rem Open Sans;
+}
+
+.receive_select {
+  width: 282px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}

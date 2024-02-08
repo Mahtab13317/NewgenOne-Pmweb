@@ -1,0 +1,360 @@
+/*code edited on 2 Dec 2022 for BugId 120004, BugId 114844*/
+/*code edited on 27 Dec 2022 for BugId 120818 */
+/*code edited on 09 June 2023 for BugId 130005 */
+/*code edited on 05 July 2023 for BugId 130137 */
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*height: 36.125rem;*/
+  height: 70vh; /*Modified  on 14/08/2023, bug_id:131172 */
+  overflow-y: auto;
+  font-family: var(--font_family);
+  border: 1px solid #c4c4c4;
+  width: 81vw;
+  position: relative;
+  /*overflow-x: hidden;*/
+  overflow-x: auto;
+}
+
+.leftPanel {
+  flex: 1 1 auto;
+  border-right: 1px solid #c4c4c4;
+  width: 25%;
+}
+.rightPanel {
+  flex: 3 1 auto;
+  width: 75%;
+}
+.leftHeadSection,
+.rightHeadSection {
+  border-bottom: 1px solid #c4c4c4;
+  height: 7.5rem;
+  padding: 0.5rem 0.75vw;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+.variableHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+  height: var(--line_height);
+}
+.rightsHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.75vw 1rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+.heading {
+  font-size: var(--title_text_font_size);
+  font-family: var(--font_family);
+  font-weight: 600;
+}
+.showCount {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+  font-family: var(--font_family);
+  display: flex;
+  align-items: center;
+  gap: 0.25vw;
+}
+.showCountRight {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+  flex-grow: 0.5;
+  font-family: var(--font_family);
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+.row {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+.variableSection {
+  margin-top: 0.5rem;
+}
+.varibleList {
+  padding: 0.25rem 0.75vw;
+  height: 5.5rem;
+  border-bottom: 1px solid #c4c4c4;
+}
+.varTitle {
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+  font-family: var(--font_family);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.actTitle {
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+  font-family: var(--font_family);
+  padding-inline-start: 1rem;
+}
+.switch {
+  font-size: var(--base_text_font_size);
+  color: #606060;
+  display: none !important;
+}
+
+.rightsActivities {
+  display: flex;
+  /* width: 60vw;*/
+  /*width: 100vw;*/
+}
+.actColumn {
+  display: flex;
+  flex-direction: column;
+  /*width: 25%;*/
+  min-width: 190px;
+  /*code changes for bug id 136739
+  border-right:1px solid #c4c4c4;
+  */
+  border-inline-end: 1px solid #c4c4c4;
+}
+
+.actItem {
+  width: 100%;
+  border-bottom: 1px solid #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+  font-family: var(--font_family);
+  height: 3.25rem;
+  display: flex;
+  /* padding: 0.25rem 0.75vw 0.25rem;*/
+  padding: 0.15rem 0.75vw 0.25rem;
+  align-items: center;
+  position: sticky;
+  top: 4.2rem;
+  z-index: 1;
+  background: white;
+  gap: 0.25vw;
+}
+
+.checkGroup {
+  margin-top: 0.25rem;
+}
+
+.rightsCheck {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+  padding: 0 !important;
+}
+
+.rightsCheck span:first-child {
+  height: 1rem;
+  margin: 0;
+}
+
+.rightsCheck svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.rightsCheck span {
+  text-align: start;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  padding-inline-start: 2px;
+}
+.actRights {
+  padding: 1.7rem 0.75vw 1rem;
+  height: 5.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid #c4c4c4;
+  font-family: var(--font_family);
+}
+
+/* Bug 121583 - Safari browser>>Data model>> footer of save and discard button is distorted 
+[01-04-2023] Added mainDiv*/
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 81vw;
+}
+
+.footer {
+  /* Bug 121583 - Safari browser>>Data model>> footer of save and discard button is distorted 
+  /* width: 81vw;
+  position: fixed;
+  top: 47rem;
+  right: 1vw; */
+  width: inherit;
+  border: 1px solid #c4c4c4;
+  background: #f8f8f8;
+}
+.btnList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.25rem 0;
+  padding-inline-end: 1.5rem;
+}
+
+.arrow {
+  height: 12px !important;
+  width: 12px !important;
+  cursor: pointer;
+}
+
+/*@media screen and (min-width: 999px) and (max-width: 1475px) {
+}*/
+
+@media screen and (min-width: 600px) and (max-width: 783px) {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 70vh; /*Modified  on 14/08/2023, bug_id:131172 */
+    overflow-y: auto;
+    font-family: var(--font_family);
+    border: 1px solid #c4c4c4;
+    width: 81vw;
+    position: relative;
+    overflow-x: auto;
+  }
+  .rightsActivities {
+    display: flex;
+    /*width: 120vw;*/
+  }
+  .actColumn {
+    display: flex;
+    flex-direction: column;
+    /*width: 24%;*/
+    min-width: 190px;
+    border-right: 1px solid #c4c4c4;
+  }
+  .leftPanel {
+    flex: 1 1 auto;
+    border-right: 1px solid #c4c4c4;
+    width: 35%;
+  }
+  .rightPanel {
+    flex: 3 1 auto;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 783px) and (max-width: 999px) {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 70vh; /*Modified  on 14/08/2023, bug_id:131172 */
+    overflow-y: auto;
+    font-family: var(--font_family);
+    border: 1px solid #c4c4c4;
+    width: 81vw;
+    position: relative;
+    overflow-x: auto;
+  }
+  .rightsActivities {
+    display: flex;
+    /*width: 100vw;*/
+  }
+  .actColumn {
+    display: flex;
+    flex-direction: column;
+    /*width: 20%;*/
+    min-width: 190px;
+    border-right: 1px solid #c4c4c4;
+  }
+  .leftPanel {
+    flex: 1 1 auto;
+    border-right: 1px solid #c4c4c4;
+    width: 35%;
+  }
+  .rightPanel {
+    flex: 3 1 auto;
+    width: 65%;
+  }
+}
+@media screen and (min-width: 999px) and (max-width: 1280px) {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*height: 70vh; Modified  on 14/08/2023, bug_id:131172 */
+    height: 60vh; /*Modified  on 14/08/2023, bug_id:140298 */
+
+    overflow-y: auto;
+    font-family: var(--font_family);
+    border: 1px solid #c4c4c4;
+    width: 81vw;
+    position: relative;
+    overflow-x: auto;
+  }
+  .rightsActivities {
+    display: flex;
+    /* width: 82vw;*/
+  }
+  .actColumn {
+    display: flex;
+    flex-direction: column;
+    /*width: 20%;*/
+    min-width: 190px;
+    border-right: 1px solid #c4c4c4;
+  }
+  .leftPanel {
+    flex: 1 1 auto;
+    border-right: 1px solid #c4c4c4;
+    width: 35%;
+  }
+  .rightPanel {
+    flex: 3 1 auto;
+    width: 65%;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1475px) {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 70vh; /*Modified  on 14/08/2023, bug_id:131172 */
+    overflow-y: auto;
+    font-family: var(--font_family);
+    border: 1px solid #c4c4c4;
+    width: 81vw;
+    position: relative;
+    overflow-x: auto;
+  }
+  .rightsActivities {
+    display: flex;
+    /* width: 75vw;*/
+  }
+  .actColumn {
+    display: flex;
+    flex-direction: column;
+    /*width: 20%;*/
+    min-width: 190px;
+    border-right: 1px solid #c4c4c4;
+  }
+  .leftPanel {
+    flex: 1 1 auto;
+    border-right: 1px solid #c4c4c4;
+    width: 35%;
+  }
+
+  /* Changes made to solve Bug 139487 */
+  .leftPanelArabic {
+    flex: 1 1 auto;
+    border-left: 1px solid #c4c4c4;
+    width: 35%;
+  }
+  /* till here dated 20thOct */
+  .rightPanel {
+    flex: 3 1 auto;
+    width: 65%;
+  }
+}

@@ -1,0 +1,55 @@
+.showRedBorder {
+  border: 1px solid red !important;
+}
+
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 24px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+/* code edited on 13 April 2023 for BugId 126811 */
+.selectConstInput {
+  position: absolute;
+  width: 70%; /*Modified on 04/10/2023, bug_id:136533*/
+  height: 2.333rem !important;
+  top: 1px; /*top set to 1px, for entry rule screen*/
+  left: 15%; /*Modified on 04/10/2023, bug_id:136533*/
+  z-index: 100;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: none;
+}
+
+/*Modified on 04/10/2023, bug_id:136533*/
+.selectConstInputAr {
+  position: absolute;
+  width: 70%;
+  height: 2.333rem !important;
+  top: 1px; /*top set to 1px, for entry rule screen*/
+  right: 15%;
+  z-index: 100;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: none;
+}
+
+.selectConstInput:disabled,
+.selectConstInputAr:disabled {
+  background: none !important;
+  border: none !important;
+}
+
+.constantIcon {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  position: absolute;
+  top: 0;
+  margin: 0.25rem 0.25rem;
+  padding: 0.25rem 0;
+  width: 12%; /*Modified on 04/10/2023, bug_id:136533*/
+  z-index: 10;
+  text-align: center;
+  background: #e5e5e5;
+}

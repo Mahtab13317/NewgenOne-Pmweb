@@ -1,0 +1,65 @@
+.sortBy {
+  list-style-type: none;
+  padding: 0.25rem 0;
+}
+
+.sortByPara {
+  padding: 0px 20px;
+  font-size: 11px;
+  color: #606060;
+  margin-bottom: 0.25rem;
+}
+.sortByPara_arabic {
+  margin-bottom: 0.25rem;
+  padding: 0px 20px;
+  font-size: 11px;
+  color: #606060;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#sortByDiv {
+  display: flex;
+  padding: 0px 3px;
+  height: 1.75rem;
+}
+#sortByDiv_arabic {
+  justify-content: flex-start;
+  display: flex;
+  padding: 0px 19px;
+  height: 1.75rem;
+}
+.tickIcon {
+  width: 15px !important;
+  height: 15px !important;
+  color: var(--checkbox_color);
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.emptyCheck {
+  width: 15px !important;
+  height: 15px !important;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.tickIcon_arabic {
+  position: absolute;
+  right: 2px;
+  width: 15px !important;
+  height: 15px !important;
+  color: var(--checkbox_color);
+  margin-top: 8px;
+}
+.oneSortOption_arabic {
+  margin-right: 2px;
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.oneSortOption {
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  margin-top: 2px;
+  cursor: pointer;
+}

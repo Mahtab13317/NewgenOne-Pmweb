@@ -1,0 +1,334 @@
+.mileDeleteIcon {
+  height: 14px;
+  width: 14px;
+  /* margin-right: 5px; */
+  margin-top: 7%;
+  margin-left: 2%;
+}
+
+.mileDiv {
+  margin-left: 1.5rem;
+  height: max-content;
+  /* margin-top: 10px; */
+}
+
+.mileDivSelected {
+  background: #e6e6e6;
+  margin-left: 1.5rem;
+  height: max-content;
+  /* margin-top: 10px; */
+}
+
+.mileDivSelected .milestoneArrow,
+.mileDivSelected .milestoneArrowEnd,
+.mileDivSelected .milestoneArrowFull {
+  width: 23rem;
+  height: 36px;
+  background: #efefef;
+  border-top: 2px solid var(--brand_color2);
+  border-bottom: 2px solid var(--brand_color2);
+  border-left: 0;
+  border-right: 0;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-right: 5%;
+}
+
+.milestonePosition {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  align-items: center;
+  height: 100%;
+}
+
+.milestoneArrow,
+.milestoneArrowEnd {
+  width: 23rem;
+  height: 36px;
+  background: #efefef;
+  border-top: 1px solid #a8a8a8;
+  border-bottom: 1px solid #a8a8a8;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-right: 5%;
+}
+.milestoneArrow:after,
+.milestoneArrowEnd:after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+.milestoneArrow:before,
+.milestoneArrowEnd:before {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.milestoneArrowFull {
+  width: 23rem;
+  height: 36px;
+  position: relative;
+  background: #efefef;
+  border: 1px solid #a8a8a8;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.milestoneArrowFull:after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+.milestoneArrowFull:before {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.milestoneInput {
+  background-color: transparent;
+  color: black;
+  border: none;
+  width: 80%;
+  height: 80%;
+  padding: 0 0.5rem !important;
+  display: flex;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family) !important;
+}
+
+input:focus {
+  outline: none;
+}
+.milestoneInput::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: small;
+}
+.mileIdNo {
+  margin: 4%;
+  margin-top: 0.75rem;
+  height: 1.6rem;
+  margin-right: 2%;
+  font: normal normal 600 14px/17px Open Sans;
+}
+
+.addBetween {
+  display: none;
+  border: none;
+}
+.milestoneArrowFull:hover .addBetween,
+.milestoneArrow:hover .addBetween {
+  display: block;
+}
+.milestoneArrowEnd:hover .addBetween {
+  display: none;
+}
+
+.dragIconHandle {
+  height: 1.75rem;
+  text-align: center;
+  width: 1.75rem;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+}
+
+.mileIndexDiv {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  width: 1.75rem;
+  height: 1.5rem;
+  padding-left: 0.25vw;
+}
+
+.addIcon {
+  position: absolute;
+  top: 7px;
+  z-index: 2;
+  right: -4px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 1px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  outline: 0;
+}
+
+.mileDivSelected .addIcon {
+  top: 6px;
+  right: -3px;
+}
+
+.mileDiv .spaceAfterMile {
+  height: 4px;
+  background: transparent;
+  position: sticky;
+  margin-top: 1px;
+}
+
+.mileDivSelected .spaceAfterMile {
+  height: 4px;
+  background: #e6e6e6;
+  position: sticky;
+  margin-top: 2px;
+}
+
+.beforeDiv {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: -1px;
+  width: 0;
+  z-index: -1;
+  border-left: 15px solid #a8a8a8;
+  border-top: 19px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.afterDiv {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-left: 14px solid #a8a8a8;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.mileDivSelected .milestoneArrow:before,
+.mileDivSelected .milestoneArrowEnd:before,
+.mileDivSelected .milestoneArrowFull:before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 1px;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 11px solid #efefef;
+  border-top: 16px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.mileDivSelected .milestoneArrow:after,
+.mileDivSelected .milestoneArrowEnd:after,
+.mileDivSelected .milestoneArrowFull:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 1px;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-left: 13px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.mileDivSelected .beforeDiv {
+  content: "";
+  position: absolute;
+  right: -13.5px;
+  bottom: -2.5px;
+  width: 0;
+  z-index: -1;
+  border-left: 14px solid var(--brand_color2);
+  border-top: 20px solid transparent;
+  border-bottom: 19px solid transparent;
+}
+
+.mileDivSelected .afterDiv {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -2.5px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-left: 16px solid var(--brand_color2);
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+}
+
+.milestoneInput:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#dropdownError
+  input:not([type="button"]):not([type="submit"]):not(
+    [readonly="readonly"]
+  ):not([type="checkbox"]):focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.modalPaperMile {
+  margin-top: -6px;
+  margin-left: 6px;
+  position: absolute;
+  width: 10vw !important;
+  z-index: 500;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+}
+
+.threeDotsButtonMile {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.mileDivSelected .threeDotsButtonMile {
+  margin-top: 9px;
+}
+
+.threeDotsButtonMile:focus-visible {
+  outline: 2px solid var(--button_color);
+  border: none !important;
+}

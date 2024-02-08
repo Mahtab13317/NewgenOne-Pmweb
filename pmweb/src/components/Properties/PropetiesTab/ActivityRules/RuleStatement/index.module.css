@@ -1,0 +1,12 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.ruleStatementDiv {
+  width: 100%;
+}
+
+.ruleOrderNo {
+  margin-inline-end: 0.5vw;
+}

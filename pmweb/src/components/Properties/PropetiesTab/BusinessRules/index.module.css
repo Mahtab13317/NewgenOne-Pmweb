@@ -1,0 +1,34 @@
+.iconDimensions {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  cursor: pointer;
+}
+
+.deleteIconColor {
+  color: #d53d3d;
+}
+
+.radioButton {
+  font-family: var(--font_family);
+  color: #727272;
+  font-size: var(--base_text_font_size);
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.radioBtnRoot {
+  margin-inline-start: -0.5vw;
+  margin-inline-end: 1vw;
+}
+
+.menuItem {
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  justify-content: start;
+}
+
+.menuItemArabic {
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  justify-content: end;
+}

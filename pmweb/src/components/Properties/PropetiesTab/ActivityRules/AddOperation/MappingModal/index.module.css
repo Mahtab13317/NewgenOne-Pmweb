@@ -1,0 +1,91 @@
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainDiv {
+  height: 100%;
+}
+
+.mappingModalHeader {
+  align-items: center;
+  padding: 1rem 1.5vw;
+  justify-content: space-between;
+}
+
+.parameterMappingHeading {
+  color: black;
+  font: normal normal 600 var(--title_text_font_size) / 1.375rem
+    var(--font_family) !important;
+  opacity: 1;
+}
+
+.noForwardMappingText {
+  color: black;
+  font: normal normal 500 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family) !important;
+  opacity: 1;
+  margin: 16px 0px 8px 20px;
+}
+
+.dataModelTabHeader {
+  min-height: 3rem;
+}
+
+.dataModelTab {
+  padding: 0.125rem 0.25rem !important;
+  font: normal normal 600 var(--base_text_font_size) / 19px var(--font_family) !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  margin: 0.125rem 0 !important;
+  min-height: 3rem;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #707070;
+}
+
+.buttonsDiv {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: auto;
+  padding-left: 1vw;
+}
+
+.cancelButton {
+  letter-spacing: 0px;
+  border-radius: 2px;
+  background: white 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  color: #000000;
+  cursor: pointer;
+  text-align: center;
+}
+
+.saveButton {
+  letter-spacing: 0px;
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

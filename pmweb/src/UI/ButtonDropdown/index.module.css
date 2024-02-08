@@ -1,0 +1,49 @@
+.buttonDropdown {
+  position: absolute;
+  top: 100%;
+  margin-top: 0.25rem;
+  left: 0;
+  width: 14vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000003b;
+  z-index: 2;
+  max-height: 10rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.buttonDropdown::-webkit-scrollbar {
+  background-color: white;
+  width: 0.25rem;
+  height: 10px;
+}
+
+.buttonDropdown::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 0.313rem;
+}
+
+.buttonDropdown:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.25rem;
+  height: 10px;
+}
+.buttonDropdown:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+
+.buttonDropdownData {
+  padding: 0.25rem 0.5rem !important;
+  width: 100%;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.buttonDropdownData:hover {
+  background: rgba(0, 0, 0, 0.04);
+}

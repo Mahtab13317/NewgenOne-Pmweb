@@ -1,0 +1,136 @@
+.margin1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.margin11 {
+  margin-bottom: 1rem;
+}
+
+.nameAndDesc {
+  text-align: left;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.projectPropertiesLabel {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  /* color: #798777; */
+  color: #606060;
+  /* flex: 1; */
+}
+
+.projectPropertiesValue {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 4;
+  padding-inline-start: 10px;
+}
+
+.projectPropertiesSubValue {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 1.6;
+}
+
+.footerProjectProperties {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  margin: 0 1vw;
+  padding: 0.5rem 1vw;
+  justify-content: end;
+}
+
+.createProperties {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  padding: 0px 15px;
+  min-width: 3vw; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  font: normal normal 600 12px/17px Open Sans;
+}
+
+.upperSection {
+  margin: 10px 0px;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.lowerSection {
+  margin: 10px 0px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.upperSubSection,
+.lowerSubSection {
+  font-size: 12px;
+}
+
+/*Bug 117963 [23-02-2023] */
+.bottomSection {
+  /*code edited because save changes button is not visible with these values/margins*/
+  /* margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+  padding-bottom: 1.5rem; */
+  margin-top: 3rem;
+}
+
+.contentArea {
+  width: 50%;
+  margin: 0.5rem 0.75vw 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contentArea {
+    width: 75%;
+    margin: 0.5rem 0.75vw 0;
+  }
+}
+
+.sortModal:focus-visible{
+  border: 2px solid var(--brand_color1) !important;
+  border-radius: 2px;
+  
+}
+/* changes added for bug_id: 134226 */
+.divWrapper{
+  height : 60vh;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .divWrapper {
+    height: 73vh;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+  .divWrapper {
+    height: 63vh;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+  .divWrapper {
+    height: 52vh;
+  }
+}
+ 
+
+

@@ -1,0 +1,307 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.flexStartRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.division {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.ruleStatement {
+  background-color: #0072c60f;
+  color: #000000;
+  border: 1px solid #e4e4e480;
+  border-left: 5px solid var(--brand_color2);
+  min-height: 3.5rem !important;
+  padding: 0.5rem 0.5vw;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  width: 96%;
+}
+
+.ruleScreen {
+  display: flex;
+  height: 61vh;
+  max-height: 61vh;
+  background-color: white;
+  width: 100%;
+}
+
+.leftPanel {
+  height: 100%;
+  padding-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.rulesList {
+  overflow-y: auto;
+  height: 90%;
+}
+
+.rulesList::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  background-color: white;
+}
+
+.rulesList::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.rightPanel {
+  height: 100%;
+  padding: 0.25rem 1vw;
+}
+
+.ruleData {
+  overflow-y: auto;
+  height: 65%;
+}
+
+.ruleData::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  background-color: white;
+}
+.ruleData::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.verticalDivision {
+  border-left: 2px solid #c4c4c4;
+  height: 100%;
+}
+
+.noRuleDefined {
+  text-align: left;
+  font: normal normal normal var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0 0.5vw;
+  line-height: var(--line_height);
+}
+
+.selectedList {
+  background-color: #0072c60f;
+  color: #000000;
+  border-left: 4px solid var(--brand_color2);
+  padding-left: 10px;
+  height: 3rem;
+  padding-top: 0.7rem;
+}
+
+.restList {
+  min-height: 3.5rem;
+  padding: 0.5rem 0.5vw;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  border: 1px solid #e4e4e480;
+  padding-left: 10px;
+}
+
+.mainHeading {
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cancelHeaderBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  width: 5rem;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addHeaderBtn {
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  width: 8rem;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addRuleLocallyButton {
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.5rem 0.5vw !important;
+  padding: 0 0.75vw !important;
+  cursor: pointer;
+  margin-inline-start: auto !important;
+}
+
+.showHeading {
+  padding: 0.5rem 0;
+  display: flex;
+  text-align: left;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.showLine {
+  /* width: 60vw; */
+
+  margin-top: 0.8rem !important;
+  margin-left: 1vw !important;
+  height: 1.5px !important;
+}
+
+.addNewRule .deleteIcon {
+  font-size: 1.5rem !important;
+}
+
+.radioButton {
+  margin-bottom: 0.5rem;
+  width: fit-content;
+}
+
+.radioOption {
+  text-align: left;
+  font: normal normal normal var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  /* margin-right: 45px; */
+}
+/* @media screen and (min-width: 1200px) {
+  .buttonsDiv{
+    margin-right: 70px;
+  }
+} */
+
+.addOperationButton {
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  min-width: 8vw;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.noRulesDiv {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.noWidth {
+  width: 0%;
+}
+
+.errorStatement {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: rgb(181, 42, 42);
+  opacity: 1;
+}
+
+.errorStatementAction {
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #b52a2a;
+  margin-inline-start: 1vw;
+}
+
+.asteriskStyles {
+  height: 15px;
+  width: 15px;
+  color: red;
+}
+
+.operationsLabel {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  display: flex;
+  padding: 0rem;
+  align-items: center;
+  height: 1rem;
+  width: 11vw;
+  margin-right: 1vw;
+}
+
+.ruleConditionLabelsDiv {
+  margin-top: 0.625rem;
+}
+
+.operatorMargin {
+  margin-left: 6.375rem;
+}
+
+.valueMargin {
+  margin-left: 6.125rem;
+}
+
+.starIcon {
+  /*WCAG Color Contrast Issue: Changed color to rgb(181,42,42)*/
+  /* color: red; */
+  color: rgb(181, 42, 42);
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}

@@ -1,0 +1,238 @@
+.mainCheckbox {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 9px 16px 9px 0px !important;
+}
+
+.aliasNameHeader {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0.5rem 1vw;
+  width: 12vw;
+}
+
+.typeHeader {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0.5rem 1vw;
+  width: 10vw;
+}
+
+.dataFieldHeader {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0.5rem 1vw;
+  width: 12vw;
+}
+
+.arrayHeader {
+  text-align: right;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0.5rem 1vw;
+}
+
+.inputsDiv {
+  height: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputsSubDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.aliasNameInput {
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin: 0.5rem 1vw;
+  width: 12vw;
+  height: var(--line_height);
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.variableTypeInput {
+  /* background: #f0f0f0 0% 0% no-repeat padding-box; */
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 177px;
+  margin: 8px 10px 7px 0px;
+  height: 30px;
+  text-align: right;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.dataFieldInput {
+  /* background: #f0f0f0 0% 0% no-repeat padding-box; */
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 12vw;
+  margin: 0.5rem 1vw;
+  height: 30px;
+  text-align: right;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.arrayCheckboxInput {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 16px 65px 15px 0px !important;
+}
+
+.moreOptionsIcon {
+  margin: 14px 37px 10px 0px;
+}
+
+.buttonDiv {
+  margin-right: 5px;
+  display: flex;
+  /*flex-direction: row-reverse;*/
+  align-items: center;
+}
+
+.createVariableButton {
+  text-align: right;
+  letter-spacing: 0px;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 0.125rem solid #0072c6;
+  opacity: 1;
+  font: normal normal 600 0.75rem/1.063rem Open Sans !important;
+  color: #ffffff;
+  border-radius: 0.125rem;
+  opacity: 1;
+  padding: 0.313rem 0.5rem 1.375rem 0.5rem;
+  float: right;
+  cursor: pointer;
+  height: 1.75rem;
+  /* margin-left: auto; */
+  margin: 0.5rem 0rem 0.5625rem 0rem;
+  white-space: nowrap;
+  margin-inline-end: 1rem;
+}
+
+.dataCheckbox {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 16px 16px 15px 0px !important;
+}
+
+.aliasNameInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin: 0.5rem 1vw;
+  width: 12vw;
+  height: var(--line_height);
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.variableTypeInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 177px;
+  margin: 7px 10px 8px 0px;
+  height: 30px;
+  text-align: right;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.dataFieldInputData {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  width: 12vw;
+
+  margin: 0.5rem 1vw;
+  height: var(--line_height);
+  text-align: start;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.arrayCheckboxInputData {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 16px 65px 15px 0px !important;
+}
+
+.deleteIcon {
+  float: right;
+  color: grey;
+  margin: 0 1vw 0 1vw !important;
+
+  cursor: pointer;
+  margin-right: auto;
+
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+.infoIcon {
+  margin: 0 0.5vw 0 0;
+  color: #606060;
+  opacity: 1;
+  cursor: pointer;
+  width: 1.5rem !important;
+  height: 1.25rem !important;
+}
+
+.infoText {
+  width: 122px;
+  text-align: left;
+  font: normal normal normal 10px/14px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 9px 11px 8px 0px;
+}
+
+.closeInputStrip {
+  cursor: pointer;
+  margin: 7px 10px 8px 8px;
+  color: #707070;
+  opacity: 1;
+}

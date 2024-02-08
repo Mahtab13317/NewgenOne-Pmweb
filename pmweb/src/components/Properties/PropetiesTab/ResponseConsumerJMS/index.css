@@ -1,0 +1,65 @@
+#receive_Radio_replyImmediate,
+#receive_Radio_replyAfterCompletion {
+  height: 32px;
+}
+
+#replyType_activitiesList {
+  width: 100%;
+  margin-block: 0.2rem !important;
+}
+
+#reply_activityName {
+  margin-inline: 0.4rem;
+  font: 0.8rem Open Sans;
+}
+
+.receive_select {
+  width: 282px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.webserviceLocation {
+  width: 22vw;
+  height: var(--line_height);
+}
+
+.requestConsumerHead {
+  font-size: var(--subtitle_text_font_size);
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.xmlButtons {
+  background-color: #f5f5f5;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 3px 10px 10px;
+  width: 100%;
+  text-align: right;
+  left: 0px;
+  right: 0px;
+}
+/* ------------- */
+.selectTwo_callActivity {
+  width: 136px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.InputPairDiv_CommonList {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

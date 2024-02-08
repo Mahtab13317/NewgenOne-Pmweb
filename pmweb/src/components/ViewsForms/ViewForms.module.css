@@ -1,0 +1,49 @@
+.processSettingTab {
+  min-height: 2.5rem !important;
+  padding: 0rem !important;
+
+  font: 0.7rem "Open Sans" !important;
+  letter-spacing: 0rem !important;
+  color: rgb(0, 0, 0) !important;
+  opacity: 1;
+  margin: 0.25rem 0 !important;
+  white-space: nowrap !important;
+  font-weight: 600 !important;
+}
+
+.processSettingTab span {
+  width: auto !important;
+  text-align: left !important;
+  margin-left: 1rem !important;
+  margin-right: auto !important;
+  text-transform: none !important;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600 !important;
+  font-family: Open Sans !important;
+  /* font-size: 0.75rem !important; */
+  opacity: 1 !important;
+}
+
+.Tabs .MuiTabs-indicator {
+  background-color: red !important;
+}
+
+.workstepFormAssocTable{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 66vh;
+  padding-inline: 20px;
+  padding-top: 20px;
+  overflow: scroll;
+}
+
+.workstepFormAssocTable::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+.workstepFormAssocTable::-webkit-scrollbar {
+
+  width: 0.375rem !important;
+  height: 0.6rem !important;
+}

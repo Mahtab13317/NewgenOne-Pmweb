@@ -1,0 +1,325 @@
+.wrapperDiv {
+  width: 100vw;
+  font-family: var(--font_family);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.heading {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.toolbox {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex: 1;
+}
+.bold {
+  color: #000000;
+  letter-spacing: 0px;
+  font: normal normal 600 1rem/1.375rem Open Sans;
+  opacity: 1;
+}
+
+.generateButton {
+  background: #0072c6;
+  border-radius: 0.1875rem;
+  margin-top: 1.4rem;
+  margin-left: 1.25rem;
+  opacity: 1;
+  width: 6.375rem;
+  height: 2rem;
+  border: none;
+}
+
+.generateText {
+  font: normal normal 600 0.75rem/1.0625rem Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 4rem;
+}
+
+.toolboxHeading {
+  font: normal normal 600 0.9rem Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin-bottom: 0.2rem;
+}
+
+.tableContainer {
+  width: 100vw;
+  margin-top: 2rem;
+  overflow-y: scroll;
+  padding-left: 0.5rem;
+  height: 100%;
+  z-index: 1;
+}
+
+.tableHead {
+  background-color: #f8f8f8;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.tableHeadRTL {
+  background-color: #f8f8f8;
+  width: auto;
+  top: 0;
+  z-index: 20;
+}
+
+.queuetable {
+  font-family: var(--font_family);
+  border-collapse: collapse;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: scroll;
+  height: 80%;
+}
+.queuetable::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.queuetable::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.queuetable:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.queuetable:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.tableCellText {
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+  padding: 0;
+  color: #000000;
+}
+
+.tableRow {
+  font-family: var(--font_family);
+  background-color: #ffffff !important;
+}
+
+.tableCellBody {
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  opacity: 1;
+}
+
+.iconForProcessType {
+  margin: 7px;
+  margin-top: 6px;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.fromToCalculatorDiv {
+  width: 100px;
+  height: 28px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding-top: 3px;
+  padding-left: 9px;
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.eventIcon {
+  opacity: 0.5;
+  padding: 2px;
+  padding-top: 0px;
+}
+.calender {
+  z-index: 99999 !important;
+  background-color: white;
+}
+
+.processSettingTab {
+  min-height: 2.5rem !important;
+  padding: 0rem !important;
+
+  font: 0.7rem var(--font_family) !important;
+  letter-spacing: 0rem !important;
+  color: rgb(0, 0, 0) !important;
+  opacity: 1;
+  margin: 0.25rem 0 !important;
+  white-space: nowrap !important;
+  font-weight: 600 !important;
+}
+
+.processSettingTab span {
+  width: auto !important;
+  text-align: left !important;
+  margin-left: 1rem !important;
+  margin-right: auto !important;
+  text-transform: none !important;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600 !important;
+  font-family: Open Sans !important;
+  /* font-size: 0.75rem !important; */
+  opacity: 1 !important;
+}
+
+.taskHeading {
+  font-size: var(--subtitle_text_font_size);
+  font-weight: 600;
+}
+
+.streamListDiv {
+  height: 85%;
+  overflow: auto;
+}
+
+.waitingTextArea {
+  height: var(--line_height);
+  width: 34.5vw;
+}
+
+.emptyStateMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.emptyStateImage {
+  width: 9rem;
+  height: 9rem;
+  margin-bottom: 0.5rem;
+}
+
+.emptyStateText {
+  text-align: center;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+  margin-bottom: 1rem;
+}
+
+.addRuleLocallyButton {
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0.5vw !important;
+  padding: 0 0.75vw !important;
+  cursor: pointer;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.modalBody {
+  padding: 0.5rem 1vw;
+}
+
+.modalHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 21px
+    var(--font_family);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0 1vw !important;
+  cursor: pointer;
+  margin: 0 0.5vw 0 0 !important;
+}
+
+.okButton {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: white;
+  padding: 0 1vw !important;
+  cursor: pointer;
+  margin: 0 0.5vw 0 0 !important;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+  border-top: 1px solid #c4c4c4;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+}
+
+.mainCheckbox {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+  padding: 0 0.5vw 0 0 !important;
+}
+
+.mainCheckbox span {
+  text-align: left;
+  font: normal normal normal 11px/15px var(--font_family);
+  letter-spacing: 0px;
+  /* color: #707070; */
+}
+
+.filterBtnDisable {
+  background: #c4c4c4 !important;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: white;
+  padding: 0 1vw !important;
+  cursor: pointer;
+  margin: 0 0.5vw 0 0 !important;
+}

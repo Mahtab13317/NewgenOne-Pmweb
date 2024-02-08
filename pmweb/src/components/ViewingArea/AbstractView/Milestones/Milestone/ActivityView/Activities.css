@@ -1,0 +1,434 @@
+.logoSize {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.activityInput {
+  border: none;
+  width: 97%;
+  margin-inline-start: 0.25vw;
+  padding-inline-start: 0.25vw !important;
+  background-color: inherit;
+  height: 1.75rem;
+  font-size: var(--base_text_font_size) !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.activityInput:focus {
+  background-color: white;
+}
+
+.newActivityDiv {
+  margin-top: 2%;
+  width: 23rem;
+  height: 29px;
+  background: white;
+  border: 0.05rem dashed #dadada;
+  color: #606060;
+  font-size: var(--base_text_font_size);
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  outline: 0;
+}
+
+.newAssociatedActivityDiv {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: var(--line_height);
+  background: white;
+  border: 0.05rem dashed #dadada;
+  color: #606060;
+  font-size: var(--base_text_font_size);
+  cursor: pointer;
+  justify-content: center;
+  outline: 0;
+}
+
+.newActivityDiv:hover,
+.newAssociatedActivityDiv:hover {
+  border: 0.05rem dashed var(--button_color);
+  color: var(--button_color);
+}
+
+.outlinedCard {
+  position: relative;
+  overflow: visible !important;
+  width: 23rem;
+  border: 2px solid transparent !important;
+  background: transparent !important;
+}
+
+.activityCard {
+  border-radius: 4px;
+  padding: 0.5rem 0 0 0 !important;
+  position: relative;
+  background: white;
+}
+
+.startActivityCard {
+  border: 1px solid #448047;
+  border-inline-start: 6px solid #448047;
+}
+
+.workdeskActivityCard {
+  border: 1px solid #7642a7;
+  border-inline-start: 6px solid #7642a7;
+}
+
+.gatewayActivityCard {
+  border: 1px solid #c9c94b;
+  border-inline-start: 6px solid #c9c94b;
+}
+
+.EventActivityCard {
+  border: 1px solid #c9c94b;
+  border-inline-start: 6px solid #c9c94b;
+}
+
+.endActivityCard {
+  border: 1px solid #d30814;
+  border-inline-start: 6px solid #d30000;
+}
+
+.embActivityCard {
+  border: 1px solid #606060;
+  border-inline-start: 6px solid #606060;
+}
+
+.artefactActivityCard {
+  border: 1px solid #6e6e6e;
+  border-inline-start: 6px solid #6e6e6e;
+}
+
+.closeTile {
+  font-size: 10px;
+  margin-inline-end: 4px;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+
+.activityCardDropdown {
+  width: 100%;
+  margin-top: 2%;
+  border: none;
+  padding-bottom: 1%;
+  /* display: none; */
+}
+
+.altMilestone {
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.detectingWorkType {
+  margin: 0;
+  background-color: #e7e7e7;
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #606060;
+  font-weight: 400;
+  padding-inline-start: 20px;
+}
+
+.spinner {
+  height: 15px !important;
+  width: 15px !important;
+  margin-top: 5px !important;
+  color: grey !important;
+}
+
+.selectedActivityType {
+  /* background: #2DB11D1A 0% 0% no-repeat padding-box; */
+  border-radius: 2px;
+  opacity: 1;
+  margin-inline-end: 10px;
+  font: "OpenSans-Semibold";
+  font-size: 10px;
+  cursor: default;
+}
+
+/* .swimlaneInputBox {
+  border: none !important;
+} */
+
+.task_count_activity {
+  text-align: start;
+  font: normal normal 600 11px/15px Open Sans;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+}
+
+.task_activity {
+  text-align: start;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #462d2d;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.grey_square_activity {
+  width: 10px;
+  height: 10px;
+  background: #cccccc 0% 0% no-repeat padding-box;
+  margin-top: 3px;
+  margin-inline-end: 7px;
+}
+
+.selectedActivityType {
+  background: rgba(16, 114, 198, 0.098);
+}
+
+.workdeskType {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #767676;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-inline-start: auto;
+  font: "OpenSans-Semibold";
+  font-size: 10px;
+  margin-inline-end: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.activity_dropdown {
+  position: absolute;
+  left: 65%;
+  z-index: 1;
+  width: 180px;
+  top: 65px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  border-radius: 1px;
+}
+
+.activityDropdown_List li {
+  padding: 0.5rem;
+  height: 26px;
+  cursor: pointer;
+}
+
+.activityInnerList {
+  overflow-y: auto;
+  height: 24vh;
+  overflow-x: hidden;
+  border-top: 1px solid rgb(196, 196, 196);
+}
+
+.activityInnerList::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  background-color: white;
+}
+
+.activityInnerList::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.activityDropdown_List .mainMenuHeading {
+  padding: 0.25rem 0.5rem !important;
+  height: 24px !important;
+}
+
+.oneToolList {
+  padding: 0 !important;
+}
+.expandedIcon {
+  height: 14px !important;
+  width: 14px !important;
+  padding-top: 4px !important;
+}
+
+.SwimlaneButton {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #767676 !important;
+  font-family: var(--font_family) !important;
+  border: 0;
+  background: transparent;
+  max-width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5vw;
+}
+
+.SwimlaneButton span {
+  font-size: var(--sub_text_font_size) !important;
+  line-height: var(--line_height);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: start;
+}
+
+.swimlaneCheckbox {
+  border: none !important;
+}
+
+.swimlaneChecked {
+  background: transparent 0% 0% no-repeat padding-box !important;
+}
+
+.swimlaneCheckIcon {
+  color: var(--checkbox_color) !important;
+}
+
+.oneSortOptionActivity {
+  margin-top: 0px;
+  font-size: 12px;
+  color: #000000;
+  cursor: pointer;
+  padding-inline-start: 0.5vw;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+.sortByDivActivity {
+  display: block;
+  height: 25px;
+  width: 163px;
+  text-align: start;
+}
+
+.sortByDivActivityArabic {
+  display: block;
+  height: 25px;
+  width: 163px;
+}
+/* .dividerLineActivity{
+  margin-bottom: 5px !important;
+} */
+
+.sortByDivActivity:hover {
+  background-color: #f5f5f5;
+}
+
+.threeDotsButton {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 !important;
+}
+
+.threeDotsButton:focus-visible {
+  outline: 2px solid var(--button_color);
+  border: none !important;
+}
+
+.taskSvg:focus-visible,
+.embeddedAddBtn:focus-visible {
+  border: 2px solid var(--button_color);
+  border-radius: 2px;
+}
+
+.sortByDiv_arabicActivity {
+  padding: 0px 10px 0px 0px !important;
+}
+.oneSortOption_arabicActivity {
+  margin-top: 5px !important;
+}
+
+.dividerLine_arabicActivity {
+  margin-top: 2px !important;
+  margin-bottom: 0px !important;
+}
+
+.modalPaperActivity {
+  margin-top: -5px;
+  margin-inline-start: 10px;
+  position: absolute;
+  width: 165px !important;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+}
+
+.modalPaperActivity ul {
+  padding-top: 0px !important;
+}
+
+.dragIcon {
+  height: 1.75rem !important;
+  width: 1.75rem !important;
+}
+
+.moreVertIconDiv {
+  margin-inline-start: auto !important;
+  margin-inline-end: 0.75rem !important;
+  position: relative;
+}
+
+.cardSelected .startActivityCard {
+  background-color: #44804724;
+}
+
+.cardSelected .workdeskActivityCard {
+  background-color: #7642a724;
+}
+
+.cardSelected .gatewayActivityCard {
+  background: #c9c94b24;
+}
+
+.cardSelected .EventActivityCard {
+  background: #c9c94b24;
+}
+
+.cardSelected .endActivityCard {
+  background: #d3081424;
+}
+
+.cardSelected .artefactActivityCard {
+  background: #6e6e6e24;
+}
+.openProcessModal {
+  color: grey;
+}
+
+#activityCard #subActivityCard .MuiBox-root {
+  margin-top: 3px !important;
+}
+
+.activityMainDiv {
+  margin-top: 5px;
+}
+
+.checkedOutIcon {
+  position: absolute;
+  top: -12%;
+  left: -5%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.embeddedAddBtn {
+  color: #606060 !important;
+}
+.embeddedAddBtn:hover {
+  color: var(--link_color) !important;
+}
+
+.embeddedAddDisabledBtn {
+  color: #606060 !important;
+}

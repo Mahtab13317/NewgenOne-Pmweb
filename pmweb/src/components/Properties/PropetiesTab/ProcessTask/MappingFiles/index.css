@@ -1,0 +1,93 @@
+.forwardMVarDiv {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  height: 66vh;
+  gap: 0.75vw;
+  display: flex;
+}
+.deleteIconProcessTask.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  display: inline-block;
+
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.noMappingPresentTask {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: grey;
+  font-size: 12px;
+  /* code added on 05-10-2023 for bugId: 138138 */
+  justify-content: center; 
+  align-content: center;
+  /* till here for bugId: 138138 */
+}
+
+.noMappingPresentTaskArabic{
+  position: absolute;
+  top: 60%;
+  right: 53vw;
+  color: grey;
+  font-size: 12px;
+ /* code added on 05-10-2023 for bugId: 138138 */
+ justify-content: center; 
+ align-content: center;
+ /* till here for bugId: 138138 */
+}
+
+.noMappingPresent_expandedTask {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  color: grey;
+  font-size: 12px;
+ /* code added on 05-10-2023 for bugId: 138138 */
+ justify-content: center; 
+ align-content: center;
+ /* till here for bugId: 138138 */
+}
+
+.noSearchResultImage {
+  height: 40%;
+  /* Changes to resolve the bug ID 125561 */
+  top: 35%;
+  left: 23%;
+  position: absolute;
+}
+
+.noSearchResultImageExpanded {
+  height: 40%;
+  top: 39%;
+  left: 10%;
+  position: absolute;
+}
+
+.noVariablesPresent {
+  position: absolute;
+  top: 69%;
+  left: 30%;
+}
+
+.noSearchResultImageExpandedArabic {
+  height: 33%;
+  top: 39%;
+  right: 8%;
+  position: absolute;
+}
+
+.noVariablesPresentExpanded {
+  position: absolute;
+  top: 70%;
+  left: 11.5%;
+}
+
+.noVariablesPresentExpandedArabic {
+  position: absolute;
+  top: 70%;
+  right: 11.5%;
+}

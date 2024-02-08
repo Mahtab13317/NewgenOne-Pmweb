@@ -1,0 +1,5 @@
+.webSSelect_disabled .MuiSelect-select {
+  cursor: default !important;
+  /* background-color: #f8f8f8; */
+  color: #000000 !important;
+}

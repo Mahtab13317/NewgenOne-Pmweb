@@ -1,0 +1,125 @@
+.subDiv {
+  padding-right: 1.25rem;
+  padding-top: 13.75px;
+}
+
+.processDetails {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-right: 0.3125rem;
+}
+
+/* .ownerEmailIdInput {
+  border: 1px solid #cecece;
+  border-radius: 2px;
+  opacity: 1;
+  height: 28px;
+  width: 405px;
+  margin-top: 2px;
+  margin-left: 48px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+} */
+
+.fieldValue {
+  margin-right: 6px;
+  margin-left: 40px;
+  width: 20px;
+}
+
+.flexRow {
+  display: flex;
+  /* flex-direction: row-reverse; */
+}
+
+.footerSubDiv {
+  float: left;
+  margin-left: 20px;
+  margin-top: 11px;
+}
+
+.escalateToFieldsDropdown {
+  width: 100px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.disabledBtn {
+  background: rgba(0, 0, 0, 0.12) !important;
+  border-radius: 2px !important;
+  border: none !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  text-transform: none !important;
+  padding: 0.125rem 0.125rem !important;
+  cursor: default !important;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.turnAroundTimeInput {
+  width: 44px;
+  margin-left: 0px;
+}
+
+.providerInput {
+  margin-right: 2.25vw;
+}
+
+.inputField {
+  border-radius: 2px !important;
+  height: var(--line_height) !important;
+  width: 31.25vw !important;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.deleteIcon {
+  top: 0.5rem;
+  left: 2vw !important;
+  color: grey;
+  position: absolute;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.ownerEmailIdInput {
+  border-radius: 2px;
+  height: var(--line_height);
+  width: 30vw;
+  margin-left: 3.5vw;
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.turnaroundTimeMargin {
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal var(--base_text_font_size) / 24px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

@@ -1,0 +1,225 @@
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 1.5rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.subHeader {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 22px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.mappingInputDiv {
+  margin-top: 18px;
+}
+
+.fieldTitle {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+
+.dropdown {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 140px !important;
+  height: 28px;
+  margin-inline-end: 0.75rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+}
+
+.asterisk {
+  color: rgb(181, 42, 42);
+  margin-top: 1px;
+  margin-left: 2px;
+  font-size: 0.75rem;
+}
+
+.cancelBtn {
+  background-color: #ffffff;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  cursor: pointer;
+  height: 28px;
+  width: 60px;
+  margin-top: 17px !important;
+  border: 1px solid #c4c4c4;
+  padding: 2px;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.addBtn {
+  background: var(--button_color) 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid var(--button_color) !important;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  padding: 2px !important;
+  margin-top: 17px !important;
+  width: 40px;
+  cursor: pointer;
+}
+
+.disabledBtnStyles {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.mappingDataHeader {
+  /* height: 32px; Code commented on 25-09-23 for BugId: 138125*/
+  background-color: #f0f0f0;
+}
+
+.mappingDataEnclosingDiv {
+  height: 24vh;
+  margin-top: 26px;
+  margin-inline-end: 0.625rem;
+}
+
+.headers {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 1rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.tableContainer {
+  width: 100%;
+}
+
+.processVariablesHeaderImport {
+  /*  margin: 8px 0px 7px 16px; */
+  /* width: 100px; */
+  width: 25%;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  margin-inline-start: 16px;
+  margin-inline-end: 0px;
+}
+
+.processVariablesHeaderExport {
+  /* margin: 8px 0px 7px 59px; */
+  /* width: 100px; */
+  width: 25%;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  margin-inline-start: 16px;
+  margin-inline-end: 0px;
+}
+
+.typeHeaderImport {
+  margin: 8px 0px 7px 55px;
+  /*  width: 30px; */
+  width: 15%;
+}
+
+.typeHeaderExport {
+  margin: 8px 0px 7px 96px;
+  /*  width: 30px; */
+  width: 15%;
+}
+
+.dataExchgImport {
+  margin: 8px 0px 7px 83px;
+  /* width: 122px; */
+  width: 25%;
+}
+
+.dataExchgExport {
+  margin: 8px 0px 7px 16px;
+  /* width: 122px; */
+  width: 25%;
+}
+
+.columnsImport {
+  margin: 8px 0px 7px 62px;
+  /*  width: 55px; */
+  width: 25%;
+}
+
+.columnsExport {
+  margin: 8px 0px 7px 31px;
+  /*  width: 66px; */
+  width: 25%;
+}
+
+.action {
+  width: 10%;
+}
+
+.mappingDataDiv {
+  border: 1px solid #e4e4e480;
+  height: 40px;
+}
+
+.mappingDataMainDiv {
+  border: 1px solid #e4e4e480;
+  max-height: 19.2vh;
+  overflow-y: scroll;
+}
+
+.mappingDataMainDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+
+.mappingDataMainDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.mappingDataMainDiv:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+
+.mappingDataMainDiv:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.mappingValueDataFont {
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+}
+
+.deleteIcon {
+  color: red;
+  margin: 6px 26px 7px auto;
+  cursor: pointer;
+  height: 1.75rem !important;
+  width: 1.75rem !important;
+  /* margin-inline-start: 0.25rem; */
+}

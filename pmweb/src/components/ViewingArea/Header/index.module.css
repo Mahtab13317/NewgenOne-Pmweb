@@ -1,0 +1,8 @@
+.closeIcon {
+  float: right;
+  padding: 0px !important;
+  margin: 10px 0px 5px auto;
+  cursor: pointer;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}

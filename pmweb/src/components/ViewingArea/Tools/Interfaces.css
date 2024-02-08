@@ -1,0 +1,697 @@
+/*code changes on 3 August 2022 for BugId 112560*/
+/*code updated on 23 Dec 2022 for BugId 113923*/
+.DocTypes {
+  display: flex;
+  height: 81vh;
+  max-height: 81vh;
+  background-color: white;
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  .DocTypes {
+    height: 65vh;
+  }
+}
+
+.DocTypes .MuiSvgIcon-root {
+  font-size: 1rem !important;
+}
+
+.DocTypes .MuiFormControlLabel-root span {
+  font-size: var(--base_text_font_size);
+  padding: 0;
+  margin: 0.125rem 0.25rem;
+}
+
+.DocTypes .oneBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 92%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.DocTypes .oneBox::-webkit-scrollbar,
+.DocTypes .oneDocBox::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 1.125rem !important;
+  height: 0.875rem !important;
+}
+.DocTypes .oneBox::-webkit-scrollbar-thumb,
+.DocTypes .oneDocBox::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+  border-radius: 0.313rem !important;
+}
+.DocTypes .oneBox:hover::-webkit-scrollbar,
+.DocTypes .oneDocBox:hover::-webkit-scrollbar {
+  width: 0.75rem !important;
+  height: 0.875rem !important;
+}
+.DocTypes .oneBox:hover::-webkit-scrollbar-thumb,
+.DocTypes .oneDocBox:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+
+.DocTypes::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 0.75rem !important;
+  height: 0.875rem !important;
+}
+.DocTypes::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+
+.DocTypes
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  text-transform: none !important;
+}
+.addDocs {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  padding: 0.625rem;
+  width: 650px;
+  height: 350px;
+  top: 15%;
+}
+
+.addToDo {
+  background-color: white;
+  /* width: 45vw; */
+  width: 60%;
+  position: absolute;
+  top: 21.5%;
+  /* left: 27.5%; */
+  left: 20%;
+  padding: 0;
+  height: auto;
+}
+
+.addDocsHeading {
+  /*font-size: 1rem;*/
+  /* font-size: var(--title_text_font_size); */
+  margin-bottom: 0.625rem;
+  /* font: normal normal 600 16px/22px Open Sans; */
+  font: normal normal 600 var(--title_text_font_size) Open Sans;
+}
+.addDocs .buttons_add .MuiButtonBase-root.MuiButton-root.MuiButton-outlined {
+  /* width: 3.8125rem !important;
+  height: 1.75rem !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 2px !important;
+  opacity: 1 !important;
+  font-size: 0.625rem;
+  text-transform: none !important;
+  margin-right: 0.4375rem;*/
+  width: 3.8125rem;
+  height: 1.75rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  font-size: 0.625rem;
+  text-transform: none;
+  margin-right: 0.4375rem;
+}
+
+.addDocs
+  .buttons_add
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  width: 5.9375rem;
+  height: 1.75rem;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  font-size: 0.625rem;
+  margin-right: 0.4375rem;
+  text-transform: none !important;
+  border-radius: 0px !important;
+}
+
+.nameInput {
+  top: 280px;
+  left: 365px;
+  width: 286px;
+  height: 24px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  opacity: 1;
+}
+
+.descInputlabel {
+  display: block;
+  font-size: 0.875rem;
+}
+
+.descTextArea {
+  width: 286px;
+  height: 80px;
+}
+
+.descriptionInput {
+  top: 334px;
+  left: 365px;
+  width: 286px;
+  height: 54px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  opacity: 1;
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+}
+
+.nameInputlabel {
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+
+.activities {
+  /* width: 12.5rem;*/
+  border-inline-end: 1px solid rgb(218, 208, 194);
+  font-size: 0.8125rem;
+  text-align: center;
+  border-bottom: 1px solid rgb(218, 208, 194);
+}
+
+.activities:first-child {
+  border-inline-end: 1px solid rgb(218, 208, 194);
+  border-inline-start: 1px solid rgb(218, 208, 194);
+}
+
+.oneActivityColumn {
+  text-align: center;
+}
+
+.checkBoxesThree {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.screenHeading {
+  font: normal normal 600 var(--title_text_font_size) Open Sans;
+  cursor: pointer;
+}
+.docSearchBar {
+  margin-right: 0.625rem;
+}
+
+.activityNameDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.25rem;
+}
+.checkBoxesStyling {
+  margin-top: -0.625rem;
+  margin-left: 0.625rem;
+}
+
+.docNameDiv {
+  display: flex;
+  margin-bottom: 0rem;
+  padding: 0.25rem 0rem;
+  font-size: var(--sub_text_font_size);
+  /* position: sticky; */
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.docName {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.docDescription {
+  font-size: var(--sub_text_font_size);
+  width: 80%;
+}
+.oneDocDiv {
+  height: 100%;
+  width: 23.4375rem;
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#ToDoDescInput,
+#ToDoNameInput,
+#groupNameInput_exception,
+#todo_groupNameId,
+#DocDescInput,
+#ExceptionNameInput,
+#DocNameInput {
+  padding: 5px !important;
+}
+
+.Rules {
+  /* color: grey; */
+  color: "#606060";
+  /* font-size: 1rem; */
+  /* font: normal normal normal 16px/22px Open Sans; */
+  /* Changes made to solve Bug 132138  */
+  font: normal normal 600 var(--title_text_font_size) / 22px var(--font_family);
+  /* till here */
+  font-size: var(--title_text_font_size);
+
+  cursor: pointer;
+}
+.selectedBottomBorder {
+  /* border-bottom: 3px solid #0072c6;*/
+  /* border-bottom: 3px solid #0072c6;*/
+  border-bottom: 3px solid var(--selected_tab_color);
+}
+
+/*code edited on 2 August 2022 for BugId 111822*/
+.docSearchDiv {
+  display: flex;
+  padding: 0.3125rem 0.3125rem 0rem 0.625rem;
+  /*  position: sticky; */
+  top: 2.1rem;
+  z-index: 1;
+  background-color: white;
+}
+
+.activityName {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.activitySideDiv {
+  height: 100%;
+  width: 80%;
+  /* background-color: white; */
+}
+
+.activityHeadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 1rem 0.25rem;
+  border-bottom: 1px solid #dad0c2;
+  border-inline-start: 1px solid rgb(218, 208, 194);
+  /*  position: sticky; */
+  top: -1px;
+  z-index: 1;
+  background-color: white;
+}
+.activitySideHeading {
+  margin-right: 1.875rem;
+  /* font-size: 1rem;*/
+  /* font-size: var(--title_text_font_size);
+  font: normal normal 600 16px/22px Open Sans; */
+  font: normal normal 600 var(--title_text_font_size) Open Sans;
+}
+
+/* Changes made to solve Bug 130613 dated 25thJune */
+.exceptionMoveTo {
+  top: 8px;
+  left: 50%;
+}
+
+.exceptionMoveToAr {
+  top: 10px;
+  right: 80%;
+}
+
+.addException {
+  /* color: #0072c6;*/
+  color: var(--link_color);
+  /*font-size: 12px;*/
+  font-size: var(--base_text_font_size);
+
+  cursor: pointer;
+  border-bottom: 1px solid #f3f0d7;
+  /* position: absolute;
+  left: 11vw; */
+}
+
+.actModalCheckboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.modalPaperDocType {
+  position: absolute;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  background-color: white;
+  width: 12.5rem;
+  left: 0px;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.activityModal {
+  position: absolute;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  background-color: white;
+  width: 12.5rem;
+  /* modified on 27/10/23 for BugId 112560 */
+  /* left: 0px; */
+  /* top: 33%; */
+  right: -2rem;
+  top: 1rem;
+  padding: 0.6rem;
+  font-size: 14px;
+}
+
+/* added on 27/10/23 for BugId 112560 */
+.activityModalAr {
+  position: absolute;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  background-color: white;
+  width: 12.5rem;
+  left: -2rem;
+  top: 1rem;
+  padding: 0.6rem;
+  font-size: 14px;
+}
+
+.noDocTypesScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 42.25rem;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxes .MuiFormControlLabel-root {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+.addDocs .MuiFormControlLabel-root .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+  height: 1rem;
+}
+
+.addDocs .MuiFormControlLabel-root .MuiTypography-body1 {
+  font-size: 0.8rem;
+}
+
+.activityHeader {
+  background-color: white;
+  height: 3.56rem;
+  /* width: 15rem; */
+  /* // Bug 121588 - Safari browser>>Todo/exception/document>>outline of rights are little distorted
+  [25-03-2023] Removed the width:15rem and added minWidth: 15rem */
+  min-width: 15rem;
+  border-bottom: 1px solid rgb(218, 208, 194);
+  display: flex;
+  font-size: 1rem;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*code edited on 27 Dec 2022 for BugId 120743 */
+.actHeaderName {
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.activityNameDivDocs {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.activityHeaderToDo {
+  background-color: white;
+  height: 3.56rem;
+  /* // Bug 121588 - Safari browser>>Todo/exception/document>>outline of rights are little distorted
+  [25-03-2023] Removed the width:12.4rem and added minWidth: 12.4rem */
+  min-width: 12.4rem;
+  /* width: 12.4rem; */
+  border-bottom: 1px solid rgb(218, 208, 194);
+  display: flex;
+  font-size: 1rem;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupNamesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-inline-end: 20px;
+}
+
+.groupName {
+  margin: 5px 0px 8px 0px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*code added on 2 August for BugId 110100*/
+.groupNameExp {
+  margin: 5px 0px 8px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 55%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  /* added on 30/10/23 for BugId 139956 */
+  white-space: nowrap;
+}
+
+.addExpButtonDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#moveExp_To_OtherGroup {
+  display: flex;
+  align-items: center;
+}
+
+.activityNameBlock {
+  background-color: #eef4fcc4;
+  border-bottom: 1px solid #dad0c2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 6px;
+  padding-inline-end: 20px;
+}
+
+.associateFieldDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+.radioGroupsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectedToDoTypeModal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.selectedToDoTypeDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectTrigger {
+  border: 1px solid #d3d3d3;
+  height: 24px;
+  background-color: white;
+}
+
+.searchBarNFilterInterface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pickListInputDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.buttonsAddToDo {
+  width: 629px;
+  margin-top: 15px;
+  position: absolute;
+  bottom: 8px;
+  text-align: right;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+
+#addDocButton {
+  cursor: pointer;
+  width: 33px;
+  height: 17px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-12) / var(--unnamed-line-spacing-17)
+    var(--unnamed-font-family-open-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  color: var(--link_color);
+
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+
+  opacity: 1;
+}
+/*code edited on 10 Dec 2022 for BugId 108381 */
+
+.addGroupButton {
+  width: 48px;
+  height: 17px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-12) / var(--unnamed-line-spacing-17)
+    var(--unnamed-font-family-open-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--blue-1-0072c6);
+  text-align: end;
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  /*color: #0072c6;*/
+  color: var(--link_color);
+  opacity: 1;
+  cursor: pointer;
+}
+
+#addGroup {
+  color: var(--link_color);
+}
+
+.triggerInput_todo {
+  width: 100%;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+/*.actvitySearchDiv .MuiFormControlLabel-root .MuiSwitch-root {
+  width: 30px;
+  height: 18px;
+  display: inline-flex;
+  padding: 12px;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  vertical-align: middle;
+}*/
+.actvitySearchDiv .MuiFormControlLabel-root .MuiSwitch-root .MuiSwitch-track {
+  width: 100%;
+  height: 70%;
+  opacity: 0.38;
+  z-index: -1;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 28px;
+  background-color: #000;
+}
+.MuiSwitch-colorPrimary.Mui-checked {
+  color: var(--checkbox_color) !important;
+}
+.checkBoxesThree .MuiFormControlLabel-root {
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  margin-left: 0px;
+  margin-right: 16px;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+.actvitySearchDiv .MuiFormControlLabel-label {
+  margin-top: -12px;
+}
+
+.expandIcon {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(-1.5px);
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+}
+
+.groupNameSpan {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iconButton {
+  height: fit-content !important;
+  padding: 0px !important;
+  cursor: pointer;
+}
+
+.sortByDivMoveTo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.oneSortOptionMoveTo {
+  margin-top: 0px;
+  font-size: 12px;
+  color: #000000;
+  cursor: pointer;
+  padding-inline-start: 0.5vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.sortByDivMoveTo:hover {
+  background: rgba(0, 114, 198, 0.06);
+}
+
+.oneSortOptionMoveTo:hover {
+  background-color: transparent !important;
+}

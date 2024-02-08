@@ -1,0 +1,24 @@
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  padding: 0.5rem 0.5vw;
+  margin: 0;
+  min-height: 2rem;
+}
+
+.addNewRule {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+
+.addNewRule .deleteIcon {
+  color: grey;
+  font-size: 1.5rem !important;
+  height: 30px;
+}

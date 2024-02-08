@@ -1,0 +1,6 @@
+.arrowIcon {
+  /*Bug 119845 Solution: Changed the color from brand_color1 to nav_primary_Color*/
+  color: var(--nav_primary_color);
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+}

@@ -1,0 +1,203 @@
+.wrapperDiv {
+  width: 98vw;
+  font-family: "Open Sans";
+  overflow: hidden;
+  /*Bug 121795 Audit Logs
+  [09-02-2023] Provided height, padding-top,padding-left, background-color*/
+  height: 100%;
+  padding: 2rem 1vw;
+  background-color: #f8f8f8;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.toolbox {
+  /*  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex: 1;  */
+}
+.bold {
+  color: #000000;
+  letter-spacing: 0px;
+  /* font-size: var(--title_text_font_size);
+  font-weight: 600; */
+  opacity: 1;
+  margin-bottom: 1.5rem;
+  font: normal normal 600 var(--title_text_font_size) / 22px var(--font_family);
+}
+
+.generateButton {
+  background: var(--button_color);
+  border-radius: 0.2rem;
+  color: white;
+  /*Bug 121795 Audit Logs - [09-02-2023] Corrected the margin-top*/
+  margin-top: 1.6rem !important;
+  cursor: pointer;
+  opacity: 1;
+  min-width: auto !important;
+  height: 2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.generateText {
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 2px;
+}
+
+.toolboxHeading {
+  /* font-size: var(--subtitle_text_font_size); */
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin-bottom: 0.2rem;
+}
+
+.tableContainer {
+  /* code edited on 17 Aug 2023 for BugId 131971 - audit logs>>audit logs is 
+  not showing all the logs */
+  width: 100%;
+  margin-top: 1rem;
+  /* padding-left: 0.5rem; Bug 121795*/
+  height: 100%;
+  z-index: 1;
+}
+
+.tableHead {
+  background-color: #f8f8f8;
+  /* code edited on 17 Aug 2023 for BugId 131971 - audit logs>>audit logs is 
+  not showing all the logs */
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.queuetable {
+  font-family: "Open Sans";
+  border-collapse: collapse;
+  /* code edited on 17 Aug 2023 for BugId 131971 - audit logs>>audit logs is 
+  not showing all the logs */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  /* Changes on 20-10-2023 to resolve the bug Id 139829 */
+  border:1px solid #c4c4c4;
+  /* height: 75%; */
+  height: 84%
+}
+
+.queuetable::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.5rem;
+  height: 1.125rem;
+}
+.queuetable::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.queuetable:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.5rem;
+  height: 1.125rem;
+}
+.queuetable:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.tableCellText {
+  font-family: "Open Sans";
+  font-size: var(--subtitle_text_font_size);
+  font-weight: bold;
+  padding: 0;
+  color: #070707;
+  letter-spacing: 0.0262rem;
+  align-items: center;
+  text-align: start;
+}
+.tableRow {
+  font-family: "Open Sans";
+  background-color: #ffffff !important;
+}
+
+.tableCellBody {
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  opacity: 1;
+  text-align: start;
+}
+
+.helperTextForImage {
+  color: #606060;
+  text-align: left;
+  opacity: 1;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+}
+
+.noLogsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  /* code edited on 17 Aug 2023 for BugId 131971 - audit logs>>audit logs is 
+  not showing all the logs */
+  height: 60vh;
+}
+
+.iconForProcessType {
+  margin: 7px;
+  margin-top: 6px;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.fromToCalculatorDiv {
+  width: 9rem;
+  height: 2.5rem;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 5px;
+  font-family: "Open Sans";
+  font-size: var(--base_text_font_size);
+  color: #000000;
+  opacity: 1;
+  /* font-weight: 600; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.eventIcon {
+  opacity: 0.7;
+  margin-top: 1px;
+  height: 1.25rem !important;
+  width: 1.25rem !important;
+}
+.calender {
+  /* code commented on 17 Aug 2023 for BugId 134143 */
+  /* z-index: 99999 !important; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+}

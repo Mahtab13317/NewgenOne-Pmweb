@@ -1,0 +1,58 @@
+.MuiAlert-standardError {
+  color: black !important;
+  background-color: #fe8e8e !important;
+  border-radius: 0 !important;
+  min-width: 290pt;
+  max-width: 390pt;
+  padding: 0.25rem 0.75rem 0.25rem 1rem !important;
+  min-height: 41pt;
+}
+
+.MuiAlert-standardWarning {
+  color: black !important;
+  background-color: #fae18e !important;
+  border-radius: 0 !important;
+  min-width: 290pt;
+  max-width: 390pt;
+  padding: 0.25rem 0.75rem 0.25rem 1rem !important;
+  min-height: 41pt;
+}
+
+.MuiAlert-standardInfo {
+  color: black !important;
+  background-color: #9bddf3 !important;
+  border-radius: 0 !important;
+  min-width: 290pt;
+  max-width: 390pt;
+  padding: 0.25rem 0.75rem 0.25rem 1rem !important;
+  min-height: 41pt;
+}
+
+.MuiAlert-standardSuccess {
+  color: black !important;
+  background-color: #c9e29a !important;
+  border-radius: 0 !important;
+  min-width: 290pt;
+  max-width: 390pt;
+  padding: 0.25rem 0.75rem 0.25rem 1rem !important;
+  min-height: 41pt;
+}
+
+.MuiAlert-icon {
+  color: white !important;
+  align-items: center !important;
+}
+
+.MuiAlert-message {
+  display: flex;
+  align-items: center !important;
+}
+
+.MuiAlert-action {
+  align-items: start !important;
+}
+
+.MuiAlert-action .MuiIconButton-sizeSmall {
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+}

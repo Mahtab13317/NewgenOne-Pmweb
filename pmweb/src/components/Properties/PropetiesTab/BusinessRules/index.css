@@ -1,0 +1,195 @@
+.brtContainer {
+  font-size: var(--base_text_font_size);
+}
+
+.label-heading {
+  margin: 0.5rem 0.5vw;
+  font-family: var(--font_family);
+  font-size: var(--subtitle_text_font_size);
+}
+
+.radio-group {
+  padding-inline-start: 0.5vw;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 0.25rem;
+  gap: 0.5vw;
+  font-family: var(--font_family);
+}
+
+.flex-item {
+  margin-inline: 0.5vw;
+  margin-bottom: var(--spacing_v);
+  font-size: var(--base_text_font_size);
+}
+
+.associate-list {
+  margin: 0.5rem 0.5vw !important;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.associate-tbl {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.associate-tbl-expand {
+  width: 70%;
+  border-spacing: 0;
+}
+
+.associate-tbl th,
+.associate-tbl-expand th {
+  text-align: start;
+  padding: 5px;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+  background-color: #f8f8f8;
+}
+
+.associate-tbl td,
+.associate-tbl-expand td {
+  text-align: start;
+  padding: 5px;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+}
+
+.associate-tbl tr:nth-child(odd),
+.associate-tbl-expand tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.required {
+  color: rgb(181,42,42);
+  margin-inline-start: 0.125vw;
+  font-size: 1rem;
+}
+
+.mappingContainer {
+  margin-top: -35px;
+  border-inline-start: 1px solid #606060;
+  color: #606060;
+  width: 55%;
+}
+
+.mapping-tbl-container {
+  margin-inline-start: 0.5vw;
+  font-size: var(--subtitle_text_font_size);
+}
+
+.mapping-tbl {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.mapping-tbl th,
+.mapping-tbl td {
+  text-align: start;
+  padding: 3px;
+  font-size: var(--base_text_font_size);
+}
+
+.mapping-tbl .MuiSelect-select {
+  font-size: var(--base_text_font_size);
+  border: 1px solid #cecece;
+  height: 15px;
+  border-radius: 2px;
+  font-family: var(--font_family);
+}
+
+.mappingTab .MuiTabs-root {
+  border-bottom: 1px solid #cecece;
+}
+
+.tabList .Mui-selected {
+  color: var(--selected_tab_color) !important;
+}
+.tabList .PrivateTabIndicator-colorSecondary-142 {
+  background-color: var(--selected_tab_color) !important;
+}
+
+.mapped-tbl-container {
+  max-height: 275px;
+  overflow-y: auto;
+}
+
+.mapped-table-header {
+  background-color: #f4f4f4;
+  border-radius: 2px;
+  color: #000;
+  width: 45%;
+  height: var(--line_height);
+  padding: 0.25rem 1vw;
+  text-align: start;
+}
+
+.mapped-table-cell {
+  padding: 0.5rem 0;
+  text-align: start;
+}
+
+.brtInputRules {
+  padding: 0px 14px;
+  height: 15px;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+}
+
+.flex-item .collapseBtnContainer {
+  position: relative;
+}
+
+.circular-progress {
+  margin-top: 25vh !important;
+  margin-inline-start: 45% !important;
+}
+
+.brtLeftDivExp {
+  width: 45%;
+}
+
+.brtLeftDiv {
+  width: 100%;
+}
+
+.associateBtn {
+  margin: var(--spacing_v) 0 !important;
+}
+
+.noMapExpand {
+  width: 50%;
+}
+.mapCollapse {
+  width: 96%;
+}
+.mapExpand {
+  width: 99%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .brtLeftDivExp {
+    width: 45%;
+  }
+  .mappingContainer {
+    width: 55%;
+  }
+  .noMapExpand {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .brtLeftDivExp {
+    width: 51%;
+  }
+  .mappingContainer {
+    width: 49%;
+  }
+  .noMapExpand {
+    width: 70%;
+  }
+}

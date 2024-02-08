@@ -1,0 +1,10 @@
+.rdtDays {
+  background-color: #fff !important;
+}
+
+/*code added on 21 Aug 2023 for Bug 134180 - Regression : process designer -> Audit logs-> From 
+and to format is wrong and calender is not aligned properly and selected date not displayed in 
+from and to fields (not sure if we selected any date then which day should be fall under date. */
+.datePickerCustomization {
+  margin: 0.25rem 2px !important;
+}

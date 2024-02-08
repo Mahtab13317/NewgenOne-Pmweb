@@ -1,0 +1,43 @@
+.NoProcessAvailableArabic {
+  margin-top: 1rem;
+  height: 90vh;
+  overflow-y: scroll;
+  margin-right: 1rem;
+  width: 100%;
+  position: fixed;
+}
+.NoProcessAvailableArabic::-webkit-scrollbar {
+  display: none;
+}
+
+.importProcessBtnArabic {
+  width: 8.2rem;
+  height: 1.8rem;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: var(--blue-1-0072c6) 0% 0% no-repeat padding-box;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  margin-right: 36%;
+  border: none;
+  cursor: pointer;
+}
+
+.createProcessBtnArabic {
+  width: 8.3rem;
+  height: 1.8rem;
+  background: var(--blue-1-0072c6) 0% 0% no-repeat padding-box;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 1%;
+  cursor: pointer;
+}

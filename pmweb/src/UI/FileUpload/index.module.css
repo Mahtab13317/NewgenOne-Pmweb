@@ -1,0 +1,198 @@
+.container {
+  padding: 1rem;
+  transition: border 0.24s ease-in-out;
+  background: #0072c60d 0% 0% no-repeat padding-box;
+  border: 1px dashed #cecece;
+  border-radius: 4px;
+  height: 11.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.uploadContainer {
+  padding: 0rem 1rem 1rem 1rem;
+  transition: border 0.24s ease-in-out;
+  background: #0072c60d 0% 0% no-repeat padding-box;
+  border: 1px dashed #cecece;
+  border-radius: 4px;
+  height: 11.25rem;
+  width: 22.6vw;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: block !important;
+  z-index: 0;
+}
+
+.error {
+  font: normal normal normal 11px/16px Open Sans;
+  letter-spacing: 0px;
+  text-align: left;
+  color: red;
+  margin-bottom: 0.25rem;
+}
+
+.dropzone {
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dropzoneWithFiles {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.uploadBtnWithFiles {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 0.25rem;
+  position: absolute;
+  width: 12vw;
+  white-space: break-spaces;
+  overflow: hidden;
+  min-height: 1.5rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.uploadBtn {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: none;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 0.5rem 0 !important;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.orString {
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #979595;
+  margin: 0.25rem;
+  margin-top: 2.25rem;
+}
+
+.orStringWithFiles {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #979595;
+  margin: 0.25rem;
+  margin-left: 13.5vw;
+}
+
+.dropString {
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: var(--font_family);
+  /* width: 9vw; */
+  text-align: center;
+  white-space: break-spaces;
+  overflow: hidden;
+  margin: 0.25rem;
+}
+
+.fileContainerDiv {
+  margin: 0.25rem 0;
+  max-height: 8rem;
+  padding: 0 0.25rem;
+  overflow-y: auto;
+  position: absolute;
+  width: 90%;
+}
+
+.fileContainerDiv::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: transparent;
+}
+
+.fileContainerDiv::-webkit-scrollbar-thumb {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+}
+
+.fileDiv {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+}
+
+.fileSubDiv {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #383737;
+}
+
+.fileSubLeftDiv {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #383737;
+}
+
+.fileSubRightDiv {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #383737;
+}
+
+.subDivSize {
+  width: 5vw;
+  text-align: right;
+  direction: ltr;
+}
+
+.subDivFile {
+  width: 16vw;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.attachIcon {
+  color: #606060 !important;
+  width: 1.25rem !important;
+  height: 1rem !important;
+  margin-right: 0.25vw;
+}
+
+.deleteIcon {
+  color: #606060 !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-left: 0.75vw;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.oms_templateTabs .MuiTabs-indicator {
+  background-color: var(--selected_tab_color);
+}
+
+.oms_templateTabs .Mui-selected .MuiTab-wrapper {
+  color: var(--selected_tab_color);
+  font-weight: 600 !important;
+}
+
+.oms_templateTabs .MuiTab-wrapper {
+  width: fit-content !important;
+}
+
+.oms_templateTabPanel {
+  height: 40vh;
+  padding: 0.5rem 1vw;
+}
+@media screen and (min-width: 650px) and (max-width: 1200px) {
+  .oms_templateTabPanel {
+    height: 37vh;
+    padding: 0.5rem 1vw;
+  }
+}
+
+.oms_templateTabPanel .MuiBox-root {
+  height: auto !important;
+}

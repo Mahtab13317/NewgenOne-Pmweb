@@ -1,0 +1,21 @@
+/* code edited on 1 April 2023 for BugId 126147 */
+/* Removed id from the CSS Selector as ids have been made unique & dynamic for WCAG points */
+.searchComponent
+  input:not([type="button"]):not([type="submit"]):not(
+    [readonly="readonly"]
+  ):not([type="checkbox"]):focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+.searchComponent:focus-visible{
+  outline: 1px solid var(--brand_color1);
+}
+.searchShivani:hover{
+  border: none !important;
+}
+
+.searchShivani{
+  border:none !important;
+  /* Code added to solve Bug 137374 (the rejected point) */
+  width: 80%;  
+}

@@ -1,0 +1,9 @@
+.errorInput {
+  border: 1px solid #b52a2a !important;
+}
+
+.errorStatement {
+  color: #b52a2a;
+  font: normal normal normal 11px/16px var(--font_family);
+  margin-bottom: 0.5rem;
+}

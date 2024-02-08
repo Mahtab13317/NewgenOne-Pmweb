@@ -1,0 +1,368 @@
+/*code updated on 22 Nov 2022 for BugId 119358*/
+.mainDiv {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #00000014;
+  opacity: 1;
+  height: 78vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.subDiv {
+  padding-left: 1.25rem;
+  padding-top: 13.75px;
+}
+
+.mainDiv::-webkit-scrollbar {
+  width: 0.375rem;
+  height: 24.125rem;
+}
+
+.mainDiv::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+@media screen and (max-width: 699px) {
+  .mainDiv {
+    height: 71vh;
+  }
+}
+
+.processDetails {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.basicDetailsDiv {
+  margin-top: 21.25px;
+  width: 100%;
+}
+
+.heading {
+  text-align: left;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  display: flex;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldTitle {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #606060;
+}
+
+.blackColor {
+  color: #000000;
+}
+
+.turnaroundTimeMargin {
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.fieldValue {
+  margin-left: 6px;
+  margin-right: 40px;
+  width: 20px;
+}
+
+.ownerEmailIdText {
+  margin-top: 20px;
+}
+
+.fieldText {
+  display: flex;
+  color: #606060;
+}
+
+.ownerEmailIdInput {
+  border-radius: 2px;
+  height: var(--line_height);
+  width: 30vw;
+  margin-inline-end: 3.5vw;
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.ownerFields {
+  border: none !important;
+  height: 2.33rem;
+  /*  width: 27.5vw; */
+  width: 33.66rem; /*Modified on 14/10/2023, bug_id:134132*/
+  margin-right: 0.5rem !important;
+}
+
+.ownerFieldContainer {
+  border: 1px solid #c4c4c4;
+  display: flex;
+  /* width: 29.2vw; */ /*Modified on 14/10/2023, bug_id:134132*/
+}
+
+.peopleAndSystemHeading {
+  margin-top: 2rem;
+}
+
+.title {
+  margin-top: 8.25px;
+  display: flex;
+}
+
+.keyPerformanceIndicesHeading {
+  margin-top: 11.75px;
+}
+
+.costInput {
+  width: 100px !important;
+}
+
+.turnAroundTimeInput {
+  width: 44px;
+  margin-right: 0px;
+}
+
+.escalateToFieldsDropdown {
+  width: 100px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-right: 0;
+}
+
+.inputField {
+  border-radius: 2px !important;
+  height: var(--line_height) !important;
+  width: 31.25vw !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.providerInput {
+  margin-left: 2.19vw;
+}
+
+.addIcon {
+  color: white;
+  background: var(--button_color);
+  height: 1.8rem;
+  width: 1.8rem !important;
+  cursor: pointer;
+}
+.editIcon {
+  color: grey;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  margin-top: 4px;
+  cursor: pointer;
+  margin-left: 0.5vw;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 24px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.multiSelect {
+  border-radius: 2px;
+  opacity: 1;
+  height: 28px;
+  width: 29.64vw;
+  margin-top: 2px;
+  margin-right: 48px;
+}
+
+.deleteIcon {
+  top: 0.5rem;
+  right: 2vw;
+  color: grey;
+  position: absolute;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/* code added on 26-09-23 for bugId: 138193 */
+@media screen and (min-width: 450px) and (max-width: 820px) {
+  .deleteIcon {
+    top: 0.5rem;
+    right: 3vw;
+    color: grey;
+    position: absolute;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+/*Till here for bugId: 138193 */
+
+.deleteIconOC {
+  height: inherit;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+  padding: 0px;
+  border-radius: 2px;
+  color: #707070;
+  cursor: pointer;
+  right: 3vw;
+  position: unset;
+  width: 1.5rem;
+}
+
+.deleteIconSpace {
+  width: 5px;
+  margin-top: 0.125rem;
+  margin-left: 21px;
+}
+
+.footerDivFinal {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.saveButton {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 0px 15px;
+  border: none;
+  height: 28px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+
+.footerDiv {
+  background-color: #f8f8f8;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  height: 49px;
+}
+
+.footerSubDiv {
+  float: right;
+  margin-right: 20px;
+  margin-top: 11px;
+}
+
+.cancelBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  padding: 2px;
+  height: 28px;
+  width: 60px;
+  color: #606060 !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  cursor: pointer;
+}
+
+.saveBtn {
+  background: #0072c6 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid #0072c6 !important;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  padding: 2px;
+  height: 28px;
+  margin-left: 10px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.asterisk {
+  /* color: red; */
+  /* Added on 7/9/2023 for BUGID: 135911 */
+  color: rgb(181, 42, 42);
+  margin-top: 12px;
+  margin-left: 2px;
+  font-size: 0.75rem;
+}
+
+.disabledBtn {
+  background: rgba(0, 0, 0, 0.12) !important;
+  border-radius: 2px !important;
+  border: none !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  text-transform: none !important;
+  padding: 0.125rem 0.125rem !important;
+  cursor: default !important;
+  height: 28px;
+}
+
+.addIconCustom {
+  height: 2.44rem !important;
+}
+
+.peopleSystemRow {
+}
+
+.peopleSystemColumn {
+}
+@media screen and (min-width: 900px) and (max-width: 1235px) {
+  .mainDiv {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000014;
+    opacity: 1;
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 899px) {
+  .mainDiv {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000014;
+    opacity: 1;
+    height: 52vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}

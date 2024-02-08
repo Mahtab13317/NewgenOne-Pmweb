@@ -1,0 +1,71 @@
+.businessVariableHeading {
+  text-align: right;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+/* ------------------- */
+
+.accordionHeader {
+  text-align: right;
+  font: normal normal 600 14px/19px Open Sans !important;
+  letter-spacing: 0px;
+  flex: 0.1;
+  color: #0072c6;
+  white-space: nowrap;
+}
+
+.accordianHeaderCount {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 0.1;
+  margin: 1px 4.5px 0px 0px !important;
+}
+
+.accordianHeaderDividerUD {
+  color: #c4c4c4;
+  flex: 5;
+  margin: 0.65rem 0.5vw 0px 0px !important;
+}
+
+.accordianHeaderDividerUD_noAdd {
+  color: #c4c4c4;
+  flex: 5;
+  margin: 0.65rem 0.5vw 0px 0px !important;
+}
+
+.accordianHeaderDividerSD {
+  color: #c4c4c4;
+  flex: 5;
+  margin: 0.65rem 0.5vw 0px 0px !important;
+}
+
+.accordionHeaderButton {
+  font: normal normal 600 14px/19px Open Sans !important;
+  letter-spacing: 0px;
+  color: #0072c6;
+  margin-right: 0.25rem;
+  white-space: nowrap;
+  flex: 0.1;
+}
+
+.properties_radioButton {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+  padding: 0 !important;
+}
+
+.properties_radioButton span:first-child {
+  height: 1rem;
+  width: 1rem;
+  margin: 0;
+}
+
+.properties_radioButton svg {
+  width: 1rem;
+  height: 1rem;
+}

@@ -1,0 +1,186 @@
+.mainDiv {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  height: 71vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1vw;
+  background: #ffffff;
+}
+
+.contentDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem 1vw;
+  /* changes added for bug_id: 134226 */
+  /* height: 75vh; */
+  height: 100%;
+}
+
+.contentDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.contentDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.contentDiv:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.contentDiv:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box;
+  border-radius: 0.313rem;
+}
+
+.processNameInput {
+  width: 15.5vw;
+  height: var(--line_height);
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  border: 1px solid #d3caca;
+}
+
+.fieldsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fieldsDivSettings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fieldsSettingsDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fieldsName {
+  color: #606060;
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+}
+
+.footerDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #f5f5f5;
+}
+
+.footerDivSettings {
+  position: absolute;
+  bottom: 1%;
+  width: 84.3%;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0.875rem;
+  background-color: #f5f5f5;
+}
+
+.dropDown {
+  width: 15.5vw;
+  height: var(--line_height);
+  text-align: left;
+  padding: 0;
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+  border: 1px solid #d3caca;
+  background: #ffffff;
+  border-radius: 0.1875rem;
+}
+
+.buttons {
+  width: auto;
+  height: 1.75rem;
+  margin-inline: 0.3rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.DeploynSaveButton {
+  width: auto;
+  height: 1.75rem;
+  margin-inline: 0.3rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.infoIcon {
+  color: #606060;
+  width: 1.25rem;
+  height: 1rem;
+  margin-left: 0.125vw;
+  margin-top: 0.25rem;
+}
+
+.starIcon {
+  color: #b52a2a;
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}
+
+.deployProcessHeading {
+  font-size: var(--subtitle_text_font_size);
+  font-weight: 600;
+  color: #383737;
+}
+
+.hrTag {
+  outline: #c4c4c4 solid 0.0313rem;
+  border: none;
+  width: 100%;
+}
+
+.type1text {
+  padding: 0.5rem 0.5vw;
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.helperText {
+  padding: 0.5rem 0.5vw;
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.inlineErrorStyle {
+  font: normal normal 600 11px/16px var(--font_family) !important;
+}

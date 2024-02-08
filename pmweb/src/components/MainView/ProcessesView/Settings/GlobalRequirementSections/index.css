@@ -1,0 +1,43 @@
+.globalSection .MuiAccordionSummary-expandIcon {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.globalSection .MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.globalSection,
+.globalSection.MuiAccordion-root.Mui-expanded {
+  margin-bottom: 0.5rem !important;
+}
+.checkBox {
+  margin-left: 0.75vw !important;
+}
+
+.description_list {
+  width: 100%;
+  font-family: var(--font_family);
+  font-size: var(--base_text_font_size);
+}
+
+/*.settings_sec_list {
+  width: 72vw;
+}*/
+
+/* Tablets, iPads (portrait) ---------- */
+/*@media screen and (max-width: 768px) {
+  .settings_sec_list {
+    width: 68vw;
+  }
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+/*@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .settings_sec_list {
+    width: 80vw;
+  }
+}*/
+.icon:focus-visible{
+  outline: 1px solid var(--brand_color1);
+}

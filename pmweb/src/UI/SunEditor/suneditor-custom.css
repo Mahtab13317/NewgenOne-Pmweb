@@ -1,0 +1,152 @@
+/* Changes made to solve Bug111012, (Requirements -> on clicking add attachment screen appearing distorted) */
+.App {
+  width: 100%;
+  margin: auto;
+  cursor: auto;
+  height: 100%;
+}
+
+.sun-editor {
+  width: auto;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Helvetica Neue;
+  background-color: #fff;
+  /* border: none; */
+  color: #000;
+}
+.sun-editor .se-toolbar {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 28%;
+  /* overflow: hidden; */
+  padding: 0;
+  margin: auto;
+  outline: 1px solid #dadada;
+  /* z-index: 1000; */
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 6px #00000029;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+/*Added on 25/09/2023, bug_id:137228,136408,136400,135557 	 */
+.sun-editor .se-submenu {
+  top: 38px !important;
+  max-height: 9rem;
+  overflow-y: auto;
+}
+
+/*till here for bug_id:137228 */
+
+.App .sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  height: 100% !important;
+}
+.App .sun-editor .se-wrapper {
+  position: relative !important;
+  width: 100%;
+  min-height: 100px;
+  /* max-height: 100px; */
+  /* Changes made to solve Bug 135811 */
+  height: 72%;
+  overflow: auto;
+  /*overflow: auto !important;*/
+  z-index: 1;
+  /* margin-top: -10px; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  /* border: 0.5px solid #126CFC; */
+  opacity: 1;
+}
+.App .customStyle .sun-editor .se-wrapper {
+  position: relative !important;
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  height: 6rem !important;
+  /*overflow: auto !important;*/
+  z-index: 1;
+  /* margin-top: -10px; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  /* border: 0.5px solid #126CFC; */
+  opacity: 1;
+}
+
+.App .sun-editor .se-wrapper:focus {
+  border: none !important;
+}
+
+.se-resizing-bar {
+  display: flex;
+  width: auto;
+  min-height: 0px !important;
+  height: auto !important;
+  border-top: 1px solid #dadada;
+  padding: 0 4px;
+  background-color: #fafafa;
+}
+
+.sun-editor .se-btn {
+  float: left;
+  width: 17px;
+  height: unset;
+  border: 0;
+  border-radius: 4px;
+  margin: 1px !important;
+  padding: 0px 0px;
+  font-size: 12px;
+  line-height: unset;
+  display: flex;
+  align-items: center;
+}
+
+.sun-editor {
+  text-align: start;
+}
+
+.sun-editor .se-menu-list,
+.sun-editor .se-menu-list li {
+  padding: 0px !important;
+}
+
+.sun-editor .se-svg,
+.sun-editor button > svg {
+  margin-top: 0.8rem;
+  width: 15px;
+  height: 10px;
+  fill: #767676;
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.sun-editor .se-btn-select > svg {
+  float: right;
+  margin-right: 5px;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.sun-editor .se-btn-select .txt {
+  flex: auto;
+  margin: 4px;
+  text-align: left;
+}
+
+.sun-editor-editable * {
+  caret-color: black;
+}
+
+/*Added on 25/09/2023, bug_id:137228,136408,136400,135557  */
+
+.rtlClass {
+}
+
+.ltrClass {
+}
+
+.rtlClass .se-list-basic .se-btn-list {
+  padding-left: 90px !important;
+}
+
+/*till here for bug_id:137228,135557  */

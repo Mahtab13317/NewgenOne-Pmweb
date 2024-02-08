@@ -1,0 +1,106 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputBase {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 5px 0px 5px 39px;
+  width: 190px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.typeInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 126px;
+  margin: 5px 0px 5px 34px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.dataFieldInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 5px 0px 5px 59px;
+  width: 166px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.checkboxInput {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 11px 0px 15px 23px !important;
+}
+
+.primaryKeyText {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 7px 0px 18px 9px;
+}
+
+.moreOptionsInput {
+  margin: 9px 0px 18px 251px;
+}
+
+.buttonsDiv {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.addButton {
+  cursor: pointer;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 2px solid #0072c6 !important;
+  width: 50px;
+  height: 28px;
+  margin: 5px 0px 5px 42px;
+  opacity: 1;
+}
+
+.addButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.closeInputStrip {
+  cursor: pointer;
+  margin: 7px 10px 8px 8px;
+  color: #707070;
+  opacity: 1;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

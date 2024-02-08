@@ -1,0 +1,93 @@
+.selectedActivityTypeArabic {
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+  font: "OpenSans-Semibold";
+  font-size: 10px;
+  cursor: default;
+}
+
+.task_count_activityArabic {
+  text-align: right;
+  font: normal normal 600 11px/15px Open Sans;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+}
+
+.task_activityArabic {
+  text-align: right;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #462d2d;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.selectedActivityTypeArabic {
+  background: rgba(16, 114, 198, 0.098);
+}
+
+.workdeskTypeArabic {
+  text-align: right;
+  letter-spacing: 0px;
+  color: #767676;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-right: auto;
+  font: "OpenSans-Semibold";
+  font-size: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.activity_dropdownArabic {
+  position: absolute;
+  right: 65%;
+  z-index: 1;
+  width: 180px;
+  top: 65px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #c4c4c4;
+  border-radius: 1px;
+}
+
+.SwimlaneButtonArabic {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #767676 !important;
+  font-family: var(--font_family) !important;
+  border: 0;
+  background: transparent;
+  max-width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5vw;
+}
+
+.SwimlaneButtonArabic span {
+  font-size: var(--sub_text_font_size) !important;
+  line-height: var(--line_height);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.moreVertIconDivArabic {
+  margin-right: auto !important;
+  margin-left: 0.75rem !important;
+  position: relative;
+}
+
+.checkedOutIconArabic {
+  position: absolute;
+  top: -12%;
+  right: -5%;
+  width: 1.5rem;
+  height: 1.5rem;
+}

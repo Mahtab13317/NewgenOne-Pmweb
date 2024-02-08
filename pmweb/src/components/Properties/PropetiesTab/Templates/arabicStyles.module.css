@@ -1,0 +1,72 @@
+.templateList {
+  background-color: white;
+  flex: 0.5;
+  padding: 0.5vw 1vw;
+  margin: 0.5rem 0.25vw 0.5rem 0;
+}
+
+.templateDetails {
+  background-color: white;
+  border-right: 0.125rem solid #eaeaea;
+  flex: 0.9;
+  padding: 0.5vw 1vw;
+  margin: 0.5rem 0 0.5rem 0.25vw;
+}
+
+.templateDropdownData {
+  padding: 0.125rem 0.5rem !important;
+  width: 100%;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+.getCabinetBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c5;
+  border-radius: 2px;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  padding: 0.25rem 1vw;
+  margin: 0.5rem auto 0 0 !important;
+  display: flex;
+  cursor: pointer;
+}
+
+.disconnectBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  margin: 0.5rem auto 0 0 !important;
+  display: flex;
+  cursor: pointer;
+}
+
+.starIcon {
+  color: rgb(181,42,42);
+  margin-right: 0.25vw;
+  font-size: 0.75rem;
+}
+
+.downloadIcon {
+  width: 1rem !important;
+  height: 1rem !important;
+  color: #606060 !important;
+  margin-right: 0.5vw;
+  cursor: pointer;
+}
+
+.expandViewIcon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: #606060 !important;
+  margin-right: 0.5vw;
+  cursor: pointer;
+}

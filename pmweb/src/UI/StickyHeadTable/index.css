@@ -1,0 +1,13 @@
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+
+.commonTabularRow {
+  background-color: red !important;
+}
+
+.tableSelect.MuiMenuItem-root.Mui-selected,
+.tableSelect.MuiMenuItem-root.Mui-selected:hover {
+  background: var(--dropdown_selection_color) !important;
+  color: white !important;
+}

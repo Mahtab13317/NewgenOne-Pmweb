@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.121" height="14" viewBox="0 0 16.121 14">
+  <g id="Group_68642" data-name="Group 68642" transform="translate(-111 -204)">
+    <g id="Rectangle_20201" data-name="Rectangle 20201" transform="translate(111 209)" fill="#fff" stroke="#0072c6" stroke-width="1">
+      <rect width="16" height="4" rx="0.4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" height="3" rx="0.1" fill="none"/>
+    </g>
+    <g id="Rectangle_20203" data-name="Rectangle 20203" transform="translate(111 214)" fill="#fff" stroke="#0072c6" stroke-width="1">
+      <rect width="16" height="4" rx="0.4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" height="3" rx="0.1" fill="none"/>
+    </g>
+    <g id="Component_98_76" data-name="Component 98 – 76" transform="translate(111.121 204)">
+      <path id="Rectangle" d="M233.83,0h13.52l2.48,2.1-2.48,2.007H233.83Z" transform="translate(-233.83)" fill="#0072c6"/>
+    </g>
+  </g>
+</svg>

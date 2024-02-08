@@ -1,0 +1,117 @@
+.mainDiv {
+  height: 420px;
+}
+
+.tableNameDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.mappingTable {
+  margin: 25px 0px 0px 28px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.tableName {
+  margin: 25px 0px 0px 25px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.headingDiv {
+  width: 802px;
+  height: 32px;
+  margin-left: 28px;
+  margin-top: 13px;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.queueVariable {
+  margin: 8px 0px 7px 16px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataField {
+  margin: 8px 0px 7px 163px;
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.queueVariableData {
+  margin: 13px 0px 0px 45px;
+  width: 130px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dataFieldDropdown {
+  margin: 9px 0px 0px 122px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 190px;
+  height: 38px;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dropdownDataDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItemStyles {
+  height: 40px !important;
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dropdownData {
+  margin: 4px 0px 1px 2px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dropdownSubText {
+  margin: 0px 0px 1px 3px;
+  text-align: left;
+  font: normal normal normal 10px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #8a8a8a;
+  opacity: 1;
+}

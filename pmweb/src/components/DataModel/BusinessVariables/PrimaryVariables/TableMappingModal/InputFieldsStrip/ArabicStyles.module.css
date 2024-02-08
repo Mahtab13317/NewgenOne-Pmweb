@@ -1,0 +1,96 @@
+.inputBase {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 5px 39px 5px 0px;
+  width: 190px;
+  padding: 6px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.typeInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 126px;
+  margin: 5px 34px 5px 0px;
+  height: 30px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.dataFieldInput {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 5px 59px 5px 0px;
+  width: 166px;
+  padding: 6px;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.checkboxInput {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 11px 23px 15px 0px !important;
+}
+
+.primaryKeyText {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 7px 9px 18px 0px;
+}
+
+.moreOptionsInput {
+  margin: 9px 251px 18px 0px;
+}
+
+.buttonsDiv {
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.addButton {
+  cursor: pointer;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 2px solid #0072c6 !important;
+  width: 50px;
+  height: 28px;
+  margin: 5px 42px 5px 0px;
+  opacity: 1;
+}
+
+.closeInputStrip {
+  cursor: pointer;
+  margin: 7px 8px 8px 10px;
+  color: #707070;
+  opacity: 1;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

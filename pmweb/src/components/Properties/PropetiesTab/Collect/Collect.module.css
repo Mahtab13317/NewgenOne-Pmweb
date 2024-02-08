@@ -1,0 +1,44 @@
+.mainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  font-family: "Open Sans";
+  height: 66vh;
+  overflow-y: scroll;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.firstContentBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+}
+.radioButton {
+  font-family: var(--font_family);
+  color: #727272;
+  font-size: var(--base_text_font_size);
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.radioBtnRoot {
+  margin-inline-start: -0.5vw;
+  margin-inline-end: 1vw;
+}
+
+.starIcon {
+  color: rgb(181, 42, 42);
+  margin-inline-start: 0.25vw;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.textFieldHeight {
+  height: 89% !important;
+}

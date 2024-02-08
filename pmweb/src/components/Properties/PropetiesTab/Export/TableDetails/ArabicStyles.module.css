@@ -1,0 +1,338 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainDiv {
+  margin-right: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* .tableTypeDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+} */
+
+.tableType {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 0.5rem !important;
+}
+
+/* .subDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0px 0px 0px;
+} */
+
+/* .tableDataDiv {
+  height: 168px;
+  overflow-y: auto;
+}
+
+.tableDataDiv::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+  background-color: white;
+}
+
+.tableDataDiv::-webkit-scrollbar-thumb {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+} */
+
+.fieldTitle {
+  text-align: right;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin: 5px 1px 2px 0px;
+}
+
+.dateFormat {
+  margin: 5px 13px 2px 0px;
+}
+
+.inputBase {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  font: normal normal normal 12px/17px Open Sans !important;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+
+.typeLengthInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.typeInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  margin-right: 11px;
+}
+
+/* .headingsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 32px;
+  width: 100%;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+} */
+
+.fieldName {
+  text-align: right;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 8px;
+}
+
+.type {
+  text-align: right;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.length {
+  text-align: right;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.constraints {
+  text-align: right;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.mappingType {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 50px;
+}
+
+.mappingField {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 30px;
+}
+
+.addFieldButton {
+  cursor: pointer;
+  padding: 0.25rem !important;
+  margin-top: 0.25rem !important;
+  margin-right: 0.5rem !important;
+  margin-left: auto !important;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 0.125rem solid var(--button_color) !important;
+  border-radius: 0.125rem !important;
+  opacity: 1;
+  float: left;
+}
+
+/* .addFieldButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+} */
+
+/* .dataDiv {
+  width: 100%;
+  opacity: 1;
+} */
+
+/* .inputsDiv {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  opacity: 1;
+  height: 55px;
+} */
+
+.columnNameInlineErrorStyles {
+  margin-left: 1rem;
+}
+
+/* .fieldDataDiv {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 47px;
+    border: 1px solid #e4e4e480;
+    margin-top: 2px;
+  } */
+
+/* .inputBaseData {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    opacity: 1;
+    margin: 8px 0px 2px 15px;
+    width: 190px;
+    height: 30px !important;
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans !important;
+    letter-spacing: 0px;
+    color: #000000;
+  } */
+
+/* .typeInputData {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    opacity: 1;
+    width: 126px;
+    margin: 8px 0px 2px 51px;
+    height: 30px;
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans !important;
+  } */
+
+.constraintsType {
+  margin: 14px 0px 2px 64px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 80px;
+}
+
+.mappingTypeData {
+  margin: 14px 0px 2px 36px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 80px;
+}
+
+.mappedFieldData {
+  margin: 14px 0px 2px 30px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.moreOptionsInput {
+  margin: 15px 72px 7px 0px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* .emptyStateMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .emptyStateImage {
+  width: 8.25rem;
+  height: 4.813rem;
+  margin-top: 4.938rem;
+} */
+
+.emptyStateHeading {
+  margin-top: 1.063rem;
+  text-align: left;
+  font: normal normal bold var(--title_text_font_size) / 1.375rem
+    var(--font_family);
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+/* .emptyStateText {
+  margin-top: 0.375rem !important;
+  text-align: left;
+  font: normal normal normal 0.75rem/1.25rem Open Sans !important;
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+  opacity: 1;
+} */
+
+.fieldDefinitionHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family);
+  letter-spacing: 0rem;
+  color: #000000 !important;
+  opacity: 1;
+  margin-top: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.asterisk {
+  color: red;
+  margin-top: 0.5rem;
+  margin-right: 2px;
+  font-size: 0.75rem;
+}
+
+.tableNameMargin {
+  margin-top: 0.25rem;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px/24px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

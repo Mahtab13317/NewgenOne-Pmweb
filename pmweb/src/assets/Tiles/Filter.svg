@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Filter">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Filter" clip-path="url(#clip-Filter)">
+    <path id="Path_52830" data-name="Path 52830" d="M2.429,1.5h12l-5,7v4l-3.5,3v-7Z" transform="translate(3.571 3.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

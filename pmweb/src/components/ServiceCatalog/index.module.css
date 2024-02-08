@@ -1,0 +1,5 @@
+.DivScroll {
+  overflow-y: scroll;
+  /* height: 68vh;  code modified on 24-09-23 for BugId: 138198 */
+  height: 62vh;
+}

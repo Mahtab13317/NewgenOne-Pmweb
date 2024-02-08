@@ -1,0 +1,506 @@
+.toolboxContainerExpanded {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  z-index: 15;
+}
+
+.muiList-padding
+  .MuiListItem-gutters
+  .MuiListItemText-root
+  .MuiTypography-displayBlock {
+  display: none !important;
+}
+
+.collapsedList {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  background: #ffffff;
+  height: calc(100vh - 11rem);
+}
+
+.expandedList li {
+  margin-left: 0px;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.expandedList li:focus-visible {
+  outline: 0;
+}
+
+.expandedList {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding: 0;
+}
+
+.expandedList:first-child ::-webkit-scrollbar,
+.globalTempList::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 2px;
+  background-color: white;
+}
+.expandedList:first-child ::-webkit-scrollbar-thumb,
+.globalTempList::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.toolTypeContainer {
+  height: 100vh;
+  width: 6vw;
+  box-shadow: 2px 0 4px 0 #dadada;
+  background-color: white;
+}
+
+.toolTypeContainerArabic {
+  height: 100vh;
+  width: 6vw;
+  box-shadow: -2px 0 4px 0 #dadada;
+  background-color: white;
+}
+
+.toolTabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6vw;
+  cursor: pointer;
+}
+
+.toolTabs,
+.toolSearchTab {
+  padding: 0.25rem 0.5rem !important;
+}
+
+.MuiListItem-gutters .MuiListItemIcon-root {
+  max-width: 100% !important;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.toolTypeContainerExpanded .MuiListItem-button,
+.toolTypeContainerExpandedArabic .MuiListItem-button {
+  height: 0px !important;
+  padding: 0.75rem !important;
+  margin: 0.5rem 0 0;
+}
+
+.expandedList ul {
+  margin-bottom: 0.5rem;
+  padding: 0 0 0.5rem 0 !important;
+}
+
+.toolTypeContainerExpanded .MuiListItemText-primary {
+  text-transform: uppercase;
+  margin-left: -8px;
+  font-size: 10px;
+  color: #606060;
+}
+
+.toolTypeContainerExpandedArabic .MuiListItemText-primary {
+  text-transform: uppercase;
+  margin-right: -8px;
+  font-size: 10px;
+  color: #606060;
+}
+
+.toolTypeContainerExpanded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 2px 0 4px 0 #dadada;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 6.1vw;
+  top: 0px;
+  z-index: 5;
+  width: 13.2vw;
+}
+
+.toolTypeContainerExpandedArabic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: -2px 0 4px 0 #dadada;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 6.1vw;
+  top: 0px;
+  z-index: 5;
+  width: 13.2vw;
+}
+
+.toolTypeContainerExpanded::-webkit-scrollbar,
+.toolTypeContainerExpandedArabic::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background-color: white;
+}
+.toolTypeContainerExpanded::-webkit-scrollbar-thumb,
+.toolTypeContainerExpandedArabic::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: #606060;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #606060;
+}
+
+.toolContainer {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: #ffffff;
+  box-shadow: 2px 2px 4px 0 #dadada;
+  border-radius: 2px;
+  width: 231px;
+  left: 6.05vw;
+  position: absolute;
+  z-index: 1000;
+}
+
+.toolContainerArabic {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: #ffffff;
+  box-shadow: -2px 2px 4px 0 #dadada;
+  border-radius: 2px;
+  width: 231px;
+  right: 6.05vw;
+  position: absolute;
+  z-index: 1000;
+}
+
+.toolContainer img,
+.toolContainerArabic img {
+  width: 16px;
+  max-height: 16px;
+}
+
+.toolIcon {
+  writing-mode: horizontal-tb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 0.5rem;
+}
+
+.iconLabel {
+  font-size: 10px;
+  color: #606060;
+  text-align: center;
+}
+
+.inputBox {
+  width: 180px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0072c629;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  opacity: 1;
+  position: absolute;
+  left: 72px;
+}
+
+.closeIcon {
+  top: 125px;
+  transform: translateX(190px);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.selectedMenu:hover {
+  background-color: #0072c60d !important;
+}
+
+.userInput_collapsed {
+  display: none;
+  position: absolute;
+  top: 9px;
+  left: 6.1vw;
+  width: 13.3vw;
+  height: 28px;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+
+.userInput_collapsedArabic {
+  display: none;
+  position: absolute;
+  top: 9px;
+  right: 6.1vw;
+  width: 13.3vw;
+  height: 28px;
+  z-index: 100;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+
+.closeSearchBoxIcon {
+  height: 15px;
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  z-index: 100;
+  left: 17.5vw;
+  display: none;
+  cursor: pointer;
+}
+
+.closeSearchBoxIconArabic {
+  height: 15px;
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  z-index: 100;
+  right: 17.5vw;
+  display: none;
+  cursor: pointer;
+}
+
+.closeSearchBoxIcon:focus-visible,
+.closeSearchBoxIconArabic:focus-visible {
+  outline: 0;
+  border: 1px solid var(--button_color) !important;
+  border-radius: 2px;
+}
+
+.toolBoxIconDiv {
+  width: 6vw;
+  white-space: nowrap;
+}
+
+.searchDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  margin-left: 0.625rem;
+  width: 5.0625rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+  height: 2.5rem;
+}
+
+.searchDiv:hover {
+  background-color: #0072c60d;
+}
+
+#searchActivityIcon_abstractView {
+  height: 16px;
+  width: 16px;
+  margin-top: 5px;
+}
+
+.subActivities:hover {
+  background-color: #f5f5f5;
+}
+
+.mainMenuHeading:hover {
+  background-color: white !important;
+  cursor: default !important;
+}
+
+.tooltypeHeading {
+  color: #3a3a3a;
+  text-transform: uppercase;
+  font: normal normal 500 var(--base_text_font_size) / 17px var(--font_family);
+}
+
+#userInput_expanded {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.toggleBtnExpanded {
+  position: absolute;
+  bottom: 3rem;
+  left: 18.5vw;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.toggleBtnExpandedArabic {
+  position: absolute;
+  bottom: 3rem;
+  right: 18.5vw;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  z-index: 210;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.toggleBtnCollapsed {
+  position: absolute;
+  bottom: 0;
+  left: 5.2vw;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.toggleBtnCollapsedArabic {
+  position: absolute;
+  bottom: 0;
+  right: 5.2vw;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  z-index: 210;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.toggleBtnExpanded:focus-visible,
+.toggleBtnExpandedArabic:focus-visible,
+.toggleBtnCollapsed:focus-visible,
+.toggleBtnCollapsedArabic:focus-visible {
+  outline: 0;
+  border: 1px solid var(--button_color) !important;
+  border-radius: 2px;
+}
+
+.searchIconArabic {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .toolTypeContainer,
+  .toolBoxIconDiv,
+  .toolTabs,
+  .toolTypeContainerArabic {
+    width: 8vw;
+  }
+  .toggleBtnCollapsed {
+    left: 7vw;
+  }
+  .toggleBtnCollapsedArabic {
+    right: 7vw;
+  }
+  .toolTypeContainerExpanded {
+    left: 8.1vw;
+    width: 27.2vw;
+  }
+  .toolTypeContainerExpandedArabic {
+    right: 8.1vw;
+    width: 27.2vw;
+  }
+  .toggleBtnExpanded {
+    left: 34.2vw;
+  }
+  .toggleBtnExpandedArabic {
+    right: 34.2vw;
+  }
+  .toolContainer {
+    left: 8.05vw;
+  }
+  .toolContainerArabic {
+    right: 8.05vw;
+  }
+  .userInput_collapsed {
+    left: 8.1vw;
+    width: 18.5vw; /* added on 19/10/23 for BugId 138196*/
+  }
+  .userInput_collapsedArabic {
+    right: 8.1vw;
+    width: 18.5vw; /* added on 19/10/23 for BugId 138196*/
+  }
+  .closeSearchBoxIcon {
+    /* modified on 19/10/23 for BugId 138196*/
+    /* left: 19.5vw; */
+    left: 23.5vw;
+    /*till here BugId 138196*/
+  }
+  .closeSearchBoxIconArabic {
+    /* modified on 19/10/23 for BugId 138196*/
+    /* right: 19.5vw; */
+    right: 23.5vw;
+    /*till here BugId 138196*/
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .toolTypeContainer,
+  .toolBoxIconDiv,
+  .toolTabs,
+  .toolTypeContainerArabic {
+    width: 11vw;
+  }
+  .toggleBtnCollapsed {
+    left: 9.2vw;
+  }
+  .toggleBtnCollapsedArabic {
+    right: 9.2vw;
+  }
+  .toolTypeContainerExpanded {
+    left: 11.1vw;
+    width: 27.2vw;
+  }
+  .toolTypeContainerExpandedArabic {
+    right: 11.1vw;
+    width: 27.2vw;
+  }
+  .toggleBtnExpanded {
+    left: 36.5vw;
+  }
+  .toggleBtnExpandedArabic {
+    right: 36.5vw;
+  }
+  .toolContainer {
+    left: 11.05vw;
+  }
+  .toolContainerArabic {
+    right: 11.05vw;
+  }
+  .userInput_collapsed {
+    left: 11.1vw;
+    width: 21.5vw; /* added on 19/10/23 for BugId 138196*/
+  }
+  .userInput_collapsedArabic {
+    right: 11.1vw;
+    width: 21.5vw; /* added on 19/10/23 for BugId 138196*/
+  }
+  .closeSearchBoxIcon {
+    /* modified on 19/10/23 for BugId 138196*/
+    /* left: 22.5vw; */
+    left: 29vw;
+    /*till here BugId 138196*/
+  }
+  .closeSearchBoxIconArabic {
+    /* modified on 19/10/23 for BugId 138196*/
+    /* right: 22.5vw; */
+    right: 29vw;
+    /*till here BugId 138196*/
+  }
+}

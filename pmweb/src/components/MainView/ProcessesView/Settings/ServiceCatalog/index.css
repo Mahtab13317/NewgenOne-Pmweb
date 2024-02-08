@@ -1,0 +1,17 @@
+.mainTab_sc .MuiTabs-indicator {
+  height: 2px !important;
+  background-color: #1072c6 !important;
+}
+
+.mainTab_sc .MuiTab-wrapper {
+  padding: 0 !important;
+}
+
+.subMainOneTabStyle_sc.Mui-selected {
+  color: #1072c6 !important;
+}
+
+.subMainTab_sc .MuiTabs-indicator {
+  height: 2px !important;
+  background-color: #1072c6 !important;
+}

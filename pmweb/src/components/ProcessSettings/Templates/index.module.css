@@ -1,0 +1,255 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+/*112336 :[10-02-2023] Added for showing the data in a grid*/
+.gridContainer {
+  display: grid;
+  grid-column-gap: 23px;
+  grid-template-columns: 210px 160px 120px 120px 150px 100px 70px;
+  padding-left: 1rem;
+  align-items: center;
+  height: 32px;
+  width: fit-content;
+}
+
+/*112336 :[10-02-2023] Added icon styles*/
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.mainDiv {
+  margin-top: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.mainHeading {
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.description {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin-top: 6px;
+}
+
+.registerTemplateButton {
+  background: #0072c6;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  color: white;
+  border-radius: 0.125rem;
+  border: 2px solid #0072c6;
+  opacity: 1;
+  padding: 0.313rem 0.5rem 0.375rem 0.5rem;
+  margin-right: 3.75rem;
+  float: right;
+  cursor: pointer;
+}
+
+.tableHeadingBar {
+  background-color: #f0f0f0;
+  /* height: 40px; */
+  margin-top: 2.469rem;
+}
+
+.tableHeaders {
+  text-align: left;
+  font: normal 600 normal 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: fit-content;
+}
+
+.templateName {
+  margin: 8px 0px 7px 16px;
+}
+
+.divMargins {
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.tool {
+  margin: 8px 0px 7px 137px;
+}
+
+.inputFormat {
+  margin: 8px 0px 7px 132px;
+}
+
+.outputFormat {
+  margin: 8px 0px 7px 70px;
+}
+
+.dateFormat {
+  margin: 8px 0px 7px 50px;
+}
+
+/*112336 :[10-02-2023] Added text-align to align the data in the middle*/
+.multilingual {
+  text-align: center !important;
+}
+
+.dataDiv {
+  height: 40px;
+  display: grid;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 2.5px 0px;
+  width: fit-content;
+}
+
+.templateNameData {
+  margin: 12px 0px 11px 26px;
+  width: 100px;
+}
+
+.toolData {
+  margin: 12px 0px 11px 124px;
+  width: 100px;
+}
+
+.inputFormatData {
+  margin: 12px 0px 11px 55px;
+  width: 100px;
+}
+
+.outputFormatData {
+  margin: 12px 0px 11px 48px;
+  width: 100px;
+}
+
+.dateFormatData {
+  margin: 12px 0px 11px 35px;
+  width: 100px;
+}
+
+.multilingualData {
+  margin: 12px 0px 11px 77px;
+  width: 100px;
+}
+
+.tableData {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tableData::hover {
+  overflow: visible;
+  white-space: normal;
+  height: auto;
+}
+
+.modalHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalHeading {
+  text-align: left;
+  font: normal 600 normal 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.modalDivider {
+  color: #e4e4e4;
+  width: 100%;
+  margin-top: 15px !important;
+}
+
+.closeIcon {
+  margin-top: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.labelTittle {
+  font: normal normal normal 12px/16px Open Sans;
+  margin-top: 1rem;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.dropdown {
+  width: 150px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.chooseFileButton {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid #0072c5 !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #0072c6;
+  text-transform: none !important;
+  margin-right: 0.5rem !important;
+  padding: 0.25rem 0.75rem !important;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.tooltip {
+  text-overflow: "ellipsis";
+  overflow: "hidden";
+  white-space: "nowrap";
+  display: "flex";
+  word-break: "break-all";
+  align-items: "center";
+}
+
+.templateModalDiv {
+  padding: 0.5rem 1vw;
+}
+
+@media screen and (max-width: 1199px) {
+  .templateModalDiv {
+    overflow-y: scroll;
+    height: 46vh;
+  }
+}

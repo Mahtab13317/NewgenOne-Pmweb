@@ -1,0 +1,176 @@
+.mainDiv {
+  margin-top: 0.25rem; /*Bug 116295 [23-02-2023] - Added a margin-top*/
+  width: 100%;
+  padding-top: 0.75rem;
+  overflow-y: auto; /*Bug 124291 [28-02-2023] Made the overflow-y as auto*/
+  overflow-x: hidden;
+  height: 80vh;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerLogo {
+  height: 1rem;
+  width: 1rem;
+  background-color: lightgrey;
+  border-radius: 0.25rem;
+  margin: 1.125rem 0rem 0.938rem 0.938rem;
+}
+
+.businessVariableHeading {
+  text-align: left;
+  font-size: var(--title_text_font_size);
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 0 0 0 1vw;
+}
+
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0.75rem 0rem 0.563rem 35.75rem;
+  margin-left: auto;
+  margin-right: 0.625rem;
+}
+
+.exportDefinitionButton {
+  height: 1.751rem;
+  width: 8.25rem;
+  margin-left: 0.625rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.063rem solid #c4c4c4;
+  border-radius: 0.125rem;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.exportDefinitionButtonText {
+  margin-top: 0.125rem;
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #606060;
+  opacity: 1;
+}
+
+.buttonContent {
+  padding: 0.313rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.auditHistoryButton {
+  height: 1.751rem;
+  margin-left: 0.625rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.063rem solid #c4c4c4;
+  border-radius: 0.125rem;
+  opacity: 1;
+  cursor: pointer;
+}
+.auditButtonText {
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #606060;
+  opacity: 1;
+}
+
+.erDiagramButton {
+  height: 1.751rem;
+  margin-left: 0.625rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.063rem solid #c4c4c4;
+  border-radius: 0.125rem;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.erDiagramButtonText {
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #606060;
+  opacity: 1;
+}
+
+.moreOptionsIcon {
+  height: 1.75rem;
+  width: 1.75rem;
+  border: 0.063rem solid #c4c4c4;
+  margin-left: 0.625rem;
+  border-radius: 0.125rem;
+}
+
+/* ------------------- */
+
+.accordionHeader {
+  text-align: left;
+  font: normal normal 600 14px/19px Open Sans !important;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.accordianHeaderCount {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 1px 0px 0px 4.5px !important;
+}
+
+.accordianHeaderDivider {
+  color: #c4c4c4;
+  width: 92%;
+  margin: 10px 0px 0px 10px !important;
+}
+
+.accordionHeaderButton {
+  text-align: left;
+  font: normal normal 600 14px/19px Open Sans !important;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.accordianContent {
+  padding-left: 33px !important;
+}
+
+.accordianHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.countInHeading {
+  text-align: start;
+  color: #000000;
+  font: normal normal normal var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  margin-inline-start: 0.5vw;
+}
+
+@media screen and (min-width: 999px) and (max-width: 1199px) {
+  .mainDiv {
+    margin-top: 0.25rem;
+    width: 100%;
+    padding-top: 0.75rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 66vh;
+  }
+}

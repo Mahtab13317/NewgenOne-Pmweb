@@ -1,0 +1,114 @@
+.dataTable {
+  min-height: 10rem;
+  height: 23rem;
+  overflow: auto;
+  /*Bug 124402 - postgres>>document/Todo/exception>>unnecessary outlines on rule screen: [03-03-2023] Removed the border*/
+  /* border: 1px solid #eeeeee; */
+}
+
+.dataTableBody {
+  border: 1px solid #f0f0f0;
+  display: block;
+  /*Bug 124402 - postgres>>document/Todo/exception>>unnecessary outlines on rule screen: [03-03-2023] Added the height
+   & removed the max-height*/
+  height: 19rem;
+  overflow-y: auto;
+}
+
+.dataTableBodyWithNoData {
+  /*Bug 124402 - postgres>>document/Todo/exception>>unnecessary outlines on rule screen: [03-03-2023] 
+  Updated the min-height from 10rem to 17rem*/
+  min-height: 17rem;
+}
+
+.dataTableBody::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.dataTableBody::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.dataTableHead,
+.dataTableBody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dataTableHead {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}
+
+.dataTableHeadCell,
+.dataTableBodyCell {
+  padding: 0.5rem 1rem !important;
+}
+
+.dataTableHeadCellContent {
+  text-align: start;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.dataEntryAddRemoveBtnHeader {
+  text-align: start;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.dataTableRow {
+  height: 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdownVariable {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownVariable span:first-child,
+.dropdownVariableType {
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.dropdownVariableType {
+  margin-top: 0.5rem;
+}
+
+.dropdownVariable span {
+  text-align: left;
+  font: normal normal normal 10px/14px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.48;
+}
+.noDataEntryRecords {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  text-align: center;
+  margin: 1rem 0;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.visuallyHidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

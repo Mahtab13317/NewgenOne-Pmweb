@@ -1,0 +1,41 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 66vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5vw;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: var(--base_text_font_size);
+  font-weight: 600;
+}
+
+.varRow {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 0.5vw;
+  width: 30%;
+  align-items: center;
+}
+
+.varRowCollapse {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 0.5vw;
+  align-items: center;
+  width: 100%;
+}
+
+.variableContainer {
+  height: 40vh;
+  overflow-y: scroll;
+}

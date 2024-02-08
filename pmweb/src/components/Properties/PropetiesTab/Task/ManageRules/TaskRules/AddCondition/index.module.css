@@ -1,0 +1,65 @@
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  padding: 0.5rem 0.5vw;
+  margin: 0;
+  min-height: 2rem;
+}
+
+.addNewRule {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+/* code added on 26-09-23 for bugId: 138215 */
+@media screen and (min-width: 450px) and (max-width: 800px)
+{
+  .addNewRule {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.3rem !important;
+  }
+}
+/*Till here for bugId: 138215 */
+
+.addNewRule .deleteIcon {
+  color: grey;
+  font-size: 1.5rem !important;
+  height: 30px;
+}
+
+.dropdown {
+  width: 12vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-inline-end: 1vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.ruleConditionLabelsDiv {
+  margin-top: 0.625rem;
+  margin-bottom: 0.25rem;
+}
+
+.operationsLabel {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  display: flex;
+  padding: 0rem;
+  align-items: center;
+  height: 1rem;
+  width: 12vw;
+  margin-inline-end: 1vw;
+}

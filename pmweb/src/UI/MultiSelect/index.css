@@ -1,0 +1,8 @@
+.multiSelectInput_arabicView .MuiSelect-select {
+  padding-right: 0.5rem !important;
+}
+
+.multiSelectInput_arabicView .MuiSelect-icon {
+  left: 0;
+  right: unset;
+}

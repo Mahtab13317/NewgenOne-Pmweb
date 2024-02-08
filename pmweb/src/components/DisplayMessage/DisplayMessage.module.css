@@ -1,0 +1,11 @@
+.DisplayMessage{
+    text-align: center;
+    padding: 2px;
+    padding-top: 0px;
+    font-size: 0.8em;
+    position: absolute;
+    z-index: 50;
+    overflow: auto;
+    background:   rgb(139, 214, 255);
+    border: 1px solid  rgb(2, 113, 187);
+}

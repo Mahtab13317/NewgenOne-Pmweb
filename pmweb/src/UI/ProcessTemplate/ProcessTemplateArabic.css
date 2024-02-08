@@ -1,0 +1,108 @@
+.allTempInRowArabic {
+  margin-bottom: 20px;
+  margin-left: 1rem;
+}
+
+.tempTypeTitleArabic {
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-right: 3rem;
+}
+
+.milestoneArrowFullTemplateArabic {
+  width: 90%;
+  max-width: 10.5vw;
+  height: 2vw;
+  position: relative;
+  background: rgb(68, 66, 68);
+  border: none;
+  color: white;
+  position: sticky;
+  top: -0.2%;
+  z-index: 2;
+  font-size: 0.7rem;
+  margin-left: 0.75rem;
+  padding-right: 0.6rem;
+  padding-top: 0.3rem;
+}
+
+.milestoneArrowFullTemplateArabic:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+}
+
+.milestoneArrowFullTemplateArabic:before {
+  content: "";
+  position: absolute;
+  left: -0.95vw;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1vw solid rgb(68, 66, 68);
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+}
+
+.milestoneArrowTemplateArabic {
+  width: 93%;
+  max-width: 10.5vw;
+  height: 2vw;
+  position: relative;
+  background: rgb(68, 66, 68);
+  border: none;
+  color: white;
+  position: sticky;
+  top: -0.2%;
+  z-index: 2;
+  margin-left: 0.75rem;
+  /* font-size: 0.7rem; */
+  font-size: var(--sub_text_font_size);
+  padding-right: 1.25vw;
+  padding-top: 0.3rem;
+  display: flex;
+}
+
+.milestoneArrowTemplateArabic:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1vw solid white;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+}
+
+.milestoneArrowTemplateArabic:before {
+  content: "";
+  position: absolute;
+  left: -0.95vw;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1vw solid rgb(68, 66, 68);
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+}
+
+.templateActivityArabic {
+  width: 93%;
+  max-width: 10.5vw;
+  height: 2.4rem;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  /* font-size: 0.75vw; */
+  font-size: (--sub_text_font_size);
+  padding-right: 0.5vw;
+  border: 1px solid #707070;
+}

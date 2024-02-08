@@ -1,0 +1,154 @@
+.timeline-container {
+  position: relative;
+  padding-inline-start: 50px;
+  margin-inline-start: 20px;
+}
+.processNameContainer {
+  /*margin-left: 30px;*/
+  margin-bottom: 12px;
+  height: 40px;
+  display: flex;
+  /*padding-inline-start: 4rem;*/
+  padding-inline-start: 2.5rem;
+
+  align-items: center;
+  border: "1px solid lightgrey";
+}
+.processNamePromptHistory {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.timeline-start-dot {
+  position: absolute;
+  left: -5px;
+  top: 20px;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(
+    92deg,
+    #51087e -29.88%,
+    #a14653 56.2%,
+    #fb8b23 116.99%
+  );
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.timeline-card {
+  position: relative;
+  margin-inline-start: -40px;
+}
+
+.timeline-content {
+  padding: 10px;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 200px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c4c4c4;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.timeline-content:hover {
+  padding: 10px;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 200px;
+  background-color: #f4f4f4;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c4c4c4;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.timeline-content-selected {
+  padding: 10px;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 200px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #047ed8;
+  margin-top: 10px;
+}
+
+.timeline-date {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* Vertical line connecting all dots */
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -35px;
+  bottom: 0;
+  width: 1px;
+  background-color: #c4c4c4;
+}
+.timeline-container:last-child::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -32px;
+  bottom: 79%;
+  width: 1px;
+  background-color: #c4c4c4;
+}
+/* Line connecting dot to the card */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -51px;
+  top: 20%;
+  height: 1px;
+  width: 11px;
+  background-color: #c4c4c4;
+}
+
+.timeline-item-first::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #c4c4c4;
+}
+
+.processnametitle {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.categoryDetails {
+  color: #606060;
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.timestamp {
+  color: #606060;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

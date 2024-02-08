@@ -1,0 +1,114 @@
+.mainDiv {
+  margin-top: 0.063rem;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #fcfcfc;
+}
+
+.dataModelNavBar {
+  width: 17vw !important;
+  background: white;
+  margin-top: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.labelData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.labelCount {
+  text-align: left;
+  font: normal normal 600 11px/14px Open Sans;
+  letter-spacing: 0px;
+  color: #7c7c7c;
+  opacity: 1;
+}
+
+.tabHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.625rem;
+}
+
+.tabHeading {
+  text-align: left;
+  font-size: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 0.75rem 0rem 0rem 0.688rem;
+}
+
+.addButton {
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #0072c6;
+  opacity: 1;
+  margin: 0.75rem 0.875rem 0px 2.875rem;
+}
+
+.dataModelTab {
+  min-height: 2.625rem !important;
+  padding: 0.125rem 0.25rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.125rem 0 !important;
+  max-width: inherit;
+}
+
+.dataModelTabRtl {
+  min-height: 2.625rem !important;
+  padding: 0.125rem 0.25rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.125rem 0 !important;
+  max-width: inherit;
+}
+.labelName {
+  width: auto !important;
+  text-align: left !important;
+  margin-left: 0.25rem !important;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #000000 !important;
+}
+
+.dataModelTab .MuiTab-wrapper {
+  width: "100%";
+  display: "inline-flex";
+  align-items: "center";
+  flex-direction: "row";
+  justify-content: center;
+}
+.dataModelTabRtl .MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dataModelTab:focus-visible {
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+}
+.dataModelTabRtl:focus-visible {
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+}
+@media screen and (max-width: 1199px) {
+  .dataModelNavBar {
+    width: 22vw !important;
+    background: white;
+    margin-top: 0.25rem;
+    margin-right: 0.5rem;
+  }
+}

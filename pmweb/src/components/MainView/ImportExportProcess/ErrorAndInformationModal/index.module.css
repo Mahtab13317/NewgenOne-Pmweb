@@ -1,0 +1,41 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.headingTag {
+  font: normal normal 600 var(--title_text_font_size) / 19px var(--font_family) !important;
+  color: #000000;
+  opacity: 1;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.tabLabel {
+  color: var(--button_color);
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  /* margin: 0px !important;
+  min-width: 70px !important;
+  padding: 0px !important; */
+}
+
+.tabStyles {
+  border-bottom: 1px solid #c4c4c4;
+  border-top: 1px solid #c4c4c4;
+  /* margin: 0px !important;
+  padding: 0px !important; */
+}
+
+.noteText {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  color: #000000;
+  opacity: 1;
+  padding: 10px;
+}

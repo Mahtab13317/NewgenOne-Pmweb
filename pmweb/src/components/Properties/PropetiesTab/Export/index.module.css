@@ -1,0 +1,11 @@
+.tabStyles {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.tabPanelStyles {
+  width: 95vw;
+}
+
+.tabLabel {
+  color: #0072c6;
+}

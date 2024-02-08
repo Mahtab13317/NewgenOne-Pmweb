@@ -1,0 +1,101 @@
+.select_webService {
+  width: 290px;
+  height: var(--line_height);
+  border: 1px solid #cecece;
+  border-radius: 1px;
+  opacity: 1;
+}
+
+/*code edited on 21 June 2022 for BugId 111085*/
+.associateButton_webSProp {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--button_color);
+  cursor: pointer;
+  display: flex;
+  padding: 0 1vw !important;
+}
+
+.disabledButton_webSProp{
+  background: rgba(0, 0, 0, 0.12);
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  cursor: default;
+  display: flex;
+  padding: 0 1vw !important;
+}
+
+/*code added on 11 oct 2022 for BugId 135961, 139863 */
+.customScroller::-webkit-scrollbar
+ {
+  width: 7px !important;
+}
+/* till here for BugId 135961, 139863*/
+
+/*code added on 22 June 2022 for BugId 111065 and BugId 110846*/
+.webServicePropertiestable .MuiTableCell-root {
+  padding: 0.25rem 0vw 0.25rem 0.25vw !important;
+  border-top: 1px solid #f8f8f8 !important;
+  border-bottom: 1px solid #f8f8f8 !important;
+}
+
+.webServicePropertiestableEx .MuiTableCell-root:first-child {
+  padding: 0.25rem 0vw 0.25rem 2.5vw !important;
+  border-left: 1px solid #f8f8f8 !important;
+}
+
+.webServicePropertiestableEx .MuiTableCell-root:last-child {
+  padding: 0.25rem 2.5vw 0.25rem 1vw !important;
+  border-right: 1px solid #f8f8f8 !important;
+}
+
+.select_webService_mapping {
+  width: 100%;
+  height: var(--line_height);
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.webS_props_tabStyles {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 0.5rem;
+}
+
+.tabLabel {
+  color: #0072c6;
+}
+
+#pmweb_webService_mapping_timeOutWebservice {
+  width: 6vw;
+  padding: 0.25rem 0.5vw;
+  font-size: 12px;
+  height: var(--line_height);
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.starIcon {
+  /* color: red; */
+  color: rgb(181, 42, 42);
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}
+
+.webS_props_tabStyles .MuiTab-root,
+.webS_props_tabStyles .MuiTabs-root {
+  min-height: 30px !important;
+}
+
+.icon:focus-visible{
+  border: 2px solid var(--button_color) !important;
+  border-radius: 2px;
+}

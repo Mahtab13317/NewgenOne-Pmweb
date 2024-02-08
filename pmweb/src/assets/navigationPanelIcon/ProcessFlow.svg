@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Search Copy 5</title>
+    <g id="Search-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.500000, 2.500000)" stroke="#FFFFFF">
+            <rect id="Rectangle" stroke-linejoin="round" x="9" y="0" width="9" height="5"></rect>
+            <rect id="Rectangle-Copy" stroke-linejoin="round" x="9" y="11" width="9" height="5"></rect>
+            <rect id="Rectangle-Copy-2" stroke-linejoin="round" x="9" y="22" width="9" height="5"></rect>
+            <path d="M20.5,2.5 C22.4815063,2.5 22.9676514,2.70874023 23.3588257,2.83483887 C23.75,2.9609375 24.828125,3.46777344 25.6326294,4.3737793 C26.4371338,5.27978516 26.9969482,6.41262898 26.9969482,8.00784382 C26.9969482,9.5284737 26.403661,10.7972668 25.6326294,11.6397095 C24.7297974,12.6261597 23.664978,13.0800781 23.3588257,13.1695557 C23.0526733,13.2590332 22.463623,13.5 20.5,13.5" id="Path-10" stroke-linecap="round"></path>
+            <polyline id="Path-11" stroke-linecap="round" stroke-linejoin="round" points="21.5343018 12 20 13.4805908 21.5343018 15.0227051"></polyline>
+            <path d="M0,13.5 C1.98150635,13.5 2.46765137,13.7087402 2.85882568,13.8348389 C3.25,13.9609375 4.328125,14.4677734 5.13262939,15.3737793 C5.93713379,16.2797852 6.49694824,17.412629 6.49694824,19.0078438 C6.49694824,20.5284737 5.90366099,21.7972668 5.13262939,22.6397095 C4.22979736,23.6261597 3.16497803,24.0800781 2.85882568,24.1695557 C2.55267334,24.2590332 1.96362305,24.5 0,24.5" id="Path-10" stroke-linecap="round" transform="translate(3.248474, 19.000000) scale(-1, 1) translate(-3.248474, -19.000000) "></path>
+            <polyline id="Path-11" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.267151, 24.511353) scale(-1, 1) translate(-6.267151, -24.511353) " points="7.03430176 23 5.5 24.4805908 7.03430176 26.0227051"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,89 @@
+.MuiAccordionSummary-root {
+  padding: 0px !important;
+}
+
+.MuiAccordionDetails-root {
+  padding: 0px !important;
+  background-color: white !important;
+}
+
+/* ------------------ */
+.select_webService {
+  width: 290px;
+  height: 24px;
+  border: 1px solid #cecece;
+  border-radius: 1px;
+  opacity: 1;
+}
+
+.associateButton_webService {
+  position: absolute;
+  right: 10px;
+  color: #0172c6;
+  text-transform: none;
+  padding: 0px !important;
+  width: 80px;
+  height: 30px;
+  font-weight: 500;
+  border: 1.5px solid #0172c6;
+  border-radius: unset !important;
+}
+
+.select_webService_mapping {
+  width: 230px;
+  height: 28px;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.select_webService_timeOut {
+  width: 76px;
+  height: 28px;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.tabStyles {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.tabLabel {
+  color: #0072c6;
+}
+
+.associatedTemplateDiv {
+  max-height: 10vh;
+  overflow-y: auto;
+}
+
+.associatedTemplateDiv::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.associatedTemplateDiv::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.activitySecDiv {
+  height: 55vh;
+  overflow: auto;
+}
+
+.activitySecDiv::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 600px) and (max-width: 768px){
+  /* styles */
+ /*  .leftSection{
+    width:25%;
+  } */
+  .tooltipText{
+    
+  }
+}

@@ -1,0 +1,63 @@
+.processTypeTable {
+  display: flex;
+  flex-direction: column;
+  border-bottom: #f3f4ed solid 1px;
+  border-top: 1px solid #f3f4ed;
+  padding-top: 0.5rem;
+  /* width: 19.5vw; */
+  width: 100%;
+}
+/* @media screen and (min-width: 600px) and (max-width: 1080px) {
+  .processTypeTable{
+    width: 24vw;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1199px) {
+  .processTypeTable{
+    width: 26.5vw;
+  }
+} */
+.oneRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: var(--base_text_font_size);
+  padding: 0.25rem 0 0.25rem 0.25vw;
+  cursor: pointer;
+}
+.oneRow:focus-visible{
+  outline: 1px solid var(--brand_color1);
+}
+
+.selectedRow {
+  color: var(--brand_color2);
+  font-weight: 600;
+  background-color: #0072c614;
+}
+.oneRow img {
+  margin: 0px 0.25vw;
+}
+.oneRowProcessType {
+  /* width: 17vw; */
+  font-size: var(--base_text_font_size);
+  display: flex;
+  align-items: center;
+}
+.processTypeCount {
+  font-size: var(--base_text_font_size);
+  width: 2.5vw;
+}
+.processCount img {
+  height: 16px;
+  width: 16px;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.processDotColor {
+  height: 1rem;
+  width: 1rem;
+}

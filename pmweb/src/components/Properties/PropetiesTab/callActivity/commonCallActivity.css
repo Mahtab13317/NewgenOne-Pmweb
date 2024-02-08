@@ -1,0 +1,279 @@
+/*code edited on 09 mar 2023 for BugId 124841*/
+.oneInputPairDiv_Common {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: "0.5vh 0.5vw";
+  width: 100%;
+  /* margin-left: 7px;
+  margin-bottom: 4px;
+  height: 30px; */
+}
+
+.noSearchResultImage {
+  height: 40%;
+  /* Changes to resolve the bug ID 125561 */
+  top: 35%;
+  left: 23%;
+  position: absolute;
+}
+
+.noSearchResultImageExpanded {
+  height: 40%;
+  top: 39%;
+  left: 8%;
+  position: absolute;
+}
+
+.noSearchResultImageExpandedArabic {
+  height: 33%;
+  top: 39%;
+  right: 8%;
+  position: absolute;
+}
+
+.selectOne_callActivity,
+.selectTwo_callActivity {
+  width: 136px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.selectOne_callActivity {
+  padding: 2px;
+}
+
+.InputPairDiv_CommonList {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0.125rem 0.5vw;
+}
+
+.forwardMapping_VariablesLabel {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 7px;
+  border-bottom: 1px solid grey; */
+  padding: "0.5rem 0.5vw 0.25rem";
+}
+.forwardMapping_VariablesHeader {
+  width: 136px;
+  height: 52px;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forwardMapping_VariablesHeader_expanded {
+  width: 282px;
+  height: 48px;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* code added on 29-09-2023 for bugId: 138200 */
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .forwardMapping_VariablesHeader_expanded {
+    width: 184px;
+    height: 48px;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* till here  */
+.targetProcess {
+  font-size: 11px;
+  color: #606060;
+}
+
+.processName_CallActivity {
+  font-size: 11px;
+}
+
+.forwardMapping_VariablesHeaderDiv {
+  display: flex;
+  margin: 0px 25px 0px 8px;
+  justify-content: space-between;
+  padding-bottom: 1.5vh;
+  width: 22.7vw;
+}
+
+.forwardMapping_VariablesHeaderDivMessageEnd{
+  display: flex;
+  margin: 0px 8px 0px 8px;
+  justify-content: space-between;
+  width: 22.7vw;
+}
+
+.forwardMapping_VariablesHeaderDiv_Expanded {
+  display: flex;
+  /* margin: 0px 25px 0px 8px; code commented on 29-09-2023 for bugId: 138200  */
+  padding-bottom: 1.5vh;
+}
+
+.forwardMapping_VariablesHeaderDiv_ExpandedArabic {
+  display: flex;
+  margin: 0px 8px 0px 8px;
+  justify-content: space-between;
+  width: 63.3%;
+  padding-bottom: 1.5vh;
+}
+
+.forwardMapping_VariablesHeader_expanded1 {
+  /* margin-right: 60px; */
+}
+.forwardMapping_VariablesHeader_expanded1Arabic {
+  margin-left: 60px;
+}
+
+/* code added on 29-09-2023 for bugId: 138200 */
+@media screen and (min-width: 400px) and (max-width: 1280px) and (orientation: portrait) {
+  .forwardMapping_VariablesHeaderDiv {
+    display: flex;
+    margin: 0px 25px 0px 8px;
+    justify-content: space-between;
+    padding-bottom: 1.5vh;
+    width: 35.7vw;
+  }
+}
+/* till here for BugId:138200 */
+
+#close_AddVariableModal_CallActivity {
+  text-transform: none;
+  width: 54px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+#add_AddVariableModal_CallActivity {
+  text-transform: none;
+  width: auto;
+  height: 28px;
+  margin-left: 10px;
+  background: var(--blue-1-0072c6) 0% 0% no-repeat padding-box;
+  background: var(--button_color);
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.callActivity_ErrorToast {
+  bottom: 65% !important;
+  left: 88% !important;
+  width: 300px !important;
+}
+
+/*code added on 28 Nov 2022 for BugId 116427*/
+.callActList {
+  height: 23rem;
+  /* overflow: auto; */
+  /* Changes made to solve Bug 135141  */
+}
+
+/* Changes made to solve Bug 134210 */
+
+/* .leftSecWidth {
+  width: 24%;
+} */
+
+/* @media screen and (min-width: 700px) and (max-width: 900px) {
+  .leftSecWidth {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .leftSecWidth {
+    width: 33%;
+  }
+} */
+
+/* till here dated 11thSept */
+
+.callActList::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 0.6rem;
+}
+
+.callActList::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+  border-radius: 0.313rem;
+}
+
+.callActList:hover::-webkit-scrollbar {
+  overflow-y: scroll;
+  width: 0.375rem;
+  height: 0.6rem;
+}
+.callActList:hover::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem;
+}
+
+.noVariablesPresent {
+  position: absolute;
+  /* Changes to resolve the bug ID 125561 */
+  /* top: 72%;
+  left: 9%; */
+  top: 69%;
+  left: 30%;
+}
+.noVariablesPresentExpanded {
+  position: absolute;
+  top: 70%;
+  left: 9.5%;
+}
+
+.noVariablesPresentExpandedArabic {
+  position: absolute;
+  top: 70%;
+  right: 9.5%;
+}
+
+.noMappingPresent {
+  position: absolute;
+  top: 60%; 
+  /* Changes made to solve Bug 134213  */
+  left: 45%;  
+  color: #606060;
+  font-size: 12px;
+}
+
+.noMappingPresentArabic {
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  color: #606060;
+  font-size: 12px;
+}
+
+.noMappingPresent_expanded {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  color: #606060;
+  font-size: var(--base_text_font_size);
+}
+/* Changes to resolve the bug ID 125561 */
+#add_AddVariableModal_CallActivity:disabled {
+  color: white !important;
+}

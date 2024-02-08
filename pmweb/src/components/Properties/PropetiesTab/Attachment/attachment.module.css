@@ -1,0 +1,209 @@
+.attachment {
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.attachment::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.attachment::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.attachmentHeader {
+  justify-content: space-between;
+  padding: 0rem 1vw;
+  align-items: center;
+}
+
+.addAttachHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.addAttachBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--button_color);
+  padding: 0 0.5vw !important;
+  cursor: pointer;
+  margin-right: 0 !important;
+}
+
+.addNewAttachBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--button_color);
+  padding: 0 0.5vw !important;
+  cursor: pointer;
+  margin-right: 0 !important;
+}
+
+.expandedView .tableDiv {
+  padding: 0.5rem 0.5vw 1rem;
+  width: 99.8%;
+}
+
+.collapsedView .tableDiv {
+  padding: 1rem 0.25vw;
+  width: 100%;
+}
+
+.expandedView .tableHeaderRow {
+  padding: 0.5rem 1vw;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+}
+.collapsedView .tableHeaderRow {
+  padding: 0.5rem 1vw;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+}
+
+.tableRow {
+  padding: 0.5rem 1vw;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+}
+
+.tableRow:nth-child(even) {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}
+.tableRow:nth-child(odd) {
+  background: white;
+}
+
+.expandedView .attachDiv {
+  width: 40%;
+}
+
+.collapsedView .attachDiv {
+  width: 44%;
+}
+
+.expandedView .descDiv {
+  width: 50%;
+}
+.collapsedView .descDiv {
+  width: 40%;
+}
+
+.expandedView .iconDiv {
+  width: 20%;
+  text-align: right !important;
+  align-items: center;
+}
+.collapsedView .iconDiv {
+  width: 16%;
+  text-align: right !important;
+  align-items: center;
+}
+
+.expandedView .divHead {
+  text-align: left;
+  font: normal normal 600 1.05rem/18px var(--font_family);
+  letter-spacing: 0;
+  color: #070707;
+}
+.collapsedView .divHead {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0;
+  color: #070707;
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+
+.expandedView .divBody {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+.collapsedView .divBody {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+.expandedView .downloadIcon {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin: 0 1vw;
+  cursor: pointer;
+}
+.collapsedView .downloadIcon {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin: 0 0.25vw;
+  cursor: pointer;
+}
+.expandedView .deleteIcon1 {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin: 0 1vw;
+  cursor: pointer;
+}
+.collapsedView .deleteIcon1 {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin: 0 0.25vw;
+  cursor: pointer;
+}
+
+.emptyStateMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.emptyStateImage {
+  width: 9rem;
+  height: 9rem;
+  margin-top: 6rem;
+}
+
+.emptyStateHeading {
+  margin-top: 0.5rem;
+  text-align: center;
+  letter-spacing: 0rem;
+  color: #000000;
+  font-weight: 600;
+  font-size: var(--title_text_font_size);
+}
+
+.emptyStateText {
+  margin-top: 0.375rem !important;
+  text-align: center;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+}
+
+.iconButton {
+  height: fit-content !important;
+  padding: 0px !important;
+}

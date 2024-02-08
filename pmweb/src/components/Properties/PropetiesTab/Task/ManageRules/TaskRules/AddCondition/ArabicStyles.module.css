@@ -1,0 +1,41 @@
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.addNewRule {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  margin-top: 10px;
+}
+
+.addNewRule .deleteIcon {
+  color: grey;
+  font-size: 1.5rem !important;
+  height: 30px;
+}
+
+.dropdown {
+  width: 138px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.operationsLabel {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  display: flex;
+  padding: 0rem;
+  align-items: center;
+  height: 1rem;
+  width: 11vw;
+
+}

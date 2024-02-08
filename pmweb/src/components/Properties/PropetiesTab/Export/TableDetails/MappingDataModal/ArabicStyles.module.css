@@ -1,0 +1,86 @@
+.heading {
+  text-align: right;
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 2px;
+  margin: 16px 16px 15px 0px !important;
+}
+
+.closeModal {
+  cursor: pointer;
+  margin: 18px auto 8px 10px;
+  color: #707070;
+  opacity: 1;
+  height: 1.75rem !important;
+  width: 1.75rem !important;
+}
+
+.subDiv {
+  margin: 15px 16px 15px 0px;
+}
+
+.modalSubHeading {
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.mappedField {
+  text-align: right;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.inputBase {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 3px 21px 5px 0px;
+  width: 50px;
+  text-align: right;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  height: 30px !important;
+  color: #000000;
+}
+
+.length {
+  margin-right: 20px !important;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px / 24px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cancelButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px !important;
+  width: 59px;
+  height: 28px;
+  /* margin: 15px auto 11px 13px !important; */
+  opacity: 1;
+}
+
+.okButton {
+  cursor: pointer;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 2px solid var(--button_color) !important;
+  width: 59px;
+  height: 28px;
+  /* margin: 15px 0px 11px 5px !important; */
+  opacity: 1;
+}

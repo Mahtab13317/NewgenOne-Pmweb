@@ -1,0 +1,880 @@
+/*code updated on 29 November 2022 for BugId 119554 */
+.propertiesMainView {
+  margin: 0.25rem 1vw;
+  display: flex;
+  justify-content: space-between; /*Code added on 23-10-23 for bug 139845*/
+  /*commented on 18/09/23 for responsive and arabic changes*/
+  /* width: 73vw; */
+}
+
+.propertiesColumnView {
+  display: flex;
+  flex-direction: column;
+  /*commented on 18/09/23 for responsive and arabic changes*/
+  /* width: 73vw; */
+  margin: 0.25rem 1vw;
+}
+
+.propertiesFormInput {
+  width: 21vw;
+  height: var(--line_height);
+  margin-bottom: 1rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+}
+
+.propertiesDescLabel {
+  display: inline-block;
+  width: 9vw; /*Bug 138348 - Updated width from 7vw to 9vw*/
+  margin-inline-end: 1vw;
+  margin-top: 0.25rem;
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+/*Modified on 27/09/2023, bug_id:134025*/
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  .propertiesDescLabel {
+    display: inline-block;
+    /* Changes made to solve Bug 134108  */
+    width: 10vw;
+    margin-inline-end: 1vw;
+    margin-top: 0.25rem;
+    text-align: start;
+    font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+    letter-spacing: 0px;
+    color: #606060;
+  }
+}
+/*till here for bug id 134025 */
+.triggerFormLabel {
+  display: inline-block;
+  width: 9vw;
+  margin-inline-end: 1vw;
+  margin-top: 0.25rem;
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+/* Changes made to solve Bug 134110  */
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .triggerFormLabel {
+    display: inline-block;
+    width: 7vw;
+    margin-inline-end: 3vw;
+    margin-top: 0.25rem;
+    text-align: start;
+    font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+    letter-spacing: 0px;
+    color: #606060;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  .triggerFormLabel {
+    display: inline-block;
+    width: 7vw;
+    margin-inline-end: 4vw;
+    margin-top: 0.25rem;
+    text-align: start;
+    font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+    letter-spacing: 0px;
+    color: #606060;
+  }
+}
+/* code added on 26-09-23 for bugId: 138135 */
+@media screen and (min-width: 450px) and (max-width: 730px) {
+  .triggerFormLabel {
+    display: inline-block;
+    width: 10vw;
+    margin-top: 0.25rem;
+    text-align: start;
+    letter-spacing: 0px;
+    color: #606060;
+    margin-inline-end: 2vw;
+    font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  }
+}
+/*Till here for bugId: 138135 */
+
+/*Code commented on 23-10-23 for bug 139845*/
+/* .triggerNameTypeDiv {
+  margin-inline-end: 5vw;
+} */
+/* till here for bugId 138135 */
+
+/* code added on 26-09-23 for bugId: 138135 */
+@media screen and (min-width: 450px) and (max-width: 730px) {
+  .triggerNameTypeDiv {
+    margin-inline-end: 1vw;
+  }
+}
+/*Till here for bugId: 138135 */
+
+.starIcon {
+  /* WCAG : Contrast Issue- updated color to rgb(181,42,42)*/
+  /* color: red; */
+  color: rgb(181, 42, 42);
+  margin-inline-start: 0.25vw;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.triggerSelectVariableInput {
+  height: fit-content;
+  min-height: var(--line_height);
+  border: 1px solid #dadada;
+  width: 21vw;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  margin-bottom: 1rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+}
+
+.propertiesFormInput:disabled {
+  background-color: #f8f8f8;
+}
+
+.properties_radioButton svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.propertiesAddButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: var(--button_color);
+  cursor: pointer;
+  margin: 0 0 var(--spacing_v) !important;
+}
+
+.propertiesAddButton:disabled {
+  cursor: default;
+  background-color: rgba(84, 84, 84, 0.04);
+  color: rgba(84, 84, 84, 0.6);
+  border: 1px solid rgba(84, 84, 84, 0.5);
+}
+
+.properties_radioDiv {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.properties_radioButton {
+  margin-inline-end: 1rem !important;
+  margin-inline-start: 0rem !important;
+}
+
+.properties_radioButton span {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 15px
+    var(--font_family);
+  letter-spacing: 0px;
+}
+
+.properties_radioButton span:first-child {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.5vw;
+}
+
+.sameParentCheckbox {
+  margin-bottom: 1rem;
+  margin-inline-start: 0.5rem;
+}
+
+.propertiesTriggerLabel {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.propertiesSetTriggerLabel {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  color: #606060;
+}
+
+.dataEntryHeading {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+/* code added on 26-09-2023 for bugId:138135 */
+@media screen and (min-width: 450px) and (max-width: 730px) {
+  .dataEntryHeading {
+    text-align: start;
+    font: normal normal normal var(--base_text_font_size) / 17px
+      var(--font_family);
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 11px;
+  }
+}
+/*Till here for bugId: 138135 */
+
+.subjectMailInput {
+  /* width: 24.75vw; */
+  width: 23.75vw; /*Bug 138348 : Modified width to 23.75vw*/
+  height: 4rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+  text-align: start;
+}
+
+.mailBodyInput {
+  /* width: 24.75vw; */
+  width: 23.75vw; /*Bug 138348 : Modified width to 23.75vw*/
+  height: 7rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+  margin-bottom: 1rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.argStringBodyInput {
+  width: 21vw;
+}
+
+.addSetTrigger {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: var(--button_color);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  padding: 0.25rem 1rem;
+  margin-inline-start: 2vw !important;
+  cursor: pointer;
+}
+
+.setTriggerDropDowns {
+  margin-top: 1rem;
+  padding: 0.125rem;
+}
+
+.triggerSelectDropdown {
+  border: 1px solid #dadada;
+  background: #fff;
+  width: 24vw;
+  height: 4rem;
+  text-align: start;
+  /* changes to resolve the bug Id 135134 */
+  padding-left: 0.5vw;
+}
+
+.triggerSelectDropdown span {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.triggerSelectDropdownList {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.dropdownVariableDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex: 1;
+}
+
+.filterTriggerButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0 0.25rem !important;
+  margin-inline-start: 0.25vw !important;
+  height: 2.6rem !important;
+  cursor: pointer;
+  margin-top: 1px !important;
+}
+
+.MuiMenu-list {
+  padding: 0 !important;
+}
+
+.triggerSelectDropdownList:last-child {
+  border-bottom: none;
+}
+
+.dropdownVariable {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownVariable span:first-child,
+.dropdownVariableType {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.dropdownVariableType {
+  margin-top: 0.5rem;
+}
+
+.dropdownVariable span {
+  text-align: start;
+  font: normal normal normal var(--sub_text_font_size) / 14px var(--font_family);
+  letter-spacing: 0px;
+  opacity: 0.48;
+}
+
+.triggerEqualTo {
+  margin: 1.25rem 1vw 0;
+}
+
+.triggerDeleteIcon {
+  margin: 1.25rem 1vw 0;
+}
+
+.setTriggerList {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+/* Changes on 29-09-2023 to resolve the bug Id 134088 */
+@media screen and (min-width: 600px) and (max-width: 822px) {
+  .setTriggerList {
+    max-height: 40rem;
+    overflow-y: auto;
+  }
+}
+
+/* Changes made to solve Bug 134089 */
+.setTriggerList::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+}
+
+.setTriggerList::-webkit-scrollbar-thumb {
+  background: #8c8c8c 0% 0% no-repeat padding-box !important;
+  border-radius: 0.313rem !important;
+}
+
+/*Added on 22/05/2023, bug_id:127677 */
+
+.variableList {
+  max-height: 11rem !important; /*Modified on 14/10/2023, bug_id:139488 */
+  /*  max-height: 13rem !important; */
+}
+/* changes added for bug_id: 134226 */
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .variableList {
+    max-height: 18rem !important;
+  }
+}
+
+/* Code added to solve 134111 */
+@media screen and (min-width: 600px) and (max-width: 810px) {
+  .variableList {
+    max-height: 40rem !important;
+  }
+}
+/* till here dated 25thOct */
+.dataEntrySelectDiv {
+  /*modified on 6/2/2024 for bug_id: 143375*/
+  /* margin-bottom: 0.85rem; */
+  margin-bottom: 0.25rem;
+  /* till here for bug_id: 143375 */
+}
+
+.dataTableHead {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+}
+
+.dataTableHeadCell,
+.dataTableBodyCell {
+  /* padding: 0.5rem 1rem !important; */
+  text-align: start;
+}
+
+.dataTableHeadCell_Buttons {
+  padding: 0.2rem 0.3rem !important;
+  border: 1px solid #c4c4c4;
+}
+
+.dataTable {
+  min-height: 10rem;
+  height: 10rem;
+  max-height: 12rem;
+  overflow: auto;
+}
+
+.dataTableQueue {
+  height: 27rem;
+  overflow: auto;
+}
+
+.dataTableHeadCellContent {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 24px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+/* code added on 26-09-2023 for bugId:138135 */
+@media screen and (min-width: 450px) and (max-width: 730px) {
+  .dataEntryAddRemoveBtnHeader {
+    text-align: end;
+    font: normal normal 600 var(--base_text_font_size) / 24px var(--font_family);
+    letter-spacing: 0px;
+    color: #000000;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+}
+/*Till here for bugId: 138135 */
+
+.dataEntryAddRemoveBtnHeader {
+  text-align: end;
+  font: normal normal 600 var(--base_text_font_size) / 24px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.noDataEntryRecords {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  text-align: center;
+  margin: 1rem 0;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+/* code added on 26-09-2023 for bugId:138135 */
+@media screen and (min-width: 450px) and (max-width: 730px) {
+  .noDataEntryRecords {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font: normal normal normal var(--base_text_font_size) / 17px
+      var(--font_family);
+    letter-spacing: 0px;
+    color: #000000;
+  }
+}
+/*Till here for bugId: 138135 */
+
+.dataTableRow {
+  height: 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dataTableRow_Queue {
+  height: 32px !important;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+}
+
+.dataTableBody {
+  border: 1px solid #f0f0f0;
+  display: block;
+  max-height: 9rem;
+  /*modified on 6/2/2024 for bug_id: 143375*/
+  min-height: 9rem;
+  overflow-y: auto;
+}
+
+.dataTableBodyQueue {
+  border: 1px solid #f0f0f0;
+  display: block;
+  height: 67%;
+  overflow-y: auto;
+}
+
+.dataTableBodyQueueRemove {
+  border: 1px solid #f0f0f0;
+  display: block;
+  height: 75.5%;
+  overflow-y: auto;
+}
+
+.dataTableBodyWithNoData {
+  min-height: 9rem;
+}
+
+.dataTableBodyWithNoDataQueueAss {
+  height: 67%;
+}
+
+.dataTableBodyWithNoDataQueueAssRemove {
+  height: 75.5%;
+}
+
+.dataTableBody::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.dataTableBody::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+.dataTableBodyQueue::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.dataTableBodyQueue::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+.dataTableBodyQueueRemove::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.dataTableBodyQueueRemove::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.dataTableHead,
+.dataTableBody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dataTableBodyQueue tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.dataTableBodyQueueRemove tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dataDropdownConstantIcon {
+  font: normal normal 600 14px/16px var(--font_family) !important;
+  position: absolute;
+  top: 0.8rem;
+  margin: 0 0.5vw;
+  width: 2vw;
+  height: var(--line_height);
+  padding: 0;
+  display: flex;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+}
+
+.dataDropdownConstInput {
+  position: absolute;
+  width: 18vw;
+  height: var(--line_height);
+  top: 0.75rem;
+  left: 3vw;
+  z-index: 10;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: none;
+}
+
+.dataDropdownConstInput:disabled {
+  background: none !important;
+}
+
+.mb025 {
+  margin-bottom: 0.25rem;
+}
+
+.mr05 {
+  margin-inline-end: 0.5vw;
+}
+
+.mt025 {
+  margin-top: 0.25rem;
+}
+
+.defaultSelectValue {
+  opacity: 0;
+  height: 0 !important;
+  padding: 0 !important;
+}
+
+.addVariablesBtn {
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #0072c6;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subjectMailInput::-webkit-scrollbar,
+.mailBodyInput::-webkit-scrollbar,
+.argStringBodyInput::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.25rem;
+  height: 10px;
+}
+
+.subjectMailInput::-webkit-scrollbar-thumb,
+.mailBodyInput::-webkit-scrollbar-thumb,
+.argStringBodyInput::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+.subjectMailInput:hover::-webkit-scrollbar,
+.mailBodyInput:hover::-webkit-scrollbar,
+.argStringBodyInput:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.25rem;
+  height: 10px;
+}
+.subjectMailInput:hover::-webkit-scrollbar-thumb,
+.mailBodyInput:hover::-webkit-scrollbar-thumb,
+.argStringBodyInput:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+.triggerNameTypeDiv #selectWithInput_TF {
+  width: 60% !important;
+}
+
+.searchTextField input::placeholder {
+  font-size: 12px;
+  text-overflow: ellipsis;
+}
+
+/*code added on 5 Dec 2022 for BugId 116878*/
+.searchTextField input,
+.searchTextField,
+.searchTextField input:focus {
+  max-width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dataDropdownListHeader {
+  background: white !important;
+  line-height: var(--line_height) !important;
+  margin-bottom: 0.5rem !important;
+  padding: 0 0.5rem !important;
+}
+
+.searchBox {
+  cursor: text;
+  position: relative;
+  margin-inline-start: 0;
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  height: var(--line_height);
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 0.5rem;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.noResultFoundText {
+  font: normal normal 500 var(--base_text_font_size) / 17px var(--font_family) !important;
+  color: #000000;
+  display: flex;
+  width: 98%;
+  margin: 0.75rem 0rem 0rem 0.25rem;
+}
+
+.filterCount {
+  background-color: var(--button_color);
+  position: absolute;
+  top: -0.75rem;
+  font-size: var(--sub_text_font_size);
+  color: white;
+  right: -0.75rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+/* Changes made to solve Bug 134097 */
+@media screen and (min-width: 900px) and (max-width: 2000px) {
+  .filterDiv {
+    position: absolute;
+    width: 15vw;
+    right: -0.25rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    top: 3rem;
+    padding: 0.75rem 0 0;
+    background-color: white;
+    z-index: 100;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .filterDiv {
+    position: absolute;
+    width: 17vw;
+    right: -0.25rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    top: 3rem;
+    padding: 0.75rem 0 0;
+    background-color: white;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .filterDiv {
+    position: absolute;
+    width: 20vw;
+    right: -0.25rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    top: 3rem;
+    padding: 0.75rem 0 0;
+    background-color: white;
+    z-index: 100;
+  }
+}
+/* till here dated 5thSpt */
+
+.filterDivHeader {
+  padding: 0.5rem 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.filterHeading {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  color: #000;
+}
+
+.filterClearBtn {
+  font: normal normal 600 11px / 15px var(--font_family);
+  letter-spacing: 0.42px;
+  color: var(--link_color);
+  cursor: pointer;
+}
+
+.filterDivFooter {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border-radius: 0px 1px 1px 1px;
+  padding: 0 0 0 var(--spacing_h);
+  display: flex;
+  align-items: center;
+  /* justify-content: end; */
+  border-top: 1px solid #e4e4e4;
+}
+
+.filterCancelBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  height: 2.25rem !important;
+  padding: 0 0.75vw !important;
+  cursor: pointer;
+}
+
+.filterApplyBtn {
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #fff;
+  height: 2.25rem !important;
+  padding: 0 0.75vw !important;
+}
+
+.filterMainBody {
+  padding: 0.75rem 1vw 1rem;
+  text-align: start;
+}
+
+.filterMainBody label {
+  font: normal normal 500 var(--base_text_font_size) / 17px var(--font_family);
+  color: black;
+  margin: 0;
+  display: flex;
+  opacity: 0.9;
+}
+
+.exceptionName {
+  width: 21vw;
+}
+
+.MuiCheckbox-root:focus {
+  outline: 2px solid var(--button_color);
+}
+
+.properties_radioButton:focus-visible {
+  outline: 2px solid var(--button_color) !important;
+  border-radius: 2px;
+}
+
+/* Changes made to solve Bug 134099  */
+@media screen and (min-width: 750px) and (max-width: 2000px) {
+  .tabelBodyCellSecondColumn {
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .tabelBodyCellSecondColumn {
+    padding: 0.5rem 1rem 0.5rem 3rem !important;
+  }
+}

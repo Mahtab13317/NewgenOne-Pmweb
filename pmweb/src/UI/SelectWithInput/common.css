@@ -1,0 +1,82 @@
+.selectWithInputTextField .Mui-focused {
+  border: 1px solid #c4c4c4;
+}
+
+.selectWithInputTextField .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #c4c4c4;
+}
+
+.selectWithInputTextField
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #c4c4c4;
+}
+
+.selectWithInputTextField .MuiAutocomplete-inputRoot {
+  height: var(--line_height);
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0 0.25rem 0.125rem 0.25rem !important;
+  border: none !important;
+}
+
+.selectWithInputTextField .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  padding: 0 0 0 0.25rem !important;
+}
+
+.selectWithInputTextField
+  .MuiAutocomplete-inputRoot
+  .MuiAutocomplete-endAdornment
+  .MuiAutocomplete-popupIndicator,
+.selectWithInputTextField
+  .MuiAutocomplete-inputRoot
+  .MuiAutocomplete-endAdornment
+  .MuiAutocomplete-clearIndicator {
+  margin: 0 -9px 0 0 !important;
+}
+
+.selectWithInputTextField
+  .MuiAutocomplete-inputRoot
+  .MuiAutocomplete-endAdornment
+  .MuiAutocomplete-clearIndicator
+  .MuiSvgIcon-fontSizeSmall {
+  font-size: 1rem;
+}
+
+.MuiAutocomplete-noOptions {
+  padding: 0.25rem 0.75vw !important;
+  height: var(--line_height) !important;
+  min-height: 1.25rem;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.selectWithInputTextField .MuiAutocomplete-endAdornment {
+  top: calc(50% - 16px) !important;
+}
+
+.selectWithInputTextField .MuiSvgIcon-root {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+#selectWithInput_TF input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#selectWithInput_TF input:disabled {
+  border: none !important;
+  box-shadow: none !important;
+
+  /* Bug 122253 - Case Workdesk issues :Wherever fields are disabled, the field color should be f0f0f0
+  [30-03-2023] Commented the background */
+  /* background: white !important; */
+}
+
+#selectWithInput_TF button[disabled] {
+  opacity: 1 !important;
+}

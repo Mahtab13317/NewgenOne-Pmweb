@@ -1,0 +1,269 @@
+.mileDivSelectedArabic {
+  background: #e6e6e6;
+  margin-right: 1.5rem;
+  height: max-content;
+  /* margin-top: 10px; */
+}
+
+.mileDivSelectedArabic .milestoneArrowArabic,
+.mileDivSelectedArabic .milestoneArrowEndArabic,
+.mileDivSelectedArabic .milestoneArrowFullArabic {
+  width: 23rem;
+  height: 36px;
+  background: #efefef;
+  border-top: 2px solid var(--brand_color2);
+  border-bottom: 2px solid var(--brand_color2);
+  border-left: 0;
+  border-right: 0;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-left: 5%;
+}
+
+.mileDivSelectedArabic .milestoneArrowArabic:before,
+.mileDivSelectedArabic .milestoneArrowEndArabic:before,
+.mileDivSelectedArabic .milestoneArrowFullArabic:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 1px;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 11px solid #efefef;
+  border-top: 16px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.mileDivSelectedArabic .milestoneArrowArabic:after,
+.mileDivSelectedArabic .milestoneArrowEndArabic:after,
+.mileDivSelectedArabic .milestoneArrowFullArabic:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 1px;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 13px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.milestoneArrowFullArabic {
+  width: 23rem;
+  height: 36px;
+  position: relative;
+  background: #efefef;
+  border: 1px solid #a8a8a8;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.milestoneArrowFullArabic:after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+.milestoneArrowFullArabic:before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.milestoneArrowFullArabic:hover .addBetween,
+.milestoneArrowArabic:hover .addBetween {
+  background: transparent;
+  border: none;
+  height: 2.5rem;
+  position: relative;
+  width: 4%;
+  margin-right: auto;
+  border-radius: 50%;
+  display: block;
+}
+.milestoneArrowEndArabic:hover .addBetween {
+  display: none;
+}
+
+.milestoneArrowArabic,
+.milestoneArrowEndArabic {
+  width: 23rem;
+  height: 36px;
+  background: #efefef;
+  border-top: 1px solid #a8a8a8;
+  border-bottom: 1px solid #a8a8a8;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-left: 5%;
+}
+.milestoneArrowArabic:after,
+.milestoneArrowEndArabic:after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid white;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+.milestoneArrowArabic:before,
+.milestoneArrowEndArabic:before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  bottom: 0;
+  width: 0;
+  z-index: 2;
+  height: 0;
+  border-right: 14px solid #efefef;
+  border-top: 18px solid transparent;
+  border-bottom: 17px solid transparent;
+}
+
+.mileIdNoArabic {
+  margin: 4%;
+  margin-right: 10%;
+  margin-top: 9px;
+  font-size: 15px;
+  height: 25px;
+}
+
+.mileDivArabic {
+  margin-right: 1.5rem;
+  height: max-content;
+  /* margin-top: 10px; */
+}
+
+.beforeDivArabic {
+  content: "";
+  position: absolute;
+  left: -15px;
+  bottom: -1px;
+  width: 0;
+  z-index: -1;
+  border-right: 15px solid #a8a8a8;
+  border-top: 19px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.afterDivArabic {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-right: 14px solid #a8a8a8;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+
+.mileDivSelectedArabic .beforeDivArabic {
+  content: "";
+  position: absolute;
+  left: -13.5px;
+  bottom: -2.5px;
+  width: 0;
+  z-index: -1;
+  border-right: 14px solid var(--brand_color2);
+  border-top: 20px solid transparent;
+  border-bottom: 19px solid transparent;
+}
+
+.mileDivSelectedArabic .afterDivArabic {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: -2.5px;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-right: 16px solid var(--brand_color2);
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+}
+
+.milestonePositionArabic {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1.5rem;
+  align-items: center;
+  height: 100%;
+}
+
+.mileIndexDivArabic {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px
+    var(--font_family);
+  width: 1.75rem;
+  height: 1.5rem;
+  padding-right: 0.25vw;
+}
+
+/* modified on 11/09/2023 for BugId 136725 */
+.addIconArabic {
+  position: absolute;
+  top: 7px;
+  z-index: 2;
+  right: 1px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 1px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  outline: 0;
+}
+
+/* modified on 11/09/2023 for BugId 136725 */
+.mileDivSelectedArabic .addIconArabic {
+  top: 6px;
+  right: 0px;
+}
+
+.threeDotsButtonMileArabic {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+
+.mileDivSelectedArabic .threeDotsButtonMileArabic {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 4px;
+  margin-top: 9px;
+}

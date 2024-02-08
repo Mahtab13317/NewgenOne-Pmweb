@@ -1,0 +1,13 @@
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px / 24px var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.precisionInput {
+  margin: 5px 6px 5px 0px;
+  width: 40px;
+}

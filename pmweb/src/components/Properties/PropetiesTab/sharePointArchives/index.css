@@ -1,0 +1,327 @@
+.mainContainer {
+  max-height: 420px;
+  overflow-y: auto;
+  font-family: "Open Sans, Regular";
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.section {
+  margin-top: 15px;
+}
+
+.labels {
+  margin-top: 12px;
+}
+
+.labels h4 {
+  font-size: 14px;
+  font-family: "Open Sans, Semibold;";
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  /*margin: 10px 12px;*/
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.formControl {
+  font-size: 12px;
+}
+
+.textHelper {
+  color: #606060 !important;
+  font-family: "Open Sans, Regular";
+}
+
+.outlinedBasic .MuiOutlinedInput-input {
+  padding: 7.5px 14px;
+  width: 275px;
+  height: 13px;
+  font-size: 12px;
+  max-width: 300px;
+  font-family: "Open Sans";
+}
+
+.outlinedBasic .MuiOutlinedInput-notchedOutline {
+  border-radius: 1px !important;
+  border: 1px solid #cecece !important;
+}
+
+.dropDown {
+  height: 28px;
+  border: 1px solid #cecece;
+  border-radius: 1px;
+  font-size: 12px;
+  width: 120px;
+  max-width: 120px;
+  font-family: "Open Sans, Regular";
+}
+
+.MuiMenu-list li {
+  font-size: 12px !important;
+}
+
+.btn-archive {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #0072c6;
+  height: 28px;
+  font-weight: 600;
+  font-family: "Open Sans, Semibold;";
+  border-radius: 2px;
+}
+
+.addBtn {
+  max-width: 39px;
+  margin: 0px !important; /*Changes made to solve Bug 116574  */
+}
+
+#mapData {
+  top: 16px;
+}
+
+.controlText {
+  font-size: 12px;
+}
+
+.controlText .MuiFormControlLabel-label {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Open Sans, Regular";
+}
+
+.archiveTable {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.archiveTable th {
+  text-align: left;
+  font-size: 14px;
+  padding: 5px;
+  background-color: #f8f8f8;
+  font-family: "Open Sans, Semibold;";
+}
+
+.archiveTable td {
+  text-align: left;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Open Sans, Regular";
+}
+
+.controlText .MuiSvgIcon-fontSizeSmall {
+  font-size: 14px;
+}
+
+.ModalBox {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.modalHeader {
+  height: 50px;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 5px;
+  background: #f5f5f5;
+}
+.modalLabel {
+  float: left;
+}
+.modalClose {
+  float: right;
+}
+.modalFooter {
+  height: 50px;
+  border-top: 1px solid #f5f5f5;
+  background: #f5f5f5;
+}
+.modalFooterInner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 10px;
+}
+.btnMapModal {
+  color: #fff;
+  background: #0072c6;
+  border-radius: 1px;
+}
+
+.btnMapModal:hover {
+  color: #fff;
+  background: #0072c6;
+}
+.cancelMap {
+  margin-right: 10px;
+  border-radius: 1px;
+}
+.modalBody {
+  padding: 15px;
+  clear: both;
+  background: #fff;
+}
+
+.modalControl {
+  margin-top: 15px;
+}
+
+.modalText {
+  width: 100%;
+}
+.allCheckContainer {
+  background: #f8f8f8;
+
+  padding: 0 0 0 15px;
+  font-family: "Open Sans, Semibold";
+  font-size: 12px;
+}
+.allCheckLabel {
+  font-size: 12px;
+  font-family: "Open Sans, Semibold";
+  font-weight: 600;
+}
+
+.allCheckLabel .MuiSvgIcon-fontSizeSmall {
+  font-size: 14px;
+}
+.allCheckLabel .MuiFormControlLabel-label {
+  font-size: 12px;
+  font-family: "Open Sans, Semibold";
+  font-weight: 600;
+}
+.checkList {
+  padding: 0 0 0 15px;
+  font-family: "Open Sans, Semibold";
+  font-size: 12px;
+}
+
+.required {
+  color: #d53d3d;
+}
+
+/*Collapse view styling are below */
+
+.flexInnerRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.formControlCollapse {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.sectionCollapse {
+  margin-top: -5px !important;
+}
+
+.dropBtnWrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.indvInputCollapse {
+  margin-top: 15px;
+}
+.archiveSectionCollapse {
+  margin-top: 30px;
+}
+
+#view {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* arabic view are below */
+
+.mainContainerRTL {
+  max-height: 420px;
+  overflow-y: auto;
+  font-family: "Open Sans, Regular";
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.textHelperRTL {
+  text-align: right !important;
+}
+
+.archiveTableRTL {
+  width: 100%;
+  border-spacing: 0;
+  direction: rtl;
+}
+
+.archiveTableRTL th {
+  text-align: right;
+  font-size: 14px;
+  padding: 5px;
+  background-color: #f8f8f8;
+  font-family: "Open Sans, Semibold;";
+}
+
+.archiveTableRTL td {
+  text-align: right;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Open Sans, Regular";
+}
+
+.controlTextRTL {
+  margin-right: -11px !important;
+  margin-left: 16px !important;
+}
+
+.controlTextRTL .MuiSvgIcon-fontSizeSmall {
+  font-size: 14px;
+}
+
+.controlTextRTL .MuiFormControlLabel-label {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Open Sans, Regular";
+}
+
+.modalHeaderRTL {
+  height: 50px;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 5px;
+}
+.modalLabelRTL {
+  float: right;
+}
+.modalCloseRTL {
+  float: left;
+}
+.modalFooterRTL {
+  height: 50px;
+  border-top: 1px solid #f5f5f5;
+  background: #f5f5f5;
+}
+
+.modalFooterInnerRTL {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: start;
+  padding: 10px;
+}
+
+.modalFooterInnerRTL .btn-archive {
+  margin-right: 10px;
+}
+
+.allCheckLabelRTL {
+  font-size: 12px;
+  font-family: "Open Sans, Semibold";
+  font-weight: 600;
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,218 @@
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  text-align: start;
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 10px 0px 0px 12px;
+}
+
+.headingRTL {
+  text-align: start;
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 10px 12px 0px 0px;
+}
+
+.listOfOpMargin {
+  margin: 10px 20px 0px 16px !important;
+  width: 9.375rem;
+}
+
+.cabinetDetailsDiv {
+  height: 70vh;
+  background-color: #ffffff;
+  margin-right: 6px;
+}
+
+.loggedInCabinetText {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 11px;
+}
+
+.cabinetNameDiv {
+  margin-inline-start: 10px;
+}
+
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.cabinetNameInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  height: 30px !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.cabinetDetailsInputWidthExpanded {
+  /* width: 18.75rem; */
+  width: 90%;
+}
+
+.cabinetDetailsInputWidthCollapsed {
+  width: 15rem;
+}
+
+/* .cabinetNameWidthExpanded {
+  width: 18.75rem;
+}
+
+.cabinetNameInputCollapsed {
+  width: 14rem;
+} */
+
+.cabinetDivStyles {
+  margin-bottom: 10px;
+}
+
+.cabinetNameDisabled {
+  background: #f8f8f8;
+}
+
+.disabledTestConnectionBtn {
+  background: rgba(0, 0, 0, 0.12) !important;
+  border-radius: 2px !important;
+  border: none !important;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  text-transform: none !important;
+  cursor: default !important;
+}
+
+.opScroll {
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.fieldTitle {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+
+.dropdown {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.connectionStatusText {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  /* margin-left: auto; */
+  margin: 6px 28px 10px auto;
+}
+
+.blueButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.0625rem solid var(--button_color);
+  border-radius: 0.125rem;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+  color: var(--button_color);
+  cursor: pointer;
+}
+
+.testConnectionBtn {
+  width: 9rem;
+  margin: 16px 26px 10px 12px !important;
+}
+.testConnectionBtnRTL {
+  width: 9rem;
+  margin: 12px 10px 26px 16px !important;
+}
+
+.testConnectionBtnDivCollapsed {
+  margin-left: 6px;
+  margin-top: 1px;
+}
+
+.addNewOperationBtn {
+  width: 68px;
+  margin: 6px 12px 0px auto !important;
+}
+.addNewOperationBtnRTL {
+  width: 68px;
+  margin: 6px auto 0px 12px !important;
+}
+
+.cabinetDetailsWidth {
+  width: 20%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+  margin-bottom: 6px;
+}
+
+.collapsedWidth {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.operationsWidth {
+  width: 22%;
+}
+
+.tabOperationsWidth {
+  width: 35%;
+}
+
+.propertiesWidth {
+  width: 78%;
+}
+
+.propertiesTabWidth {
+  width: 77%;
+}
+
+.operationSubDiv {
+  margin-bottom: 0.625rem;
+}

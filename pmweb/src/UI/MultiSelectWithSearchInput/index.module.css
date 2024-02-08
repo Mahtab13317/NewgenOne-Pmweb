@@ -1,0 +1,104 @@
+.multiSelectChip {
+  height: 1.1rem !important;
+  text-align: left;
+  font: normal normal normal 12px/20px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000 !important;
+  background: #f0f0f0 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  margin-right: 0.25rem !important;
+  padding: 2px;
+  margin-bottom: 0.25rem !important;
+}
+
+.multiSelectDeleteIcon {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-bottom: 0.5px;
+  color: #000000 !important;
+}
+
+.listDropdown::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.25rem;
+  height: 10px;
+}
+
+.listDropdown::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.listDropdown:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.25rem;
+  height: 10px;
+}
+.listDropdown:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+
+.multiSelect_listItem {
+  margin-bottom: 5px;
+  min-height: 26px;
+  height: 26px;
+}
+
+.multiSelect_listItem label {
+  margin-left: 0;
+}
+
+.multiSelect_checked {
+  background: var(--checkbox_color) 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  width: 14px;
+  height: 14px;
+  position: relative;
+}
+
+.multiSelect_checkIcon {
+  color: white !important;
+  width: 1vw !important;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+
+.multiSelect_checkboxStyle {
+  position: unset;
+  border: 1px solid #c4c4c4;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  width: 14px;
+  height: 14px;
+}
+
+.multiSelect_dropdown {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.noDataFound {
+  min-height: 1.5rem;
+  padding: 0.5rem !important;
+  width: 100%;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+}
+
+.arrowIcon {
+  top: calc(50% - 9px);
+  color: rgba(0, 0, 0, 0.54) !important;
+  right: 0;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  position: absolute;
+  pointer-events: none;
+}

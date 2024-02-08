@@ -1,0 +1,43 @@
+.processSettingTab {
+  min-height: 1.625rem !important;
+  padding: 0rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.25rem 0 !important;
+}
+
+.processSettingTab span {
+  width: auto !important;
+  text-align: left !important;
+  margin-left: 1rem !important;
+  margin-right: auto !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size:  var(--base_text_font_size) !important;
+  color: #000000 !important;
+}
+
+.processSettingTabrtl {
+  min-height: 1.625rem !important;
+  padding: 0rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.25rem 0 !important;
+}
+
+.processSettingTabrtl span {
+  width: auto !important;
+  margin-left: auto !important;
+  margin-right: 1rem !important;
+  text-align: right !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-family: Open Sans !important;
+  /* font-size: 0.75rem !important; */
+  font-size:  var(--base_text_font_size) !important;
+  color: #000000 !important;
+}

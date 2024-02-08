@@ -1,0 +1,95 @@
+.typeDropdown {
+  width: 100%;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.equals {
+  width: 4.5vw;
+  text-align: center;
+}
+
+.fwdMappingHeadersDiv {
+  margin-top: 1rem;
+}
+
+.parameterHeading {
+  flex: 1;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: 1.5vw;
+  height: var(--line_height);
+}
+
+.parameterRevHeading{
+  flex: 1;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-end: 1.75vw;
+  height: var(--line_height);
+}
+
+.headingText {
+  color: black;
+  font: normal normal normal var(--base_text_font_size) / 17px;
+  opacity: 1;
+}
+
+.firstfieldDataDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-inline-start: 1.5vw;
+  border: 1px solid #f3f3f3;
+  border-radius: 2px;
+  flex: 1;
+  height: var(--line_height);
+}
+
+.parameterText {
+  height: 3rem !important;
+  padding: 0.5rem;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.width {
+  width: 100%;
+}
+
+.dataDiv {
+  overflow-y: scroll;
+  height: 38vh;
+}
+
+.mappingDataSingleRow {
+  align-items: center;
+  margin: 0.5rem 0 0;
+}

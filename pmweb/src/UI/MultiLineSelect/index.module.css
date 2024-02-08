@@ -1,0 +1,4 @@
+.dropdownDataDiv {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,263 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*Bug 117797: [09-02-2023]Set the width & height to auto, added margin of 1rem*/
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}
+
+.headingProjectLevel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.headingText {
+  font-size: var(--title_text_font_size);
+  font-family: var(--font_family);
+  letter-spacing: 0rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.page {
+  /*Bug 117797: [09-02-2023] Set the width to auto*/
+  width: auto;
+  height: 90vh;
+}
+
+.buttonText {
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0rem;
+  font-family: var(--font_family);
+  font-weight: 600;
+  color: white;
+}
+
+.headingInfo {
+  font-size: var(--subtitle_text_font_size);
+  letter-spacing: 0rem;
+  font-family: var(--font_family);
+  margin: 0.5rem 0 0 0;
+}
+.headingBox {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.addSectionButton {
+  min-width: 7vw;
+  background-color: var(--button_color) !important;
+  text-transform: none !important;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1167px) {
+  .addSectionButton {
+    min-width: 15vw;
+  }
+}
+
+/* Changes made to solve Bug 134171 */
+#pmweb_GlobalReq_sectionName_2 {
+  width: 58vw;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #pmweb_GlobalReq_sectionName_2 {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1300px) {
+  #pmweb_GlobalReq_panel1a-headerSecond {
+    width: 50vw;
+    border: 1px solid red;
+  }
+}
+
+#pmweb_GlobalReq_sectionName_3 {
+  width: 55vw;
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  #pmweb_GlobalReq_sectionName_3 {
+    width: 50vw;
+  }
+}
+
+/* till here dated 29thAug */
+.body {
+  height: 76vh;
+  width: 76vw;
+  overflow-y: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.buttons {
+  background: var(--button_color) 0% 0% no-repeat padding-box !important;
+  font-family: var(--font_family);
+  text-transform: capitalize;
+  white-space: nowrap !important;
+  color: white !important;
+  border-radius: 2px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  font-family: var(--font_family);
+  text-transform: capitalize;
+  white-space: nowrap !important;
+  color: #606060;
+  border-radius: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.styleInFocus {
+  border: 0.5px solid transparent;
+  width: 65vw;
+  height: 1.5rem;
+  font: 0.8rem "Open Sans";
+  resize: none;
+}
+
+.styleInFocus:hover {
+  border: 0.5px solid rgba(0, 0, 0, 0.295);
+  width: 65vw;
+  height: 1.5rem;
+  font: 0.8rem "Open Sans";
+  resize: none;
+}
+
+.orderIdInput {
+  border: 0.5px solid transparent;
+}
+
+.iconsandtextBox:hover input {
+  border: 0.5px solid rgba(0, 0, 0, 0.295);
+}
+
+.styleOutOfFocus {
+  border: none;
+  width: 65vw;
+  height: 1.5rem;
+  resize: none;
+  font: 0.8rem "Open Sans";
+}
+
+.topTitle {
+  color: #0072c6;
+  font: 0.8rem "Open Sans";
+  opacity: 1;
+  font-weight: bold;
+}
+
+.desc {
+  color: #000000;
+  font: 0.8rem "Open Sans";
+  opacity: 1;
+}
+
+.iconsandtextBox {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.outerLayer {
+  background: #fff;
+}
+
+.hideBorder {
+  background-color: red;
+}
+
+.accordianInner2 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  min-height: 2rem !important;
+  /* height: 6rem !important; */
+  margin-top: 0px !important;
+}
+
+.accordianOuter {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  min-height: 1rem !important;
+  height: auto !important;
+  margin-top: 0px !important;
+}
+.accordianInner {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  min-height: 2rem !important;
+  /* height: 5.5rem !important; */
+  margin-top: 0px !important;
+}
+
+.section {
+  margin: 0.5rem;
+}
+.expand_1 {
+  margin-top: 5px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordContainer {
+  width: 77vw;
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .accordContainer {
+    width: 89vw;
+  }
+}
+
+.sectionDescInput {
+  width: 100%;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.sectionDescInput::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.5rem;
+  background-color: white;
+}
+.sectionDescInput::-webkit-scrollbar-thumb {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+}
+.iconButton:focus-visible {
+  outline: 2px solid var(--button_color) !important;
+  border-radius: 2px;
+}
+
+/*@media screen and (min-width: 1100px) and (max-width: 1500px) {
+  .settings_desc_list {
+    width: 66vw !important;
+  }
+}*/
+@media screen and (min-width: 999px) and (max-width: 1100px) {
+  .accordContainer {
+    width: 73vw;
+  }
+}

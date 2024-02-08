@@ -1,0 +1,145 @@
+.jmsProducer {
+  padding: 5px;
+}
+
+.jmsProducer .MuiFormControlLabel-label {
+  font-size: var(--base_text_font_size);
+}
+
+.jmsProducer p {
+  font-size: var(--base_text_font_size);
+}
+
+.jmsInputForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.jmsInputForm label {
+  margin-right: 0px !important;
+}
+
+#pmweb_jmsProducer_ipInput {
+  height: 25px;
+  /* width: 109px; */
+  width: 100%;
+  padding-left: 3px;
+  /* margin-left: 15px; */
+}
+
+#pmweb_jmsProducer_portInput {
+  height: 25px;
+  /* width: 45px; */
+  width: 100%;
+  padding-left: 3px;
+  /* margin-left: 10px; */
+}
+
+#pmweb_jmsProducer_domainInput {
+  height: 25px;
+  /* width: 178px;
+  margin-left: 29px; */
+  width: 100%;
+}
+
+.jmsDropDown {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.destinationNameInput {
+  height: 25px;
+  /* width: 179px; */
+  padding-left: 3px;
+}
+
+.destinationMsgInput {
+  height: 55px;
+  width: 171px;
+  padding: 3px;
+  margin-left: 7px;
+}
+.filterTriggerButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 0 0.25rem;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.propertiesAddButton {
+  /* padding: 0.55rem 1vw; */
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size)/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: var(--button_color);
+  cursor: pointer;
+}
+
+.propertiesAddButton:disabled {
+  cursor: default;
+  background-color: rgba(84, 84, 84, 0.04);
+  color: rgba(84, 84, 84, 0.6);
+  border: 1px solid rgba(84, 84, 84, 0.5);
+}
+.argStringBodyInput {
+  /* width: 23.2vw; */
+  width: 100%;
+  height: 7rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+}
+
+.jmsProducer_select {
+  height: 5px;
+  width: 179px;
+  padding-left: 3px;
+  margin-left: 5px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size)/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.jms_dropdownData {
+  height: 17px;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size)/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 8px;
+  margin-left: 0px;
+  margin-bottom: 8px !important;
+}
+
+.jms_select {
+  height: 25px;
+  /* width: 179px; */
+  padding-left: 3px;
+  /* margin-left: 5px; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size)/17px Open Sans;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+.jsm_messageLabel{
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+#pmweb_jsm_messageBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}

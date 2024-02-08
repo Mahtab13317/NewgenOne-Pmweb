@@ -1,0 +1,60 @@
+.triggerNameTypeDiv {
+  margin-inline-end: 5vw;
+}
+.triggerNameTypeDiv #selectWithInput_TF {
+  width: 60% !important;
+}
+
+.dataDropdownConstInput {
+  position: absolute;
+  width: 18vw;
+  height: var(--line_height);
+  top: 0.75rem;
+  right: 3vw;
+  z-index: 10;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: none;
+}
+
+.dataDropdownConstInput:disabled {
+  background: none !important;
+}
+
+.filterDiv {
+  position: absolute;
+  width: 15vw;
+  left: -0.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 8px #00000029;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  top: 3rem;
+  background-color: white;
+  z-index: 100;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.5rem;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transform: scaleX(-1);
+}
+
+.filterCount {
+  background-color: var(--button_color);
+  position: absolute;
+  top: -0.75rem;
+  font-size: var(--sub_text_font_size);
+  color: white;
+  left: -0.75rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}

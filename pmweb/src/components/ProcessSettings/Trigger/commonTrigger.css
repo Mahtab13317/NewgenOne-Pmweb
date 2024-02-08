@@ -1,0 +1,15 @@
+.triggerSelectInput {
+  border: 1px solid #dadada;
+  height: var(--line_height);
+  padding-left: 0;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+#searchBoxDrop input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}

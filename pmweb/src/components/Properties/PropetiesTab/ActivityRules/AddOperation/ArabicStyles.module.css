@@ -1,0 +1,203 @@
+.flexRow {
+  display: flex;
+  /* flex-direction: row-reverse; */
+}
+
+.typeDropdown {
+  width: 10vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.fieldDropdown {
+  text-align: right;
+  width: 12vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.equals {
+  margin-top: 3.5%;
+  margin-left: 1.5%;
+}
+
+.valueDropdown {
+  text-align: right;
+  width: 12vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.operatorDropdown {
+  text-align: right;
+  width: 8vw;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.calendarTypeDropdown {
+  width: 160px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.triggerDropdown {
+  width: 160px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.operandDropdown {
+  width: 160px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.setAndExecuteEquals {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.assignedToVariableDropdown {
+  width: 160px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.escalateToVariableDropdown {
+  width: 160px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.menuItemStyles {
+  text-align: end !important;
+  justify-content: flex-end !important;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.escalateToFieldsDropdown {
+  width: 100px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.repeatAfterCheckbox {
+  height: 0.875rem;
+  width: 0.875rem;
+  color: #c4c4c4 !important;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 20px 0px 15px 10px !important;
+}
+
+.textInputField {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0.125rem;
+  margin: 0 0.25vw;
+  width: 10vw;
+  height: var(--line_height);
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+}
+
+.textInputField input {
+  border: 1px solid #c4c4c4 !important;
+  height: var(--line_height) !important;
+}
+
+.percentageIcon {
+  margin-top: 27px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.inputVariableDropdown {
+  width: 160px;
+  height: var(--line_height);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+.flexEndColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.marginRightOperationLabel {
+  margin-right: 5px;
+}
+
+.menuItemStyles {
+  text-align: right !important;
+  justify-content: flex-end !important;
+  font: normal normal normal 12px / 1.0625rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  padding: 0.5rem 0.5vw;
+  width: 100%;
+}

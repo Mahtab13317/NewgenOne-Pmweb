@@ -1,0 +1,167 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  flex-wrap: wrap;
+}
+
+.checklist {
+  font: normal normal 500 12px/17px Open Sans;
+}
+.label {
+  font: normal normal 500 12px/17px Open Sans;
+  /* margin-left: 0.5rem; */
+  margin-top: 0.5rem;
+}
+.expTextarea {
+  width: 80%;
+  height: 12rem;
+  background-color: #f6f5f5;
+  border: 1px solid black;
+}
+.descriptionTextarea {
+  width: 80%;
+  height: 5rem;
+  margin: 0.5rem 0;
+  padding-top: 0 !important;
+  background-color: #f6f5f5;
+}
+.descriptionTextarea:focus-visible{
+  border: 2px solid var(--brand_color1) !important;
+  border-radius: 2px;
+}
+
+.description {
+  font: normal normal 500 12px/17px Open Sans;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.checkBoxCommon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.marginLeft {
+  margin-left: 30px;
+}
+.checkboxLabel {
+  width: 5rem;
+  font: normal normal normal 12px/17px Open Sans;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.deleteBtn {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 1px !important;
+  font: normal normal normal 10px/15px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #606060 !important;
+  text-transform: none !important;
+  padding: 0.25rem;
+  width: 5rem;
+  margin-left: 68%;
+  margin-top: 0.5rem;
+}
+.addBtn {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font: normal normal normal 10px/15px Open Sans;
+  padding: 0 0.25rem;
+  align-items: center;
+  width: 4rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.definebtn {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 1px !important;
+  font: normal normal normal 10px/15px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #606060 !important;
+  text-transform: none !important;
+  padding: 0.25rem;
+  width: 4rem;
+  cursor: pointer;
+}
+.definebtnDoc {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 1px !important;
+  font: normal normal normal 10px/15px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #606060 !important;
+  text-transform: none !important;
+  padding: 0.25rem;
+  width: 4rem;
+  margin-left: 61.5%;
+  cursor: pointer;
+}
+
+.docTextarea {
+  width: 65%;
+  height: 15rem;
+  margin-left: 1rem;
+  /* padding-top: 0 !important; */
+  background-color: #f6f5f5;
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font: normal normal normal 11px/15px Open Sans;
+  padding-left: 1rem;
+}
+
+ul li:hover {
+  background: rgba(0, 114, 198, 0.06);
+}
+.selectedExp {
+  background: rgba(0, 114, 198, 0.06);
+}
+
+.view {
+  margin-left: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.viewBox {
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.update {
+  margin-left: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.checkboxHeader {
+  margin-left: 1rem;
+  width: 6rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.checkboxDownload {
+  margin-left: 1rem;
+  width: 8rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.docTypes {
+  margin-left: 1rem;
+  width: 10rem;
+  font: normal normal 500 15px/17px Open Sans;
+}
+.searchbox {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,177 @@
+.dataDropdown {
+ /*  height: 1.8rem !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-left: 10px !important; */
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  width: 100%;
+}
+
+.dropdownLabel {
+ /*  height: 1.8rem !important;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-left: 10px !important; */
+  color: #606060;
+  font: normal normal normal 12px/17px Open Sans;
+  display: block;
+  text-align: start;
+  letter-spacing: 0px;
+  margin-bottom: 0.25rem;
+}
+
+.dropdownLabelCompact {
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+ /*  padding-left: 10px !important; */
+  margin-top: 1rem;
+}
+
+.headerLabel {
+  text-align: start;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  flex:1;
+}
+.headerLabel1 {
+  text-align: start;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  margin-inline-start: 1rem;
+  flex:1;
+}
+
+.tableLabel {
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  flex:1;
+}
+.tableLabel1 {
+  text-align: start;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #606060;
+  margin-inline-start: 1rem;
+  flex:1;
+}
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+/* .scroll {
+  height: 10rem;
+  overflow: scroll;
+} */
+
+.scroll {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.25rem;
+  height: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.scroll:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.25rem;
+  height: 10px;
+}
+.scroll:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+.viewParameter {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c5;
+  border-radius: 2px;
+  opacity: 1;
+  text-align: start;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  cursor: pointer;
+  margin-inline-start: 5% !important;
+}
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.tabSection {
+  background: none !important;
+}
+
+.sapSubTab {
+  background-color: white !important;
+}
+
+.mainTab {
+  background-color: #f8f8f8 !important;
+}
+
+.mainTabBarStyle {
+  background-color: #fff !important;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #CECECE;
+}
+
+.mainOneTabStyle {
+ /*  font-size: var(--base_text_font_size) !important; */
+ font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  margin-right: 1vw !important;
+  text-transform: capitalize !important;
+  min-height: 1rem !important;
+}
+
+
+.textInput {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000;
+  display: block;
+  padding: 0.125rem 0.5rem;
+ /*  width: 25vw;
+  height: 1.5rem; */
+  width: 98%;
+  height: var(--line_height);
+}
+

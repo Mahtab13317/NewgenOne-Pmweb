@@ -1,0 +1,273 @@
+.header {
+  display: flex;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px 0px;
+  padding: 0.75rem 0.25vw;
+}
+
+.backIconContainer {
+  cursor: pointer;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+.backIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-inline-end: 0.25vw;
+}
+
+.backRevIcon {
+  transform: rotate(180deg);
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-inline-end: 0.25vw;
+}
+
+.topBarHeading {
+  text-align: start;
+  font: normal normal 600 16px/22px Open Sans !important;
+  letter-spacing: 0px;
+  color: #252525;
+}
+
+.moveBackDiv {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.moveBackDiv:focus-visible {
+  outline: 1px solid var(--button_color);
+  border-radius: 2px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: fixed;
+  bottom: 0;
+  justify-content: end;
+  padding: 0 1rem;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px 0px;
+}
+
+.templateFooter {
+  width: 100%;
+  display: flex;
+  height: 3.25rem;
+  background: #e1e0e0 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 5px 5px;
+  left: 0;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0 1rem;
+  justify-content: flex-end;
+}
+
+.formArea {
+  width: 45%;
+  padding: 1rem;
+}
+
+.form {
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.templateArea {
+  width: 55%;
+  padding: 1rem;
+}
+
+.selectedTemplateDiv {
+  width: 80%;
+}
+
+.card {
+  height: 22rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  height: 85%;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #000000d9;
+}
+
+.cardContent p {
+  text-align: center;
+  width: 100%;
+}
+
+.previewButton {
+  height: 1.9rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  text-align: center;
+  margin: 0 0.25rem;
+  padding: 0 0.75vw;
+  cursor: pointer;
+}
+
+.mr05 {
+  margin-right: 0.5rem;
+}
+
+.inputField {
+  width: 30vw;
+  height: 35px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cecece !important;
+  border-radius: 4px;
+  padding: 0 2%;
+}
+
+.disabledField {
+  width: 30vw;
+  height: 35px;
+  border: 1px solid #707070 !important;
+  border-radius: 4px;
+  padding: 0 2%;
+  background: rgba(239, 239, 239, 0.5);
+}
+
+.multiSelectConstInput {
+  position: absolute;
+  /* Changes on 08-09-2023 to resolve the bug Id 135525 */
+  width: 88%;
+  height: 28px;
+  top: 1px;
+  /* Changes to resolve the bug Id 135525 */
+  /* left: 0.1vw; */
+  left: 0.01vw;
+  z-index: 100;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: none;
+}
+/* Changes to resolve the bug Id 135525 */
+@media screen and (min-width: 600px) and (max-width: 810px) {
+  .multiSelectConstInput {
+    position: absolute;
+    /* Changes on 08-09-2023 to resolve the bug Id 135525 */
+    width: 88%;
+    height: 28px;
+    top: 1px;
+    left: 0.1vw;
+    z-index: 100;
+    font: normal normal normal 12px/17px Open Sans !important;
+    border: none;
+  }
+}
+.selectWithInput {
+  width: 30vw !important;
+  margin-bottom: 0;
+}
+
+.label {
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #000000d9;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.createBtn {
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: auto;
+  align-items: center;
+  height: 1.75rem;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c6;
+  border-radius: 2px;
+  margin: 0 0.25rem;
+}
+
+.cancelBtn {
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  cursor: pointer;
+  /* width: 5vw; */
+  /* Changes width to resolve the bug Id 133010 */
+  width: 60px;
+  align-items: center;
+  height: 1.75rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin: 0 0.25rem;
+}
+
+.starIcon {
+  /* color: red; */
+  color: rgb(181, 42, 42);
+  margin-left: 0.25vw;
+  font-size: 1rem;
+}
+
+.regenerateBtn {
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  flex: 1 1;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #51087E, #A14653, #FB8B23);
+  position: relative;
+  min-width: 11vw;
+  margin-inline-end: 0.25vw !important;
+}
+
+.regenerateTextDiv {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2px;
+  align-items: center;
+  padding: 0 0.5vw;
+}
+
+.regenerateBtn:hover .regenerateTextDiv {
+  background-color: #fff8f2;
+}
+
+.regenerateText {
+  background: linear-gradient(106deg, #51087e -14.49%, #fb8b23 147.43%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--base_text_font_size);
+}

@@ -1,0 +1,145 @@
+.generateProcessBtn {
+  margin: 0 !important;
+  padding: 0 2vw !important;
+  border-radius: 2px;
+  background: linear-gradient(
+    92deg,
+    #51087e -29.88%,
+    #a14653 56.2%,
+    #fb8b23 116.99%
+  );
+  color: #fff !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.createProcessBtn {
+  flex: 1;
+  background-color: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 4px;
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+}
+
+.createProcessBtn:hover,
+.okBtn:hover {
+  background-color: var(--button_color);
+}
+
+.disabledCreateProcessBtn {
+  flex: 1;
+  border-radius: 4px;
+  margin: 0 !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  border: none;
+  color: #606060 !important;
+}
+
+.regenerateBtn {
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  flex: 1 1;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #51087e, #a14653, #fb8b23);
+  position: relative;
+}
+
+.regenerateTextDiv {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.regenerateBtn:hover .regenerateTextDiv {
+  background-color: #fff8f2;
+}
+
+.regenerateText {
+  background: linear-gradient(106deg, #51087e -14.49%, #fb8b23 147.43%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--base_text_font_size);
+}
+
+.tooltipTitle {
+  color: #000;
+  font-family: var(--font_family);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.tooltipContent {
+  color: #545454;
+  font-family: var(--font_family);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.deleteVariableBtn {
+  flex: 1;
+  background-color: #d53d3d;
+  border: 1px solid #d53d3d;
+  border-radius: 2px;
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+}
+
+.deleteVariableBtn:hover {
+  background-color: #d53d3d;
+}
+
+.cancelBtn {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  color: #606060;
+}
+
+.okBtn {
+  flex: 1;
+  background-color: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+}
+.secondaryBtn {
+  background-color: #fff;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--button_color);
+}

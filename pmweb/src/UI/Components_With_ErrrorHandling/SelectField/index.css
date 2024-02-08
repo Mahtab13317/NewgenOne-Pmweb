@@ -1,0 +1,4 @@
+#dropdownErrorId input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}

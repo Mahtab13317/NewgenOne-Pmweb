@@ -1,0 +1,47 @@
+.height {
+  max-height: 50px;
+}
+
+.showRedBorder {
+  border: 1px solid #b52a2a !important;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 24px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.selectConstInput {
+  position: absolute;
+  width: 72%; /*Code modified on 09-08-23 fro Bug 135396*/
+  /* Changes made to solve Bug 135390 */
+  height: 2rem !important;
+  max-height: 2rem !important;
+  /* till here dated 11thSept */
+  padding: 0 var(--spacing_v) !important;
+  left: 13%;
+  z-index: 100;
+  margin-top: 1px !important;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  border: none;
+}
+
+.selectConstInput:disabled {
+  background: none !important;
+}
+
+.constantIcon {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  position: absolute;
+  top: 0;
+  margin: 2px 0.25rem;
+  padding: 0.25rem 0;
+  width: 10%;
+  z-index: 1000;
+  text-align: center;
+  background: #e5e5e5;
+}

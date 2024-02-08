@@ -1,0 +1,10 @@
+.triggerDropdownData {
+  padding: 0.25rem 0.5rem !important;
+  width: 100%;
+  text-align: start !important;
+  justify-content: flex-end !important;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}

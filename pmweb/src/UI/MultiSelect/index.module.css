@@ -1,0 +1,146 @@
+.multiSelectChip {
+  height: 1.75rem !important;
+  text-align: left;
+  font: normal normal normal 12px/20px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000 !important;
+  background: #f0f0f0 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  margin-right: 0.25rem !important;
+  padding: 2px;
+  margin-bottom: 0.25rem !important;
+}
+
+.multiSelectDeleteIcon {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin: 0 0 0.5px;
+  color: #000000 !important;
+}
+
+.multiSelectInput {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  min-height: var(--line_height);
+  border: 1px solid #dadada;
+  width: 18vw;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  margin-bottom: 1rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+}
+
+/*css added on 26 April 2022 for BugId 108472*/
+.listDiv {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.listDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.25rem;
+  height: 10px;
+}
+
+.listDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.listDiv:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.25rem;
+  height: 10px;
+}
+.listDiv:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+
+.multiSelect_listItem {
+  min-height: 26px;
+  padding: 0 0.5vw !important;
+}
+
+.multiSelect_listItem label {
+  margin-right: 0;
+  width: 100%;
+  display: flex;
+}
+
+.multiSelect_checked {
+  background: #1072c6 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.multiSelect_checkIcon {
+  color: white;
+  width: 1vw !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.multiSelect_checkboxStyle {
+  position: unset;
+  border: 1px solid #c4c4c4;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.multiSelect_dropdown {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multiSelect_noData {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #767676;
+  padding: 0.5rem;
+  min-height: 1.5rem;
+}
+
+.defaultSelectValue {
+  opacity: 0;
+  height: 0 !important;
+  padding: 0 !important;
+}
+.multiSelect_listItem_focused {
+  border: 2px solid var(--button_color);
+}
+.multiSelectDeleteIcon:focus-visible {
+  outline: 2px solid var(--button_color);
+}
+
+.listDiv:focus {
+  outline: 0;
+}
+.multiSelectInput:focus {
+  outline: 0 !important;
+  border: 0;
+}
+.multiSelectInput:focus-visible {
+  outline: 0 !important;
+  border: 0 !important;
+}
+/* added on 05-09-2023 to resolve the bug Id 135464 */
+.selectedCount{
+  padding: 0.5vw;
+}

@@ -1,0 +1,47 @@
+/*modified on 12/09/2023 for BugId 136862*/
+.buttons_add {
+  width: 100%;
+  margin-top: 1.25rem;
+  justify-content: end;
+  padding: 0.5rem 0 0.5rem 1vw;
+  background: #f5f5f5;
+  display: flex;
+}
+
+.fileNameInput_Import {
+  width: 302px;
+  height: 28px;
+  border: 1px solid #cecece;
+  border-radius: 1px;
+  opacity: 1;
+}
+
+.importExportCloseButton {
+  margin: 0 !important;
+}
+
+.globalImportExportcancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font-size: var(--base_text_font_size);
+  font-family: var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.globalImportExportokButton {
+  background: var(--button_color);
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: white;
+  padding: 0.25rem 1vw;
+  display: flex;
+  cursor: pointer;
+}

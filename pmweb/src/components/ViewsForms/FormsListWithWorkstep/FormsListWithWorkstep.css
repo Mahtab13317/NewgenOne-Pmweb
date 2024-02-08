@@ -1,0 +1,45 @@
+/*
+// #BugID - 123513
+// #BugDescription - Fixed issue for the view is not coming in list structure that was given in UX. Checkboxes not working properly.
+*/
+.radioAlign .MuiIconButton-label {
+  width: fit-content !important;
+}
+
+.inputAlign input {
+  left: 45% !important;
+}
+
+.formListCheckBox {
+  margin-bottom: 8px !important;
+}
+.activityListContainer {
+  text-align: left !important;
+}
+.activityList {
+  margin-left: 0px !important;
+  margin: 0.75rem;
+}
+.radioBtnContainer {
+  text-align: start !important;
+}
+
+/*.radioBtn {
+  margin-left: 15% !important;
+  margin: 6px;
+}*/
+.activityTable {
+  background: #fff;
+  margin-top: 2px;
+}
+/* Changes made to solve Bug 135679  */
+.workItemForms {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 18px;
+  font-weight: 500;
+}

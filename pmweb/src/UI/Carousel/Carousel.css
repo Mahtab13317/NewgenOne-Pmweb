@@ -1,0 +1,91 @@
+.container {
+  width: 90vw;
+}
+.container .slick-dots {
+  top: -8%;
+  right: 5%;
+  text-align: right;
+  height: 2rem;
+}
+
+.container .slick-dots li {
+  margin: 0;
+}
+
+.cardTemp {
+  display: inline-block;
+  width: 43vw;
+  height: 55vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 3%;
+  margin-right: 2%;
+  position: relative;
+}
+.tempCardContent {
+  padding: 0 !important;
+}
+
+.cardFooter {
+  width: 100%;
+  height: 3.5rem;
+  background: #e1e0e0 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 5px 5px;
+  opacity: 1;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 0;
+}
+.cardHeading {
+  height: 1.5rem;
+  text-align: left;
+  font: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+.cardDesc {
+  margin-top: 1%;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-left: 3%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+}
+.previewBtn {
+  width: 4rem;
+  height: 1.9rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  text-align: center;
+  margin-left: 60%;
+  cursor: pointer;
+}
+.selectTemplateBtn {
+  width: 8rem;
+  height: 1.9rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  opacity: 1;
+  color: var(--blue-1-0072c6);
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  text-align: center;
+  margin-left: 1%;
+  cursor: pointer;
+}

@@ -1,0 +1,183 @@
+/* Changes made to solve Bug 115478 -> Template: on template selection screen, scrolling should be available for the listing of Templates to view entire listing  */
+.selectPrcocessTempHeading {
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.hrCreateProcessTemplate {
+  opacity: 1;
+}
+
+.processCreationFooter {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 1rem;
+  height: 3.5rem;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  position: fixed;
+  bottom: 0;
+}
+
+.ProcessCreationLeftPannel {
+  width: 14%;
+  height: 78vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: 1px solid #e4e4e4 !important;
+}
+
+.ProcessCreationRightPannel {
+  width: 86%;
+  height: 73vh;
+  overflow-y: auto;
+  padding: 0 0 0 2rem;
+  overflow-x: hidden;
+  margin-bottom: 4rem;
+}
+
+.ProcessCreationRightPannel::-webkit-scrollbar {
+  display: none;
+}
+
+.ProcessCreationLeftPannel .Mui-selected {
+  background: #d4ebf2 0% 0% no-repeat padding-box;
+  min-height: 2.5rem;
+}
+
+.ProcessCreationLeftPannel button {
+  min-height: 2.5rem;
+  text-transform: capitalize;
+}
+
+.ProcessCreationLeftPannel .MuiTab-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  color: #000000 !important;
+  /* font: normal normal 600 14px/18px Open Sans !important; */
+  font-weight: 700;
+  letter-spacing: 0px;
+  padding: 0 !important;
+}
+
+.ProcessCreationLeftPannel .MuiTabs-indicator {
+  min-height: 1.625rem !important;
+  position: absolute !important;
+  left: 0rem !important;
+  width: 0rem !important;
+}
+
+.allCatName {
+  margin-top: 0.5rem;
+  text-align: left;
+  font-size: var(--title_text_font_size);
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.viewAllTemp {
+  margin-left: auto;
+  margin-right: 15%;
+  margin-top: 0.5rem;
+  text-align: left;
+  font-size: var(--subtitle_text_font_size);
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.processCreationCreate {
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: var(--button_color);
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  height: 28px;
+  border-radius: 2px;
+}
+
+.processCreationCancel {
+  padding: 0.25rem 0.5rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  height: 28px;
+  border-radius: 2px;
+}
+
+.categoryTab {
+  min-height: 1.625rem !important;
+  padding: 0rem !important;
+  font: 0.75rem / 1.063rem Open Sans !important;
+  letter-spacing: 0rem !important;
+  color: black !important;
+  opacity: 1;
+  margin: 0.25rem 0 !important;
+}
+.categoryTab:focus {
+  background-color: #E6EFF6;;
+  opacity: 1;
+}
+
+.categoryTab span {
+  width: auto !important;
+  text-align: left !important;
+  margin-left: 1rem !important;
+  margin-right: auto !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size: var(--base_text_font_size) !important;
+  color: #000000 !important;
+ 
+}
+
+.regenerateBtnCreate {
+  margin: 0 !important;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 600;
+  min-width: 11vw;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #51087e, #a14653, #fb8b23);
+  position: relative;
+  margin-inline-end: 1vw !important;
+}
+
+.regenerateTextDivCreate {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.regenerateBtnCreate:hover .regenerateTextDivCreate {
+  background-color: #fff8f2;
+}
+
+.regenerateTextCreate {
+  background: linear-gradient(106deg, #51087e -14.49%, #fb8b23 147.43%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font_family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--base_text_font_size);
+}

@@ -1,0 +1,86 @@
+.tittle {
+  text-align: start;
+  font: normal normal 700 var(--subtitle_text_font_size) / 19px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  margin-bottom: 1rem;
+}
+
+.tittleFilter {
+  text-align: start;
+  font: normal normal 700 var(--subtitle_text_font_size) / 19px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  margin-bottom: 1rem;
+}
+
+.SearchVariable {
+  margin: 0.5rem 0.5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.variableName {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  padding: 0 2vw;
+  color: #070707;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.searchRights {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  color: #070707;
+  vertical-align: middle;
+  height: 3rem;
+  padding: 0 2vw;
+}
+
+.nameLabel {
+  margin-inline-start: 1rem;
+  width: 10rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.checkboxes {
+  margin-inline-start: 2rem;
+}
+
+.query {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  letter-spacing: 0px;
+  margin-bottom: 0.25rem;
+}
+
+.textBox {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  width: 98%;
+  height: 15rem;;
+}
+.textBox:focus-visible {
+  outline: 2px solid var(--brand_color1) !important;
+  border-radius: 2px;
+}
+
+.particularRow {
+  height: 4px;
+}
+
+.querryPannel {
+  flex: 1;
+  margin-inline-start: 0.5vw;
+}

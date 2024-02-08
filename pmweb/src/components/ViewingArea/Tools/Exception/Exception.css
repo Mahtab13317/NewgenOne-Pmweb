@@ -1,0 +1,96 @@
+.exceptionGroupChecked {
+  background: white 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4;
+}
+
+.exceptionGroup_checkIcon {
+  color: var(--checkbox_color) !important;
+  width: 1rem !important;
+  position: absolute;
+  top: -2px;
+  left: -1px;
+}
+
+.modalHeader {
+  height: 50px;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 5px;
+}
+.modalLabel {
+  float: left;
+  font-size: var(--subtitle_text_font_size) !important;
+}
+.modalFooter {
+  height: 50px;
+  border-top: 1px solid #f5f5f5;
+  background: #f5f5f5;
+}
+.modalFooterInner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 10px;
+}
+.btnMapModal {
+  color: #fff;
+  background: #0072c6;
+  border-radius: 1px;
+}
+
+.btnMapModal:hover {
+  color: #fff;
+  background: #0072c6;
+}
+.cancelMap {
+  /* font-size: 1rem !important; */
+  background-color: white !important;
+  color: #606060 !important;
+  font: normal normal 600 1rem var(--base_text_font_size) !important;
+  border: 1px solid rgba(0, 0, 0, 0.23) !important;
+  font-weight: 600 !important;
+}
+.modalBody {
+  padding: 15px;
+  clear: both;
+}
+
+.modalControl {
+  margin-top: 15px;
+}
+
+.modalText {
+  width: 100%;
+}
+.closeIcon {
+  font-size: 1.5rem !important;
+  height: var(--icon_height) !important;
+  line-height: var(--line_height) !important;
+}
+.warningMsg {
+  font-weight: 600 !important;
+  color: #606060 !important;
+  font-size: var(--base_text_font_size) !important;
+}
+
+.modalTable {
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 1rem;
+}
+
+.modalTable th {
+  text-align: left;
+  padding: 5px;
+  font-weight: 600 !important;
+  font-size: var(--base_text_font_size) !important;
+  font-family: var(--font_family) !important;
+  background: #f8f8f8;
+}
+
+.modalTable td {
+  text-align: left;
+  font-size: var(--base_text_font_size) !important;
+  font-family: var(--font_family) !important;
+  padding: 5px;
+  border-bottom: solid 1px #f5f5f5 !important;
+}

@@ -1,0 +1,370 @@
+.AppHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid var(--brand_color1);
+  padding: 0 var(--spacing_h);
+  background-color: #f8f8f8;
+}
+
+.headerLogoName {
+  display: flex;
+  align-items: center;
+}
+
+.newgenLogo {
+  height: 2.5rem;
+}
+
+.vr {
+  height: 3rem;
+  border: 0.0625rem solid #dadada;
+  margin-left: 1rem;
+}
+
+.vr_rtl {
+  height: 2rem;
+  border: 0.0625rem solid #dadada;
+  margin-right: 1rem;
+}
+
+.heading {
+  margin: 0 var(--spacing_h);
+  color: #000000;
+  padding: 0.25rem 0 0;
+  text-align: left;
+  font: normal normal bold var(--title_text_font_size) / var(--line_height)
+    var(--font_family);
+}
+
+.heading_rtl {
+  margin: 0 var(--spacing_h);
+  color: #000000;
+  padding: 0.25rem 0 0;
+  text-align: right;
+  font: normal normal bold var(--title_text_font_size) / var(--line_height)
+    var(--font_family);
+}
+
+.AppHeaderIcon {
+  margin: 0 0.25rem;
+  width: 2rem;
+  height: 2rem;
+}
+.AppHeaderIcon:focus-visible {
+  outline: 1px solid var(--brand_color1);
+}
+
+select {
+  outline: none;
+  border: none;
+}
+
+.title {
+  height: 100%;
+  cursor: pointer;
+  border-top: 3px solid transparent;
+}
+
+.pdActive {
+  background: rgba(243, 106, 16, 0.1);
+  border-top: 3px solid var(--brand_color1);
+  cursor: pointer;
+}
+
+.titleTabs {
+  width: auto;
+  height: 100%;
+  margin: 0 0.25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0 0.125rem 0 0.5rem;
+  border-top: 3px solid transparent;
+  /* align-items: center; */
+}
+
+.activeTab {
+  background: rgba(243, 106, 16, 0.1);
+  border-top: 3px solid var(--brand_color1);
+  cursor: pointer;
+}
+
+.title:focus-visible {
+  outline: 1px solid var(--brand_color1);
+}
+
+.openNew:focus-visible {
+  outline: 1px solid var(--brand_color1);
+}
+
+.titleTextTabs {
+  margin: 0 0.5rem;
+  color: #1b1b1b;
+  padding: 0.25rem 0 0;
+  text-align: left;
+  max-width: 10vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font: normal normal 600 var(--title_text_font_size) / var(--line_height)
+    var(--font_family);
+}
+
+.collabTypeLogo_Home {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 0.25rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.collabName_Home {
+  text-align: center;
+  font-family: var(--font_family);
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: var(--subtitle_text_font_size);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.titleCloseIcon {
+  height: 100%;
+}
+
+.userProfileDiv {
+  position: absolute;
+  font-size: var(--base_text_font_size);
+  color: #000;
+  background: white;
+  box-shadow: 0px 0px 5px 4px #0000001a;
+  border-radius: 2px;
+  width: auto;
+  top: 3.5rem;
+  right: 0.5vw;
+  text-align: left;
+  padding: 0.5rem 0;
+  z-index: 9999;
+  /* min-width: 14rem; */
+}
+
+.userIcons {
+  height: 2.25rem;
+  width: 2.25rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.userProfileSubDiv1 {
+  position: relative;
+  margin: 0.5rem 1vw 0;
+  padding-top: 0.75rem;
+}
+.userProfileSubDiv {
+  border-top: 1px solid #0000001a;
+  position: relative;
+  margin: 0.5rem 1vw 0;
+  padding-top: 0.75rem;
+}
+.userProfileOptDiv1 {
+  position: relative;
+  padding: 0.25rem 1vw;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 1.35rem;
+}
+.userProfileOptDiv {
+  cursor: pointer;
+
+  border-top: 1px solid #0000001a;
+  position: relative;
+  margin: 0.5rem 1vw 0;
+  padding-top: 0.75rem;
+}
+
+.userProfileHeading {
+  display: flex;
+  font-size: var(--sub_text_font_size);
+  letter-spacing: 0px;
+  color: #676767;
+  text-transform: uppercase;
+  position: absolute;
+  background: white;
+  top: -0.5rem;
+  padding: 0 0.5vw 0 0;
+}
+
+.profileIcons {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+
+  margin-right: 0.5rem !important;
+}
+.iconContainer {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.timeInfo {
+  font-size: var(--base_text_font_size);
+  /* font-style: italic;*/
+  color: #606060;
+  /* font-weight: 600;*/
+  text-align: start;
+}
+.userProfileDetailsMainDiv {
+  /*  position: relative;
+  margin: 0.5rem 1vw 0; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fbf6ec;
+
+  min-height: 5rem;
+  padding-inline-start: 1.35rem;
+}
+.userProfileContainer {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.userProfile {
+  background-color: #9d5b38;
+  width: 30px;
+  height: 30px;
+  font-size: var(--subtitle_text_font_size);
+  border: 1px solid #9d5b38;
+  border-radius: 50%;
+  padding: 10px 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-family: var(--font_family);
+  cursor: pointer;
+}
+
+.userProfile:focus-visible {
+  outline: 1px solid var(--brand_color1);
+}
+
+.userProfileImage {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.FullName {
+  font-size: var(--title_text_font_size);
+  font-weight: 600;
+}
+.userName {
+  font-size: var(--base_text_font_size);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.modalHeading {
+  font: normal normal 600 15px/20px Open Sans;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal normal 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.okButton {
+  background: #0072c5 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c5;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal normal 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: white;
+  padding: 0.25rem 1vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.modalFooter {
+  align-items: center;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #f8f8f8;
+  width: 100%;
+  display: flex;
+  gap: 0.5vw;
+  justify-content: end;
+  padding: 0.5rem 0vw;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+.alreadyLoggedMsg_lpweb {
+  color: black;
+  font: normal normal 500 13px/18px Open Sans;
+  margin: 1rem 1vw;
+  text-align: left;
+}
+
+.moreBtnDropdownHeader {
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  z-index: 11; /*to prevent overriding by properties button*/
+  right: -14%;
+  width: 12vw;
+  top: 100%;
+  text-align: left;
+  padding: 0 0 0.5rem 0rem;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000d9;
+  cursor: pointer;
+}
+
+.moreBtnDropdownHeader ul li:hover {
+  background: rgb(246, 246, 246);
+}
+
+.moreBtnDropdownHeader ul li {
+  padding: 0.25rem 0.5vw;
+  align-items: center;
+  display: flex;
+}
+
+.threeDotsButtonHeader {
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0.25rem !important;
+}

@@ -1,0 +1,47 @@
+.LeftPannel {
+  height: 100%;
+  width: 17.4375rem;
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.vl {
+  border-left: 2px solid #c4c4c4;
+  height: 100%;
+}
+
+.noRuleDefined {
+  text-align: left;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.addnavBtn {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 4.2rem;
+  height: 1.6rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.5rem 0.75rem 0 auto;
+  cursor: pointer;
+}
+
+.restList {
+  /* padding-left: 15px; */
+  height: 3rem !important;
+  padding: 0.5rem;
+  font: normal normal normal 12px/17px Open Sans;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+

@@ -1,0 +1,368 @@
+.mainWrappingDiv {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.formContainer {
+  width: 100%;
+  padding: 1rem;
+  background: #0072c63b;
+  margin: 0.5rem;
+}
+
+.tableContainer {
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.formControl {
+  width: 30%;
+  margin: 0.5rem;
+}
+
+.leftPannel {
+  height: 100%;
+  width: 20%;
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  border-right: 3px solid #f8f8f8;
+}
+
+.rightPannel {
+  height: 100%;
+  /* margin-top: 10px; */
+  margin-left: 1.25rem;
+  width: 75%;
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.definationList {
+  height: 40px;
+  vertical-align: middle;
+}
+.checklist {
+  font: normal normal 500 12px/17px Open Sans;
+  margin-top: 0.5rem;
+}
+.checkBoxCommon {
+  height: 16px;
+  width: 16px;
+}
+.labelTittle {
+  font: normal normal normal 12px/16px Open Sans;
+  margin-top: 1rem;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem 0.75vw 0; */
+}
+
+.listHeading {
+  font: normal normal 600 var(--subtitle_text_font_size) / 19px Open Sans;
+  letter-spacing: 0px;
+  color: black;
+  text-align: left;
+}
+
+.defHeader {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.checkBoxShowAlways {
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  margin-top: 10px;
+}
+.commonInterface {
+  font: normal normal 600 12px/17px Open Sans;
+  font-size: var(--base_text_font_size);
+  margin-left: 10px;
+}
+
+.commonInterfaceTableRow {
+  font: normal normal normal 12px/17px Open Sans;
+
+  margin-left: 1rem;
+}
+.addButton {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid #0072c5 !important;
+  font: normal normal 600 12px/17px Open Sans !important;
+  letter-spacing: 0px !important;
+  color: #0072c6;
+  text-transform: none !important;
+  margin-right: 0.5rem !important;
+  padding: 0.25rem 0.75rem !important;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.menuItemStyles {
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  /* padding: 0.5rem 0.5vw; */
+  margin: 0;
+  min-height: 2rem;
+}
+.verticalDivision {
+  border-left: 2px solid #c4c4c4;
+  height: 100%;
+}
+
+.sapDef_ListDiv {
+  /*  height: 26rem; */
+  overflow: auto;
+  /*  padding: 0 0.75vw 0; */
+  margin-inline-end: 3%;
+}
+
+.defMapping {
+  margin-top: 4rem;
+}
+
+.sapInput {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0rem 0 1rem;
+  display: block;
+  padding: 0.125rem 0.5rem;
+  /*  width: 25vw;
+    height: 1.5rem; */
+  width: 98%;
+  height: var(--line_height);
+}
+
+.defForm {
+  display: flex;
+  width: 75%;
+}
+
+.defButtons {
+  display: flex;
+  width: 18%;
+}
+
+.defItem {
+  margin: 1rem;
+  width: 40%;
+}
+
+.mapBtn {
+  margin: 1rem;
+  width: 20%;
+  margin-top: 2rem;
+}
+
+.btnContainer {
+  margin-top: 2rem;
+}
+
+.saveBtn {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  /*  width: 4.2rem; */
+  height: 1.6rem;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.5rem auto 0 0.75rem;
+  cursor: pointer;
+}
+
+.saveBtn:hover {
+  background: #0072c6 0% 0% no-repeat padding-box;
+}
+
+.sapMapTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem;
+}
+
+.sapMapPopup {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sapMapTable td,
+.sapMapTable th,
+.sapMapPopup th,
+.sapMapPopup td {
+  padding: 8px;
+}
+
+.sapMapTable tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.sapMapTable th,
+.sapMapPopup th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: start;
+  background-color: #f8f8f8;
+}
+
+/*----------------------------*/
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.modalHeading {
+  font: normal normal 600 16px/21px Open Sans;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+  border-top: 1px solid #c4c4c4;
+  background-color: #f5f5f5;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  margin-right: 0.5vw;
+  display: flex;
+  cursor: pointer;
+}
+.cancelButtonRTL {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  margin-right: 0.5vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.saveButton {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #fff;
+  padding: 0.25rem 1vw;
+  margin-inline-end: 0.5vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.saveButtonRTL {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #fff;
+  padding: 0.25rem 1vw;
+  margin-inline-end: 0.5vw;
+  cursor: pointer;
+}
+
+.modalSubHeading {
+  color: #606060;
+  display: flex;
+  align-items: center;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  padding: 0.5rem 1vw 1rem;
+}
+
+.noData{
+     
+  width: 100%;
+  margin: 8% 0;
+  text-align: center;
+}
+
+.noDataBtn{
+  background: #0072c6 0% 0% no-repeat padding-box !important;
+    border-radius: 2px !important;
+    border: 1px solid #0072c6 !important;
+    text-align: center;
+    font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+    font-weight: 600;
+    margin-right: 0 !important;
+    letter-spacing: 0px !important;
+    color: #ffffff !important;
+    text-transform: none !important;
+    position: relative;
+    padding: 0.25rem 0.5rem !important;
+}
+
+.mappingBody{
+  
+}
+
+.collapsePanel{
+   width: 100%;
+   margin:1rem;
+}

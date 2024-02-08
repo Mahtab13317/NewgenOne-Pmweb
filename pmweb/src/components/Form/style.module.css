@@ -1,0 +1,52 @@
+.container1 .labeltype {
+  max-width: 95px;
+  min-width: 95px;
+}
+.radio_group_container {
+  display: flex;
+  margin: 1.25rem;
+}
+.label {
+  padding: 0.083rem;
+}
+.text_area:focus {
+  border:0.083rem solid red;
+}
+
+span [class^="PrivateValueLabel-label"] {
+  color: #000 !important;
+  transform: unset !important;
+  font-size: 1.167rem;
+}
+
+span [class^="PrivateValueLabel-circle"] {
+  width: 2.667rem !important;
+  height: unset !important;
+  display: flex;
+  transform: unset !important;
+  align-items: center;
+  border-radius: unset;
+  justify-content: center;
+  background-color: currentColor;
+}
+
+span [class^="PrivateValueLabel-offset"] {
+  top: unset !important;
+  bottom: -2.917rem !important;
+  background-color: white !important;
+  z-index: 1;
+  position: absolute;
+  font-size: 0.75rem;
+  transform: scale(0);
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.2;
+  transform-origin: bottom center;
+}
+
+#fieldEditorautocomplete-list{
+  height: '282px';
+  overflow: auto;
+  width: max-content;
+}

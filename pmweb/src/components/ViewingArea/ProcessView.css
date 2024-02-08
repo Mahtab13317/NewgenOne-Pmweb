@@ -1,0 +1,124 @@
+.tabViewingArea {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.tabs .MuiTabs-indicator {
+  min-height: 1.625rem !important;
+  /* background-color: #0072c6 !important; */
+  position: absolute !important;
+  left: 0rem !important;
+  width: 0.25rem !important;
+  background: transparent !important;
+}
+
+.tabs .MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+  background-color: #d4ebf2;
+}
+
+.tabStyle .MuiTabs-indicator {
+  min-height: 1.625rem !important;
+  position: absolute !important;
+  left: 0rem !important;
+  width: 0rem !important;
+}
+
+.tabStyle .MuiTab-labelIcon {
+  min-height: 3.25rem !important;
+  padding: 0.563rem 0.25rem;
+}
+
+.tabStyle .MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+  background-color: #0072c614;
+}
+
+.tabStyle .MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.tabStyle .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+  margin-right: 0rem;
+}
+
+.tabStyle .processViewTabs .MuiTab-wrapper {
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.tabStyle .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+  margin-bottom: 0.063rem;
+}
+
+.queueTabStyles .MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.063rem solid #0072c6;
+  border-radius: 2.5rem;
+  opacity: 1;
+}
+
+.queueTabStyles .MuiTabs-indicator {
+  min-height: 0rem !important;
+  left: 0rem !important;
+  width: 0rem !important;
+}
+
+.queueTabStyles .MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  text-align: left;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.queueTabStyles .MuiTabs-scroller .MuiTabs-fixed {
+  height: 0.938rem;
+}
+
+.queueTabStyles .MuiTab-labelIcon {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.063rem solid #bbbbbb;
+  border-radius: 2.5rem;
+  opacity: 1;
+  min-height: 0rem !important;
+  margin-left: 0.5rem;
+}
+
+.queueTabStyles .Mui-selected .MuiTab-wrapper {
+  font-weight: normal !important;
+}
+
+.queueTabStyles .MuiTabs-root .MuiTabs-flexContainer {
+  margin-top: 0.688rem;
+}
+
+.queueTabStyles .MuiTabs-root {
+  box-shadow: 0rem 0rem 0rem !important;
+}
+
+.queueTabStyles .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+  margin-bottom: 0.375rem;
+  margin-top: 0.5rem;
+}
+
+.queueTabStyles > .MuiTabs-root {
+  box-shadow: 0rem 0rem 0rem #dadada !important;
+}

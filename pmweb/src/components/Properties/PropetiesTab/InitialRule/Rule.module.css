@@ -1,0 +1,269 @@
+.rule {
+  max-height: 65vh;
+  /* overflow-y: auto; */
+}
+
+.rule::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 10px;
+  background-color: white;
+}
+.rule::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+.characters {
+  height: "300px" !important;
+  overflow: scroll !important;
+}
+.characters::-webkit-scrollbar {
+  width: 0.37rem !important;
+  height: 0.6rem !important;
+  background-color: #e1ecc8 !important;
+}
+.attachmentHeader {
+  justify-content: space-between;
+  padding: 0.5rem 1.5vw 0 1.5vw;
+  align-items: center;
+}
+.addAttachHeading {
+  font: normal normal 700 14px/19px Open Sans;
+  font-size: var(--subtitle_text_font_size);
+  letter-spacing: 0px;
+  color: #000000;
+}
+.addAttachBtn {
+  background-color: white !important;
+  color: var(--button_color) !important;
+  border: 1px solid var(--button_color) !important;
+  /* font-weight: 600 !important; */
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  padding: 0.25rem 0.5vw;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.expandedView .tableDiv {
+  padding: 1rem 1.5vw;
+  width: 98%;
+}
+.collapsedView .tableDiv {
+  padding: 1rem 0.3vw;
+  width: 100%;
+}
+
+.expandedView .tableHeaderRow {
+  padding: 0.25rem 1vw;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+}
+.collapsedView .tableHeaderRow {
+  padding: 0.25rem 1vw;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+  height: 2rem;
+}
+
+.tableRow {
+  padding: 0.25rem 1vw;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+}
+
+.tableRow:nth-child(even) {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}
+.tableRow:nth-child(odd) {
+  background: white;
+  height: 2rem;
+}
+
+.attachDiv {
+  width: 30%;
+  margin: 1vw;
+}
+.attachDivCollapsed {
+  width: 69%;
+  margin: 1vw;
+}
+
+.descDiv {
+  width: 30%;
+  margin: 1vw;
+}
+
+.iconDivExpanded {
+  width: 30%;
+  text-align: left !important;
+}
+.iconDivCollapsed {
+  width: 37%;
+  text-align: left !important;
+}
+
+.divHead {
+  text-align: left;
+  font: normal normal 600 13px/18px Open Sans;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+
+.expandedView .divBody {
+  text-align: left;
+  font: normal normal normal 13px/18px Open Sans;
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+.collapsedView .divBody {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+
+.cancelIconExpanded {
+  width: 4.25rem !important;
+  height: 1.25rem !important;
+  margin: 0.3vw;
+}
+
+.cancelIconCollapsed {
+  width: 1.99rem !important;
+  height: 1.25rem !important;
+  margin: 0.3vw;
+  font-size: 9px;
+}
+
+.cancelIcon {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+.addIconExpanded {
+  width: 3.25rem !important;
+  height: 1.25rem !important;
+  margin: 1vw;
+}
+.addIconCollapsed {
+  width: 1.23rem;
+  height: 1.25rem !important;
+  margin: 0.2vw;
+}
+.conditionDiv {
+  width: 35%;
+}
+.operationDiv {
+  width: 35%;
+}
+.addDiv {
+  width: 25%;
+  text-align: right !important;
+}
+
+.expandedView .serialDiv {
+  width: 5%;
+}
+
+.ruleInput {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background: #fff;
+  width: 75%;
+  /*height: 1.75rem;*/
+  padding: 0.75rem 0.7vw !important;
+}
+
+.showInput {
+  padding: 0.25rem 1vw;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+  background: #0072c61a;
+}
+
+.cancelBtn {
+  background-color: white !important;
+  color: var(--button_color) !important;
+  border: 1px solid var(--button_color) !important;
+  /* font-weight: 600 !important; */
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+
+  padding: 0.25rem 0.5vw;
+  cursor: pointer;
+}
+
+.disabledAddBtn {
+  /* background: rgba(0, 0, 0, 0.12) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0.25rem 0.5vw;
+  margin: 0.25rem;
+  cursor: default; */
+  /* font-size:1rem !important; */
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font: normal normal 600 1rem var(--base_text_font_size) !important;
+  border: 1px solid rgba(0, 0, 0, 0.23) !important;
+  /* font-weight: 600 !important; */
+}
+
+.addBtn {
+  background-color: white !important;
+  color: var(--button_color) !important;
+  border: 1px solid var(--button_color) !important;
+  /* font-weight: 600 !important; */
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+
+  padding: 0.25rem 0.5vw;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.expandedView .divBodyrule {
+  text-align: left;
+  font: normal normal normal 13px/18px Open Sans;
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+.collapsedView .divBodyrule {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0.42px;
+  color: #070707;
+}
+
+.showInput1 {
+  padding: 0.25rem 1vw;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+}
+
+.conditionDiv1 {
+  width: 40%;
+}
+
+.operationDiv1 {
+  width: 40%;
+}

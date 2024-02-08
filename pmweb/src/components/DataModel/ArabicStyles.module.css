@@ -1,0 +1,39 @@
+.tabHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.625rem;
+}
+
+.tabHeading {
+  text-align: right;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+  margin: 0.75rem 0.688rem 0rem 0rem;
+}
+
+.addButton {
+  text-align: right;
+  font: normal normal 600 0.75rem/1.063rem Open Sans;
+  letter-spacing: 0rem;
+  color: #0072c6;
+  opacity: 1;
+  margin: 0.75rem 2.875rem 0px 0.875rem;
+}
+
+.dataModelNavBar {
+  width: 17vw !important;
+  background: white;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.labelName {
+  width: auto !important;
+  text-align: right !important;
+  margin-right: 0.25rem !important;
+  font-size: var(--base_text_font_size);
+  letter-spacing: 0px;
+  color: #000000 !important;
+}

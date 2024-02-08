@@ -1,0 +1,121 @@
+.oneInputPairDiv_Common {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 7px;
+  margin-bottom: 4px;
+  height: 30px;
+}
+
+.selectOne_callActivity,
+.selectTwo_callActivity {
+  width: 136px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/17px Open Sans !important;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.selectOne_callActivity {
+  padding: 2px;
+}
+
+.InputPairDiv_CommonList {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.forwardMapping_VariablesLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 7px;
+  border-bottom: 1px solid grey;
+}
+.forwardMapping_VariablesHeader {
+  width: 136px;
+  height: 52px;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forwardMapping_VariablesHeader_expanded {
+  width: 281px;
+  height: 48px;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.targetProcess {
+  font-size: 11px;
+  color: grey;
+}
+
+.processName_CallActivity {
+  font-size: 11px;
+}
+
+.forwardMapping_VariablesHeaderDiv {
+  display: flex;
+  margin: 0px 25px 0px 8px;
+  justify-content: space-between;
+}
+
+.forwardMapping_VariablesHeaderDiv_Expanded {
+  display: flex;
+  margin: 0px 25px 0px 8px;
+}
+
+.forwardMapping_VariablesHeader_expanded1 {
+  margin-right: 60px;
+}
+
+#close_AddVariableModal_CallActivity {
+  text-transform: none;
+  width: 54px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+#add_AddVariableModal_CallActivity {
+  text-transform: none;
+  width: auto;
+  height: 28px;
+  margin-left: 10px;
+  background: var(--blue-1-0072c6) 0% 0% no-repeat padding-box;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.callActivity_ErrorToast {
+  bottom: 65% !important;
+  left: 88% !important;
+  width: 300px !important;
+}
+
+.noResultImg{
+  width: 80%;
+  margin-inline-start: 9.5%;
+}
+
+.noResultText{
+  margin-inline-start: 9.5%;
+}
+
+

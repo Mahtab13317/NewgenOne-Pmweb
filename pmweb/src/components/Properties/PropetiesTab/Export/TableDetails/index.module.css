@@ -1,0 +1,305 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainDiv {
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.tableTypeDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.tableType {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 0.1875rem !important;
+}
+
+.subDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0px 0px 0px;
+}
+
+.dateFormatDivMargin {
+  margin: 0px 0px 0px 0px;
+}
+
+.tableDataDiv {
+  height: 168px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.tableDataDiv::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+  background-color: white;
+}
+
+.tableDataDiv::-webkit-scrollbar-thumb {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+}
+
+.fieldTitle {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.0625rem
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+  margin: 5px 0px 2px 1px;
+}
+
+.dateFormat {
+  margin: 5px 0px 2px 11px;
+}
+
+.inputBase {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  text-overflow: ellipsis;
+}
+
+.typeLengthInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+}
+
+.menuItemStyles {
+  text-align: left;
+  font: normal normal normal 12px/24px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.typeInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  margin-left: 11px;
+}
+
+.headingsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 32px;
+  width: 100%;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  gap: 2vw;
+}
+
+.fieldName {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 8px;
+}
+
+.type {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.length {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.constraints {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 0px;
+}
+
+.mappingType {
+  text-align: left;
+  font: normal normal 600 var(--base_text_font_size) / 1.5rem var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 50px;
+}
+
+.mappingField {
+  text-align: left;
+  font: normal normal 600 12px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 5px 0px 8px 30px;
+}
+
+.addFieldButton {
+  cursor: pointer;
+  padding: 0.25rem !important;
+  margin-top: 0.25rem !important;
+  margin-right: 1.5rem !important;
+  margin-left: auto !important;
+  background: var(--button_color) 0% 0% no-repeat padding-box;
+  border: 0.125rem solid var(--button_color) !important;
+  border-radius: 0.125rem !important;
+  opacity: 1;
+  display: flex;
+}
+
+.addFieldButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.dataDiv {
+  width: 100%;
+  opacity: 1;
+}
+
+.inputsDiv {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  opacity: 1;
+  height: auto;
+  /* height: 55px; */
+}
+
+.constraintsType {
+  margin: 14px 0px 2px 64px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 80px;
+}
+
+.mappingTypeData {
+  margin: 14px 0px 2px 36px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 80px;
+}
+
+.mappedFieldData {
+  margin: 14px 0px 2px 30px;
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.moreOptionsInput {
+  margin: 15px 72px 7px 0px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.moreOptionIcon {
+  height: 1.35rem !important;
+  width: 1.35rem !important;
+}
+
+.emptyStateMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  height: 28vh;
+}
+
+.emptyStateImage {
+  width: 8.25rem !important;
+  height: 5.813rem !important;
+  margin-top: 3.938rem !important;
+}
+
+.emptyStateHeading {
+  margin-top: 1.063rem;
+  text-align: left;
+  font: normal normal bold var(--title_text_font_size) / 1.375rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+  color: #000000;
+  opacity: 1;
+}
+
+.emptyStateText {
+  margin-top: 0.375rem !important;
+  text-align: left;
+  font: normal normal normal var(--base_text_font_size) / 1.25rem
+    var(--font_family) !important;
+  letter-spacing: 0rem;
+  color: #3a3a3a !important;
+  opacity: 1;
+}
+
+.fieldDefinitionHeading {
+  text-align: left;
+  font: normal normal 600 var(--subtitle_text_font_size) / 1.1875rem
+    var(--font_family);
+  letter-spacing: 0rem;
+  color: #000000 !important;
+  opacity: 1;
+  margin-top: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.asterisk {
+  color: #b52a2a;
+  margin-top: 0.5rem;
+  margin-left: 2px;
+  font-size: 0.75rem;
+}
+
+.tableNameMargin {
+  margin-top: 0.25rem;
+}

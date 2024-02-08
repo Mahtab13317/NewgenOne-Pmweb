@@ -1,0 +1,100 @@
+.hrLineProjectCreation {
+  width: 100%;
+  line-height: 0.1em;
+  border: 1px solid #c4c4c4;
+  opacity: 1;
+}
+.projectCreationTittle {
+  height: 19px;
+  color: var(--unnamed-color-000000);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font: normal normal 600 15px/19px Open Sans;
+  margin: 3%;
+}
+
+.Label {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #383737;
+  opacity: 1;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.AddDesc {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+.AddDesc:focus-visible{
+  outline: 1px solid var(--button_color);
+}
+.projectInput {
+  width: 90%;
+  height: 29px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  opacity: 1;
+  padding-left: 2%;
+}
+.footerProjectCreation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  padding: 0 1rem;
+  flex-direction: row-reverse;
+}
+.sun-editor .se-wrapper {
+  /* height: 45vh !important; */
+  max-height: 100vh !important;
+}
+.descriptionToShow .sun-editor {
+  width: 90% !important;
+}
+.create {
+  background: var(--button_color);
+  color: white;
+  cursor: pointer;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  border: 1px solid var(--button_color);
+  border-radius: 2px;
+}
+.createDisable {
+  background: rgba(0, 0, 0, 0.12) 0% 0% no-repeat padding-box;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  color: #606060;
+}
+.cancel {
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  letter-spacing: 0px;
+  color: #606060;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+.descriptionToShow .sun-editor .se-list-layer{
+  top: 37px !important;
+  overflow: scroll;
+  height: 287px !important;
+}

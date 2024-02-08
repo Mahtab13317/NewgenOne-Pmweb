@@ -1,0 +1,139 @@
+.headingsDiv {
+  margin-top: 16px;
+  margin-left: 27px;
+}
+
+.heading {
+  text-align: left;
+  font: normal normal 400 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.aliasNameHeading {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font: normal normal 600 16px/24px Open Sans;
+  margin-bottom: 10px;
+}
+
+.divider {
+  background-color: #e7e7e7;
+}
+
+.steps {
+  width: 50%;
+  height: 44px;
+}
+
+.stepName {
+  text-align: left;
+  font: normal normal normal 12px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 75px;
+}
+
+.stepButton {
+  height: 12px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.pTag {
+  padding: 30px;
+}
+
+.buttonsDiv {
+  width: 100%;
+  height: 50px;
+  margin-top: 22px;
+  position: absolute;
+  bottom: 0;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.previousButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  padding: 4px;
+  height: 28px;
+  margin: 11px 0px 11px 24px;
+  opacity: 1;
+}
+
+.previousButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+}
+
+.nextButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #338ed1;
+  border-radius: 2px;
+  padding: 4px;
+  height: 28px;
+  margin: 11px 0px 11px 12px;
+  opacity: 1;
+}
+
+.nextButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  opacity: 1;
+}
+
+.cancelButton {
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  padding: 4px;
+  width: 54px;
+  height: 28px;
+  margin: 11px 0px 11px 0px;
+  opacity: 1;
+}
+
+.cancelButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  opacity: 1;
+}
+
+.okButton {
+  cursor: pointer;
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 2px solid #0072c6 !important;
+  width: 59px;
+  height: 28px;
+  margin: 11px 12px 11px 12px;
+  opacity: 1;
+}
+
+.okButtonText {
+  text-align: left;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}

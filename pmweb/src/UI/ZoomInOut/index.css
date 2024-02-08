@@ -1,0 +1,13 @@
+.zoomFloatingTag
+{display:flex; 
+justify-content:space-between; 
+align-items:center; 
+background-color:white; 
+width:176px; 
+height:27px; 
+padding:12px; 
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+position:absolute; 
+right:3%; 
+bottom:13%;
+}

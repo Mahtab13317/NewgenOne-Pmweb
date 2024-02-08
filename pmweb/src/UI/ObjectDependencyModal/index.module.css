@@ -1,0 +1,431 @@
+.mainWrappingDiv {
+  width: 100%;
+  height: 91.84vh;
+  overflow: hidden;
+}
+
+.mainDiv {
+  width: 100%;
+  display: flex;
+
+  gap: 0.75vw;
+  height: 77vh;
+  overflow: hidden;
+}
+
+.listDiv {
+  background: white;
+  flex: 0.95;
+}
+
+.formDiv {
+  background: white;
+  flex: 2;
+  padding: 0.75rem 0;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75vw 0;
+}
+
+.listHeading {
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: black;
+  text-align: left;
+}
+
+.secondaryBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c6;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #0072c6;
+  padding: 0.125rem 1vw;
+  cursor: pointer;
+  height: 1.5rem;
+  display: flex;
+}
+
+.disabledBtn {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: default;
+  padding: 0.125rem 1vw;
+  height: 1.5rem;
+  display: flex;
+}
+
+.cancelBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.125rem 1vw;
+  cursor: pointer;
+  height: 1.5rem;
+  display: flex;
+}
+
+.searchHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5vw;
+  align-items: center;
+  margin: 0.75rem 0 0.25rem;
+  padding: 0 0.75vw;
+}
+
+.filterIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.subMainTab {
+  background-color: #fff !important;
+}
+
+.subMainTabBarStyle {
+  background-color: #fff !important;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #c4c4c4 !important;
+  padding: 0 1vw !important;
+}
+
+.subMainOneTabStyle {
+  font: normal normal normal 14px/19px Open Sans !important;
+  letter-spacing: 0px !important;
+  margin: 0 !important;
+  margin-right: 1.5vw !important;
+  margin-bottom: 0.75rem !important;
+  text-transform: capitalize !important;
+  min-height: 1.5rem !important;
+}
+
+.subMainTabContentStyle {
+  padding: 0 1vw !important;
+}
+
+.webSProcessAssociation {
+  padding-top: 0.25rem;
+}
+
+.webSDefinitionDiv {
+  padding-top: 0.25rem;
+  height: 66vh;
+  overflow-y: auto;
+}
+
+.webSDefinitionDiv::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+
+.webSDefinitionDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.webSDefinitionDiv:hover::-webkit-scrollbar {
+  overflow-y: visible;
+  width: 0.375rem;
+  height: 1.125rem;
+}
+.webSDefinitionDiv:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+  border-radius: 0.313rem;
+}
+
+.webSDefinition {
+  margin-top: 1rem;
+}
+
+.webS_radioDiv {
+  display: flex;
+  flex-direction: row !important;
+  margin-bottom: 0.5rem;
+  align-items: center !important;
+}
+
+.webS_radioButton {
+  margin-right: 1vw !important;
+  margin-left: 0rem !important;
+}
+
+.webS_radioButton span {
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+}
+
+.webS_radioButton span:first-child {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.25vw 0 0;
+}
+
+.webS_radioButton svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.webSLabel {
+  color: #606060;
+  font: normal normal normal 12px/17px Open Sans;
+  display: block;
+  text-align: left;
+  letter-spacing: 0px;
+  margin-bottom: 0.25rem;
+}
+
+.webSInput {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0rem 0 1rem;
+  display: block;
+  padding: 0.125rem 0.5rem;
+  width: 25vw;
+  height: 1.5rem;
+}
+
+.webSInput:disabled {
+  background-color: #f8f8f8;
+}
+
+.webSSelect {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0rem 0 1rem;
+  display: block;
+  padding: 0.125rem !important;
+  width: 25vw;
+  height: 1.5rem;
+}
+
+.webSDropdownData {
+  padding: 0.125rem 0.5rem !important;
+  width: 25vw;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans !important;
+  letter-spacing: 0px;
+  color: #000;
+}
+
+.webSTextArea {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  background-color: #fff;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0rem 0 1rem;
+  display: block;
+  padding: 0.125rem 0.5rem;
+  width: 25vw;
+  height: 3rem;
+}
+
+.primaryBtn {
+  background: #0072c6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border: 1px solid #0072c6 !important;
+  color: white;
+  font: normal normal 600 12px/17px Open Sans;
+  padding: 0.125rem 1vw;
+  cursor: pointer;
+  height: 1.5rem;
+  display: flex;
+  text-align: center;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mr1 {
+  margin-right: 1.25vw;
+}
+
+.mlr1 {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.mlr2 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.footer {
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #f8f8f8;
+  width: 100%;
+  display: flex;
+  gap: 1vw;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+}
+
+.pd025 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  height: fit-content;
+}
+
+.PA_tableHeader {
+  display: flex;
+  padding: 0.5rem 2vw;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0.36px;
+  color: #070707;
+  width: 100%;
+  gap: 1vw;
+  align-items: center;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}
+
+.PA_tableBody {
+  height: 12rem;
+  margin-bottom: 0.5rem;
+  overflow-y: auto;
+}
+
+.PA_tableRow {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  padding: 0.5rem 2vw;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  width: 100%;
+  border: 0.25px solid #c4c4c4;
+}
+
+.nameDiv,
+.typeDiv,
+.assocDiv {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.webS_ListDiv {
+  height: 26rem;
+  overflow: auto;
+  padding: 0 0.75vw 0;
+}
+
+.webS_ListDiv::-webkit-scrollbar,
+.PA_tableBody::-webkit-scrollbar {
+  background-color: transparent;
+  width: 2px;
+  height: 1.125rem;
+}
+
+.webS_ListDiv::-webkit-scrollbar-thumb,
+.PA_tableBody::-webkit-scrollbar-button {
+  background-color: transparent;
+  border-radius: 0.313rem;
+}
+
+.webS_ListDiv:hover::-webkit-scrollbar,
+.PA_tableBody:hover::-webkit-scrollbar {
+  overflow-y: visible;
+}
+.webS_ListDiv:hover::-webkit-scrollbar-thumb,
+.PA_tableBody:hover::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+}
+
+.starIcon {
+  color: red;
+  margin-left: 0.25vw;
+  font-size: 0.75rem;
+}
+
+/*----------------------------*/
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.modalHeading {
+  font: normal normal 600 16px/21px Open Sans;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: black;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.75rem 1vw;
+  border-top: 1px solid #c4c4c4;
+  background-color: #f5f5f5;
+}
+
+.cancelButton {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal 600 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  padding: 0.25rem 1vw;
+  margin-right: 0.5vw;
+  display: flex;
+  cursor: pointer;
+}
+
+.modalSubHeading {
+  color: #606060;
+  display: flex;
+  align-items: center;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0px;
+  padding: 0.5rem 1vw 1rem;
+}
+
+.iconButton {
+  padding: 0px !important;
+  height: fit-content !important;
+}

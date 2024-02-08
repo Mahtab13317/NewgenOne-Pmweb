@@ -1,0 +1,501 @@
+.triggerDiv {
+  display: flex;
+  flex-direction: row;
+  background: #f3f3f3 0% 0% no-repeat padding-box;
+  height: 100vh;
+  margin-top: 0.125rem;
+}
+
+.triggerDivRules {
+  height: 85vh; /*Modified on 14/10/2023, bug_id:139488 */
+  /*  height: 70vh; */
+  /*Modified on 14/10/2023, bug_id:139488 */
+  /*  height: 70vh; */
+  justify-content: center;
+  margin: 0;
+}
+.triggerListViewArabicImage {
+  height: 30% !important;
+  position: absolute !important;
+  left: 83% !important;
+  top: 35% !important;
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .triggerListViewArabicImage {
+    height: 30% !important;
+    position: absolute !important;
+    left: 80% !important;
+    top: 35% !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 800px) {
+  .triggerListViewArabicImage {
+    height: 30% !important;
+    position: absolute !important;
+    left: 79% !important;
+    top: 35% !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .triggerListViewArabicImage {
+    height: 28% !important;
+    position: absolute !important;
+    left: 80% !important;
+    top: 35% !important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .triggerListViewArabicText {
+    font-size: var(--base_text_font_size);
+    position: absolute;
+    left: 81% !important;
+    top: 62%;
+  }
+}
+.triggerListViewImage {
+  height: 30% !important;
+  position: absolute !important;
+  left: 5.5% !important;
+  top: 35% !important;
+}
+.triggerListViewImageText {
+  font-size: var(--base_text_font_size);
+  position: absolute;
+  left: 6%;
+  top: 62%;
+}
+.triggerListViewArabicText {
+  font-size: var(--base_text_font_size);
+  position: absolute;
+  left: 85%;
+  top: 62%;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .triggerListViewImageText {
+    font-size: var(--base_text_font_size);
+    position: absolute;
+    left: 4%;
+    top: 62%;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .triggerListViewImageText {
+    font-size: var(--base_text_font_size);
+    position: absolute;
+    left: 2%;
+    top: 62%;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .triggerListViewImageText {
+    font-size: 10px;
+    position: absolute;
+    left: 3%;
+    top: 58%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .triggerListViewImage {
+    height: 30% !important;
+    position: absolute !important;
+    left: 4.5% !important;
+    top: 35% !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .triggerListViewImage {
+    height: 30% !important;
+    position: absolute !important;
+    left: 2.5% !important;
+    top: 35% !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .triggerListViewImage {
+    height: 25% !important;
+    position: absolute !important;
+    left: 3% !important;
+    top: 35% !important;
+  }
+}
+/* changes on 20-10-2023 to resolve the bug Id 134088 */
+@media screen and (min-width: 600px) and (max-width: 822px) {
+  .triggerDivRules {
+    height: 70vh;
+    justify-content: center;
+    margin: 0;
+  }
+}
+.noTriggerScreen {
+  width: 100%;
+  margin: 8% 0;
+  text-align: center;
+  align-items: center;
+}
+
+.deployedNoTriggerScreen {
+  width: 100%;
+  margin: 10% 0;
+  text-align: center;
+  align-items: center;
+}
+
+.displayCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.noSelectedTriggerScreen {
+  /* width: 100%; */
+  margin: 10% 0;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+}
+
+.notriggerAddedString {
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 1rem 0;
+}
+
+.addTriggerButton {
+  background: var(--button_color) 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  border: 1px solid var(--button_color) !important;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  font-weight: 600;
+  margin-right: 0 !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  text-transform: none !important;
+  position: relative;
+  padding: 0.25rem 0.5rem !important;
+}
+
+.cancelTriggerButton {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #c4c4c4 !important;
+  border-radius: 2px !important;
+  text-align: center;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  font-weight: 600;
+  letter-spacing: 0px !important;
+  color: #606060 !important;
+  text-transform: none !important;
+  margin-inline-end: 0.5rem !important;
+  padding: 0.25rem 0.5rem !important;
+}
+
+.triggerSearchDiv {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 0.5vw;
+}
+
+.triggerListViewArea {
+  display: inline;
+  width: 22vw;
+  background: white;
+  margin-inline-start: 0.5vw;
+}
+
+.triggerMainFormArea {
+  display: inline;
+  width: 75.5vw;
+  margin: 0 1vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #00000014;
+}
+
+.triggerMainFormAreaRules {
+  width: 100%;
+  margin: 0;
+}
+
+.addTrigger {
+  text-align: start;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family) !important;
+  margin: 0 !important;
+  letter-spacing: 0px;
+  color: var(--link_color);
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Changes made to solve Bug 134018 */
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .addTrigger {
+    text-align: start;
+    font-size: 10px !important;
+    margin: 0 !important;
+    letter-spacing: 0px;
+    color: var(--link_color);
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+.addTriggerDiv {
+  position: relative;
+  /* text-align: end;
+  flex: 1; */
+  /* till here dated 11thSept */
+}
+
+.triggerMainView {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vh;
+}
+
+.triggerFormView {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1vw;
+  justify-content: space-between; /* Code added on 23-10-23 for bug 139845*/
+}
+
+.starIcon {
+  /* WCAG : Contrast Issue- updated color to rgb(181,42,42)*/
+  /* color: red; */
+  color: rgb(181, 42, 42);
+  margin-inline-start: 0.25vw;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.triggerFormInput {
+  width: 21vw;
+  margin-bottom: 1rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  border: 1px solid #dadada;
+}
+
+.descriptionInput {
+  width: 23.75vw;
+  height: 4rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+  border: 1px solid #dadada;
+}
+/* code added on 26-09-23 for bugId: 138135 */
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  .descriptionInput {
+    width: 22.75vw;
+    height: 4rem;
+    margin-bottom: 1rem;
+    text-align: start;
+    font: normal normal normal var(--base_text_font_size) / 17px
+      var(--font_family);
+    letter-spacing: 0px;
+    color: #000000;
+    border: 1px solid #dadada;
+  }
+}
+/*Till here for bugId: 138135 */
+@media screen and (min-width: 700px) and (max-width: 799px) {
+  .descriptionInput {
+    width: 20.75vw;
+    height: 4rem;
+    margin-bottom: 1rem;
+    text-align: start;
+    font: normal normal normal var(--base_text_font_size) / 17px
+      var(--font_family);
+    letter-spacing: 0px;
+    color: #000000;
+    border: 1px solid #dadada;
+  }
+}
+
+.nameFormInput {
+  padding: 0.25rem 0.5rem;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  height: 2.5rem;
+  color: #000000;
+  border: 1px solid #dadada;
+}
+
+.triggerActionButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.triggerListView {
+  height: 70vh;
+  max-height: 92vh;
+  overflow-y: auto;
+  padding-top: 0.25rem;
+  padding-inline-end: 1vw;
+}
+
+.triggerListView::-webkit-scrollbar {
+  display: none;
+}
+
+.triggerListRow {
+  display: flex;
+  padding: 0.25rem 0;
+  padding-inline-start: 0.5vw;
+  border-inline-start: 0.25rem solid #fff;
+  text-align: start;
+  width: 22vw;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family);
+  letter-spacing: 0px;
+  height: var(--line_height);
+  align-items: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.triggerListRow:hover {
+  background: rgba(0, 0, 0, 0.04);
+  border-inline-start: 0.25rem solid rgba(0, 0, 0, 0.04);
+}
+
+.selectedTriggerListRow {
+  background: #e8f3fa 0% 0% no-repeat padding-box !important;
+  border-inline-start: 0.25rem solid var(--selected_tab_color) !important;
+}
+
+.triggerDropdownData {
+  padding: 0.25rem 0.5rem !important;
+  width: 100%;
+  text-align: start;
+  font: normal normal normal var(--base_text_font_size) / 17px
+    var(--font_family) !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.definitionHeading {
+  padding: 0.5rem 1vw;
+  display: flex;
+  font: normal normal 600 14px/19px var(--font_family);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.triggerTypeHeading {
+  display: flex;
+  font: normal normal 600 var(--base_text_font_size) / 17px var(--font_family);
+  font-size: var(--sub_text_font_size);
+  letter-spacing: 0px;
+  color: #606060;
+  text-transform: uppercase;
+  position: absolute;
+  background: white;
+  top: -0.75rem;
+  padding: 0 0.5vw;
+}
+
+.definitionLine {
+  width: 67.5vw;
+  margin-top: 0.75rem !important;
+  margin-inline-start: 1vw !important;
+  height: 1px !important;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1200px) {
+  .definitionLine {
+    width: 63.5vw;
+    margin-top: 0.75rem !important;
+    margin-inline-start: 1vw !important;
+    height: 1px !important;
+  }
+}
+
+.triggerTypeList {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  position: relative;
+  padding-top: 0.75rem;
+  margin-top: 1rem;
+}
+
+.triggerTypeList:first-child {
+  margin-top: 0;
+}
+
+.triggerNameHeading {
+  font: normal normal 600 16px var(--font_family);
+  font-size: var(--title_text_font_size);
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.triggerFileIcon {
+  margin-top: 0.45rem;
+  margin-inline-end: 0.5rem;
+}
+
+.triggerHeadDiv {
+  justify-content: space-between;
+  margin: 1rem 1vw 1.25rem;
+}
+
+.triggerAddButton {
+  background: var(--button_color) 0% 0% no-repeat padding-box !important;
+  border-radius: 2px !important;
+  margin-right: 0vw !important;
+  margin-bottom: 0.5rem !important;
+  text-align: center;
+  font: normal normal 500 0.9vw var(--font_family) !important;
+  letter-spacing: 0px !important;
+  color: #ffffff !important;
+  padding: 0.45rem 0 !important;
+}
+
+.FlashOnIcon {
+  color: #c2c2c2 !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin-top: 1.5px;
+  margin-inline-end: 0.5vw;
+}
+
+.defaultSelectValue {
+  opacity: 0;
+  height: 0 !important;
+}
+
+@media screen and (max-width: 850px) {
+  .descriptionLabel {
+    width: 10vw !important; /*Bug 138348- Updated width from auto to 10vw*/
+    /* width: auto !important; */
+  }
+}
+
+.searchComponent {
+  flex: 3.5;
+}
+
+/* Changes made to solve Bug 134094  */
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+  #triggerFormComment {
+    margin-inline-end: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  #triggerFormComment {
+    margin-inline-end: 3.5vw;
+  }
+}

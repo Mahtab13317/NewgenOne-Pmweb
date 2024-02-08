@@ -1,0 +1,88 @@
+.listItem {
+  border: 1px solid #e4e4e480;
+  background-color: white;
+  padding: 0.5rem 1vw;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+.listItem:focus-visible{
+  outline: 1px solid var(--brand_color1);
+}
+.selectedListItem {
+  background: #0072c60f 0% 0% no-repeat padding-box;
+  border: 1px solid #0072c60f;
+  padding: 0.5rem 1vw;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.selectedListItem:focus-visible{
+  outline: 1px solid var(--brand_color1);
+}
+
+.listItem:hover .deleteIcon {
+  opacity: 1;
+}
+
+.webS_ItemHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.webS_ItemSubHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  align-items: end;
+}
+
+.webS_itemName {
+  text-align: left;
+  font: normal normal 700 12px/17px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  flex: 2;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.webS_itemType {
+  text-align: right;
+  font: normal normal 600 11px/15px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  flex: 1;
+}
+
+.webS_itemDesc {
+  text-align: left;
+  font: normal normal normal 11px/15px Open Sans;
+  letter-spacing: 0px;
+  color: #606060;
+  flex: 3;
+}
+
+.itemDeleteDiv {
+  flex: 0.5 1;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.deleteIcon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: #d53d3d !important;
+  opacity: 0;
+}
